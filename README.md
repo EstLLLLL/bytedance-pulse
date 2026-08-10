@@ -10,7 +10,7 @@
 
 ## 云端运行
 
-GitHub Actions 每天北京时间 08:30 运行研究任务，更新 `data/reports.json`，随后自动部署 GitHub Pages。云端扫描器先执行 20 条中英文检索并检查媒体编辑位，再将公开资料交给火山方舟托管的 DeepSeek 分析。仓库需要 `ARK_API_KEY` 和 `ARK_MODEL` 两个 Actions secrets；未配置时，定时流程会安静跳过，不会改动网站。
+GitHub Actions 每天北京时间 08:30 运行研究任务，更新 `data/reports.json`，随后自动部署 GitHub Pages。云端扫描器先执行 22 条中英文检索，检查媒体编辑位，并自动打开最新页里的字节相关正文，再将公开资料交给火山方舟托管的 DeepSeek 分析。同一天补跑会合并迟到信息，并以程序规则保留已核实的当日增量。若检索覆盖、海外头部媒体检查或媒体页覆盖不足，任务会直接失败并保留上一份日报，不会发布“今日无重大新增”。仓库需要 `ARK_API_KEY` 和 `ARK_MODEL` 两个 Actions secrets；未配置时，定时流程会安静跳过，不会改动网站。
 
 也可以在 Actions 页面手动运行 `Daily ByteDance monitor`，用于首次校准或补跑。
 

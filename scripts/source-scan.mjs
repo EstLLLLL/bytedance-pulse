@@ -18,7 +18,9 @@ const QUERY_SPECS = [
   ["TikTok USDS regulation lawsuit EU DSA ban", "en"],
   ["CapCut ByteDance revenue users regulation", "en"],
   ["site:theinformation.com ByteDance TikTok Doubao Seed", "en"],
-  ["site:bloomberg.com OR site:reuters.com OR site:finance.yahoo.com ByteDance TikTok", "en"],
+  ["site:bloomberg.com ByteDance TikTok", "en"],
+  ["site:reuters.com ByteDance TikTok", "en"],
+  ["site:finance.yahoo.com ByteDance TikTok", "en"],
 ];
 
 const DIRECT_PAGES = [
@@ -125,6 +127,30 @@ function parseDuckDuckGo(html, query) {
   return results;
 }
 
+const BYTEDANCE_PATTERN =
+  /ByteDance|TikTok|Doubao|Feishu|Lark|CapCut|Seedance|Seedream|Volcano Engine|抖音|字节|豆包|飞书|火山引擎|红果|番茄|剪映|即梦|扣子|PICO/i;
+
+export function extractRelevantLinks(html, baseUrl, limit = 10) {
+  const links = [];
+  const seen = new Set();
+  const pattern = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  for (const match of html.matchAll(pattern)) {
+    const title = cleanText(match[2]);
+    if (!title || !BYTEDANCE_PATTERN.test(title)) continue;
+    try {
+      const url = new URL(decodeEntities(match[1]), baseUrl);
+      if (!/^https?:$/.test(url.protocol)) continue;
+      url.hash = "";
+      const href = url.href;
+      if (seen.has(href)) continue;
+      seen.add(href);
+      links.push({ title, url: href });
+      if (links.length >= limit) break;
+    } catch {}
+  }
+  return links;
+}
+
 async function fetchText(url, attempts = 2) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
@@ -154,9 +180,11 @@ async function scanQuery([query, language]) {
     language === "zh"
       ? "hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
       : "hl=en-US&gl=US&ceid=US%3Aen";
-  const googleUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&${locale}`;
+  const googleUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(`${query} when:2d`)}&${locale}`;
+  let googleReachable = false;
   try {
     const { text } = await fetchText(googleUrl);
+    googleReachable = true;
     const documents = parseRss(text, query);
     if (documents.length) return { query, status: "ok", engine: "Google News RSS", documents };
   } catch {}
@@ -168,6 +196,10 @@ async function scanQuery([query, language]) {
     if (documents.length) return { query, status: "ok", engine: "DuckDuckGo HTML", documents };
   } catch {}
 
+  if (googleReachable) {
+    return { query, status: "ok", engine: "Google News RSS", documents: [] };
+  }
+
   return { query, status: "failed", engine: "none", documents: [] };
 }
 
@@ -177,6 +209,7 @@ async function scanDirectPage([label, url]) {
     return {
       label,
       status: "ok",
+      links: extractRelevantLinks(text, finalUrl),
       document: {
         kind: "editorial-page",
         query: label,
@@ -190,7 +223,31 @@ async function scanDirectPage([label, url]) {
       },
     };
   } catch (error) {
-    return { label, status: `failed: ${error.message}`, document: null };
+    return { label, status: `failed: ${error.message}`, links: [], document: null };
+  }
+}
+
+async function scanEditorialArticle({ label, title, url }) {
+  try {
+    const { text, finalUrl } = await fetchText(url);
+    return {
+      label,
+      title,
+      status: "ok",
+      document: {
+        kind: "editorial-article",
+        query: label,
+        position: 0,
+        title,
+        url: finalUrl,
+        publishedAt: "",
+        source: label,
+        sourceHomepage: url,
+        snippet: cleanText(text).slice(0, 18_000),
+      },
+    };
+  } catch (error) {
+    return { label, title, status: `failed: ${error.message}`, document: null };
   }
 }
 
@@ -213,9 +270,21 @@ export async function collectPublicSources() {
     runPool(DIRECT_PAGES, scanDirectPage, 5),
   ]);
 
+  const editorialLinks = [];
+  const seenEditorialLinks = new Set();
+  for (const page of pageRuns) {
+    for (const link of page.links) {
+      if (seenEditorialLinks.has(link.url)) continue;
+      seenEditorialLinks.add(link.url);
+      editorialLinks.push({ label: page.label, ...link });
+    }
+  }
+  const articleRuns = await runPool(editorialLinks.slice(0, 60), scanEditorialArticle, 5);
+
   const documents = [
     ...queryRuns.flatMap((run) => run.documents),
     ...pageRuns.map((run) => run.document).filter(Boolean),
+    ...articleRuns.map((run) => run.document).filter(Boolean),
   ];
   const seen = new Set();
   const deduped = documents.filter((document) => {
@@ -235,7 +304,27 @@ export async function collectPublicSources() {
         results: rows.length,
       })),
       editorialPages: pageRuns.map(({ label, status }) => ({ label, status })),
+      editorialArticles: articleRuns.map(({ label, title, status }) => ({
+        label,
+        title,
+        status,
+      })),
     },
-    documents: deduped.slice(0, 220),
+    priorityCandidates: deduped
+      .filter((document) =>
+        /GMV|GTV|收入|营收|利润|毛利|ARR|Token|调用量|全员会|内部信|组织|汇报线|回购|估值|融资|IPO|CapEx|芯片|数据中心|订单|用户|商家|补贴/i.test(
+          `${document.title} ${document.snippet}`,
+        ),
+      )
+      .slice(0, 40)
+      .map((document, index) => ({
+        id: `P${String(index + 1).padStart(2, "0")}`,
+        title: document.title,
+        url: document.url,
+        publishedAt: document.publishedAt,
+        source: document.source,
+        snippet: document.snippet.slice(0, 1_200),
+      })),
+    documents: deduped.slice(0, 280),
   };
 }

@@ -2,57 +2,50 @@
   {
     "date": "2026-08-10",
     "displayDate": "08 / 10",
-    "verifiedAt": "北京时间 2026-08-10 11:16",
-    "status": "今日无重大新增",
-    "verdict": "扫描覆盖范围内未发现字节跳动当日重大新增事件或经营数字更新。上一份日报已覆盖张一鸣战略立场、AI模型规模目标及欧盟监管等核心线索。今日唯一可识别的增量为36氪关于Seedance爆火背后公司的报道，但信息不足且未获多方确认，不构成重大事件。另补充两项历史重要补漏：飞书团队整合至豆包和火山引擎（7月30日），以及Seedance 2.5和SeedRealtime模型发布（7月31日/8月5日）。",
-    "top": [],
+    "verifiedAt": "北京时间 2026-08-10 11:55",
+    "status": "一条重大经营增量",
+    "verdict": "今天最重要的新增不是 Higgsfield 的估值，而是 Seedance 已经从模型声量转化为火山引擎的核心经营引擎。36氪今日授权发布的文章称，Seedance 2.0 贡献火山引擎超过 40% 的 Token 消耗量，截至 6 月底海外调用占比已从约三分之一升至接近一半；结合 36氪此前独家披露的单月收入超过 10 亿元、贡献火山 MaaS 收入过半，Seedance 是目前字节 AI 业务中少数同时显示规模、收入与较高毛利潜力的产品。新增数字仍主要来自媒体和行业人士口径，未经过公司财报审计，不能直接外推集团利润。",
+    "top": [
+      "Seedance 2.0 据报已贡献火山引擎超过 40% 的 Token 消耗量，海外调用占比接近 50%；结合此前披露的单月收入超 10 亿元，它已成为字节 AI 商业化最重要的经营验证之一。"
+    ],
     "items": [
       {
-        "severity": "context",
-        "eyebrow": "历史重要补漏 · 组织调整",
-        "title": "字节跳动将飞书团队整合至豆包和火山引擎，全面转向AI to B",
-        "conclusion": "据多家媒体报道，字节跳动于7月底将飞书部分团队并入豆包和火山引擎，标志着公司从SaaS协同工具全面转向AI企业服务。飞书作为独立产品仍在运营，但组织重心已转移。",
+        "severity": "major",
+        "eyebrow": "核心经营 · 火山引擎 / Seedance",
+        "title": "Seedance 的 Token 与海外调用占比首次出现更清晰口径",
+        "conclusion": "Seedance 不只是火山引擎的收入主力，也正在通过海外聚合平台和广告工作流扩大调用；这为字节 AI CapEx 能否形成高价值收入提供了比用户热度更扎实的正面证据。",
         "metrics": [
-          "报道时间：2026年7月30日",
-          "涉及部门：飞书、豆包、火山引擎"
+          "Seedance 2.0：火山引擎 Token 消耗占比超过 40%（今日媒体口径）",
+          "截至 2026 年 6 月底：海外调用占比接近 50%，此前约为三分之一",
+          "36氪此前披露：Seedance 2.0 单月收入超过 10 亿元",
+          "火山引擎负责人谭待此前称：2026 年火山 MaaS 收入一半以上由 Seedance 贡献"
         ],
-        "sourceGrade": "B",
-        "sourceNote": "多家中文媒体（京报网、界面）及英文媒体（The East is Read）报道，内容一致，可信度较高",
-        "impact": "这一调整强化了字节跳动AI to B的战略方向，与近期豆包收费、火山引擎扩张一致。飞书长期独立发展前景减弱，但短期对ARR影响有限。股东需关注AI B端收入贡献能否弥补飞书投入。",
-        "caveat": "具体整合范围和人员规模未披露；飞书是否仍作为独立品牌运营存在不确定性。",
+        "sourceGrade": "B−",
+        "sourceNote": "今日新增的 Token 占比和海外调用变化来自蓝洞商业、由 36氪授权发布；单月收入和 MaaS 收入贡献来自 36氪此前独家及对谭待的采访。均属于可靠媒体或管理层采访口径，但不是审计财务披露。",
+        "impact": "明确偏正面。Seedance 同时具备较高定价、企业客户、海外需求和渠道分发，说明字节的巨额 AI 投入已经出现一条能够规模化变现的路径。若单月收入和调用结构持续，火山引擎 MaaS 可能从投入项转为重要增长引擎，并部分缓冲 AI CapEx 对利润和现金流的压力。海外调用接近一半也降低了该业务仅依赖国内短剧需求的集中度。",
+        "caveat": "“超过 40%”的 Token 分母、统计周期及是否只包含火山 MaaS 未披露；调用占比不等于收入占比。报道引用的 70%–90% 毛利率存在不同估算，谭待也表示实际没有外界估计那么高，因此本次不把毛利率作为确认数字。Higgsfield 的 5 亿美元年化收入和 50 亿美元估值属于渠道伙伴口径，不能计入字节收入。",
         "sources": [
           {
-            "label": "京报网",
-            "href": "https://news.google.com/rss/articles/CBMickFVX3lxTE1sR0pGWFVycTdLNk1LZXNhYk5RTE9mOW1HSkdNdDVLMmZ4QU9ld0M0bGcwdDhkd3dXdTZPYTVuMjdsTm5UOFVUeE1vSHBKLXJ6dC1xYVlxQTlZVDB3S00yXy1EWXNaYXk4NGMtSldBNV9OZw?oc=5"
-          }
-        ]
-      },
-      {
-        "severity": "context",
-        "eyebrow": "历史重要补漏 · AI 模型",
-        "title": "字节跳动 Seed 团队发布 Seedance 2.5 和 SeedRealtime 模型",
-        "conclusion": "Seed 官方博客于7月31日发布Seedance 2.5（一镜成片，随心参考），8月5日发布SeedRealtime（音视频全双工大模型）。这些更新表明字节在AI视频生成和实时交互领域的持续进步。",
-        "metrics": [
-          "Seedance 2.5 发布时间：2026年7月31日",
-          "SeedRealtime 发布时间：2026年8月5日"
-        ],
-        "sourceGrade": "A",
-        "sourceNote": "字节跳动 Seed 官方博客，信源权威",
-        "impact": "模型发布节奏正常，显示字节在AI基础模型和产品化上持续投入。Seedance 2.5 提升视频生成能力，SeedRealtime 拓展交互场景，对豆包、火山引擎等产品形成技术支撑。长期有助于维持AI竞争力，但短期收入贡献有限。",
-        "caveat": "模型性能指标未与竞品直接对比；商业化进度和定价尚未公布。",
-        "sources": [
+            "label": "36氪今日授权发布：Seedance 海外增长与渠道",
+            "href": "https://www.36kr.com/p/3933070123089287"
+          },
           {
-            "label": "ByteDance Seed Blog",
-            "href": "https://seed.bytedance.com/zh/blog"
+            "label": "36氪深氪：Seedance 商业化与 MaaS 收入贡献",
+            "href": "https://www.36kr.com/p/3885177884078083"
+          },
+          {
+            "label": "36氪独家：火山 MaaS 目标与 Seedance 单月收入",
+            "href": "https://36kr.com/p/3836973710423429"
           }
         ]
       }
     ],
     "watch": [
-      "36氪关于Seedance爆火背后50亿美元独角兽的完整报道，确认是否涉及字节投资或竞争",
-      "飞书整合后的人员变动及ARR数据更新",
-      "Seedance 2.5 和 SeedRealtime 的商业化进展及用户反馈",
-      "字节跳动2026年Q2或H1经营数据（如有第三方披露）"
+      "确认“Seedance 占火山 Token 超 40%”的统计分母、周期和 2.0／2.5 版本范围",
+      "海外调用接近 50% 是否同步转化为海外收入、合同金额和更高客单价",
+      "Seedance 2.5 在 BytePlus、Higgsfield 等海外渠道的正式价格、调用量与分成结构",
+      "火山引擎 MaaS 2026 年 150 亿元目标的完成度，以及 Seedance 实际毛利率",
+      "抖音电商 H1 GMV 增速、飞书绝对 ARR 与字节 AI CapEx 的新口径"
     ]
   },
   {

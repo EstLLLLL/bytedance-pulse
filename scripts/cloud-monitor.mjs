@@ -9,11 +9,6 @@ if (!apiKey || !model) {
   );
 }
 
-const reportsUrl = new URL("../data/reports.json", import.meta.url);
-const reports = JSON.parse(await readFile(reportsUrl, "utf8"));
-const previous = reports[0] ?? null;
-const sourceBundle = await collectPublicSources();
-
 const now = new Date();
 const parts = Object.fromEntries(
   new Intl.DateTimeFormat("en-US", {
@@ -32,6 +27,44 @@ const parts = Object.fromEntries(
 const date = `${parts.year}-${parts.month}-${parts.day}`;
 const displayDate = `${parts.month} / ${parts.day}`;
 const verifiedAt = `北京时间 ${date} ${parts.hour}:${parts.minute}`;
+
+const reportsUrl = new URL("../data/reports.json", import.meta.url);
+const reports = JSON.parse(await readFile(reportsUrl, "utf8"));
+const existingToday = reports.find((item) => item.date === date) ?? null;
+const previous = reports.find((item) => item.date !== date) ?? null;
+const sourceBundle = await collectPublicSources();
+
+const successfulQueries = sourceBundle.coverage.queries.filter(
+  (item) => item.status === "ok",
+).length;
+const successfulEditorialPages = sourceBundle.coverage.editorialPages.filter(
+  (item) => item.status === "ok",
+).length;
+const requiredMediaQueries = [
+  "site:theinformation.com",
+  "site:bloomberg.com",
+  "site:reuters.com",
+  "site:finance.yahoo.com",
+];
+const missingRequiredMedia = requiredMediaQueries.filter(
+  (prefix) =>
+    !sourceBundle.coverage.queries.some(
+      (item) => item.query.startsWith(prefix) && item.status === "ok",
+    ),
+);
+
+if (
+  successfulQueries < 18 ||
+  successfulEditorialPages < 8 ||
+  missingRequiredMedia.length
+) {
+  throw new Error(
+    `Research coverage is incomplete: ${successfulQueries}/${sourceBundle.coverage.queries.length} queries, ` +
+      `${successfulEditorialPages}/${sourceBundle.coverage.editorialPages.length} editorial pages, ` +
+      `missing required media checks: ${missingRequiredMedia.join(", ") || "none"}. ` +
+      "Refusing to publish a potentially false no-change report.",
+  );
+}
 
 const outputShape = {
   date,
@@ -57,7 +90,7 @@ const outputShape = {
   watch: ["下次重点关注"],
 };
 
-const systemPrompt = `你是 ByteDance 股东视角每日增量监控研究员。你不能自行联网；只能分析用户提供的云端扫描结果。扫描器已执行 20 条中英文分维度查询，并直接抓取海外头部媒体编辑位、中文媒体最新页和官方页面。
+const systemPrompt = `你是 ByteDance 股东视角每日增量监控研究员。你不能自行联网；只能分析用户提供的云端扫描结果。扫描器已执行 22 条中英文分维度查询，并直接抓取海外头部媒体编辑位、中文媒体最新页、相关正文和官方页面。
 
 覆盖集团战略与财务，以及抖音、TikTok/TikTok Shop、国内外电商、本地生活、直播、豆包/Seed、Seedance/Seedream、火山引擎、飞书/Lark、CapCut/剪映、红果、番茄、即梦、扣子、PICO。
 
@@ -74,7 +107,9 @@ const systemPrompt = `你是 ByteDance 股东视角每日增量监控研究员�
 
 信源分级：A=官方/监管文件；B=可靠媒体独家或可信第三方；C=单一信源、社区转述或未确认线索。明确区分官方事实、公司口径、媒体报道、第三方估算、传闻和推断。
 
-只报告相较上一份日报的新事实主张或实质进展。今天新发布的旧会议详情属于今日增量，标“历史重要补漏”。没有重大新增时写“今日无重大新增”，top 可为空，不准用产品宣传凑数。
+只报告相较上一份不同日期日报的新事实主张或实质进展。今天新发布的旧会议详情属于今日增量，标“历史重要补漏”。同一天重跑时，必须保留“已有今日版本”中仍然成立的新增，再追加迟到信息；不得因为重跑而把今天已经收录的内容删掉。没有重大新增时写“今日无重大新增”，top 可为空，不准用产品宣传凑数。
+
+输入中的 priorityCandidates 是确定性规则筛出的高优先级候选。逐条检查所有候选：涉及经营数据、组织、人事、资本、监管或头部媒体编辑位的事实，不得因单一信源而忽略；信源不足时降低等级并标注待验证。若排除候选，必须在 verdict 或 watch 中说明它为什么不影响股东判断。媒体最新页出现字节相关标题时，优先使用扫描器展开的 editorial-article 正文，不要只按标题判断。
 
 必须输出一个有效 JSON 对象，严格遵循用户给出的 JSON 示例结构。不要输出 Markdown、代码围栏或解释。每条 sources.href 必须从输入资料中原样复制，不得猜测或构造 URL。`;
 
@@ -84,8 +119,11 @@ const userPrompt = `当前北京时间：${verifiedAt}
 JSON 输出结构示例：
 ${JSON.stringify(outputShape, null, 2)}
 
-上一份公开日报（去重基准）：
+上一份不同日期的公开日报（跨日去重基准）：
 ${JSON.stringify(previous, null, 2)}
+
+今天已有版本（同日重跑时必须保留仍成立的新增并追加迟到信息）：
+${JSON.stringify(existingToday, null, 2)}
 
 本次云端扫描覆盖情况与公开资料：
 ${JSON.stringify(sourceBundle, null, 2)}`;
@@ -131,6 +169,39 @@ report.top = Array.isArray(report.top) ? report.top.slice(0, 3) : [];
 report.items = Array.isArray(report.items) ? report.items : [];
 report.watch = Array.isArray(report.watch) ? report.watch : [];
 
+function normalizeItemTitle(value = "") {
+  return value.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff]+/g, "");
+}
+
+function sourceUrls(item) {
+  return new Set((item?.sources ?? []).map((source) => source?.href).filter(Boolean));
+}
+
+function sameItem(left, right) {
+  const leftTitle = normalizeItemTitle(left?.title);
+  const rightTitle = normalizeItemTitle(right?.title);
+  if (leftTitle && leftTitle === rightTitle) return true;
+
+  const leftUrls = sourceUrls(left);
+  return [...sourceUrls(right)].some((url) => leftUrls.has(url));
+}
+
+const preservedTodayItems = [];
+for (const item of existingToday?.items ?? []) {
+  if (!report.items.some((candidate) => sameItem(candidate, item))) {
+    report.items.push(item);
+    preservedTodayItems.push(item);
+  }
+}
+
+if (existingToday) {
+  report.top = [...new Set([...report.top, ...(existingToday.top ?? [])])].slice(0, 3);
+  if (preservedTodayItems.length && /无重大新增/.test(report.status ?? "")) {
+    report.status = existingToday.status;
+    report.verdict = `${report.verdict} 同日补跑已保留今天早先核实的有效增量。`;
+  }
+}
+
 const allowedUrls = new Set();
 for (const document of sourceBundle.documents) {
   if (document.url) allowedUrls.add(document.url);
@@ -139,6 +210,9 @@ for (const document of sourceBundle.documents) {
   }
 }
 for (const item of previous?.items ?? []) {
+  for (const source of item.sources ?? []) allowedUrls.add(source.href);
+}
+for (const item of existingToday?.items ?? []) {
   for (const source of item.sources ?? []) allowedUrls.add(source.href);
 }
 
@@ -164,6 +238,7 @@ const nextReports = [report, ...reports.filter((item) => item.date !== date)];
 await writeFile(reportsUrl, `${JSON.stringify(nextReports, null, 2)}\n`);
 console.log(
   `${date}: ${report.status}; ${report.items.length} item(s); ` +
-    `${sourceBundle.coverage.queries.filter((item) => item.status === "ok").length}/20 queries; ` +
-    `${sourceBundle.coverage.editorialPages.filter((item) => item.status === "ok").length}/${sourceBundle.coverage.editorialPages.length} editorial pages`,
+    `${successfulQueries}/${sourceBundle.coverage.queries.length} queries; ` +
+    `${successfulEditorialPages}/${sourceBundle.coverage.editorialPages.length} editorial pages; ` +
+    `${sourceBundle.coverage.editorialArticles.filter((item) => item.status === "ok").length}/${sourceBundle.coverage.editorialArticles.length} linked articles`,
 );
