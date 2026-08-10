@@ -2,103 +2,57 @@
   {
     "date": "2026-08-10",
     "displayDate": "08 / 10",
-    "verifiedAt": "北京时间 2026-08-10 10:09",
-    "status": "重大历史补漏",
-    "verdict": "需要更正此前对全员会线索的处理：The Information 已将张一鸣反对用模型蒸馏走捷径的报道标为 Exclusive，其 Most Popular 页面也把该报道列入前列；社区流传的完整转述进一步披露了 8 月 6 日集团全员会的 AI 路线、豆包资源地位、企业 AI 使用数据及 TikTok 区域进展。原始付费正文仍不可完整核验，因此会议细节按 B−／C 级收录，但不能再被降为日报边缘线索。",
-    "top": [
-      "The Information 独家报道称，张一鸣要求 Seed 接受短期落后，不把模型蒸馏作为追赶捷径。",
-      "社区完整转述称，梁汝波在 8 月 6 日全员会上承认字节 LLM 与海外领先模型的差距扩大，并将豆包定位为未来集团级“主干业务”。",
-      "会议转述披露：飞书新增客户 AI 采购率超过 90%，内部 AI Token 使用量半年增长超过 10 倍；TikTok 美国电商表现较好、欧洲略低于预期。"
-    ],
+    "verifiedAt": "北京时间 2026-08-10 11:13",
+    "status": "今日无重大新增",
+    "verdict": "扫描覆盖范围内未发现字节跳动当日重大新增事件或经营数字更新。上一份日报已覆盖全员会、张一鸣战略立场及豆包定位等核心线索。唯一可识别的增量是Reuters转载FT于8月7日报道的字节跳动AI模型规模目标，以及欧盟委员会7月24日对TikTok违反DSA的初步认定（历史补漏）。两者均不构成当日重大事件，但可作为后续关注点。",
+    "top": [],
     "items": [
       {
-        "severity": "major",
-        "eyebrow": "历史重要补漏 · AI 战略",
-        "title": "张一鸣据报明确反对用模型蒸馏走追赶捷径",
-        "conclusion": "字节选择接受基础模型短期落后、继续自主训练并补足底层能力；这提高了长期技术独立性，也意味着未来一至两年的算力、数据和人才投入压力不会明显减弱。",
+        "severity": "context",
+        "eyebrow": "历史重要补漏 · AI 模型",
+        "title": "Reuters 转载 FT 报道：字节跳动目标开发匹配 Mythos 规模的大型 AI 模型",
+        "conclusion": "据FT报道，字节跳动正计划开发一个规模可与Mythos（外界推测为OpenAI或类似顶级模型）匹敌的大型AI模型。这强化了字节在AI基础模型上持续高强度投入的判断，但具体参数、训练成本和时间表未知。",
         "metrics": [
-          "报道标签：The Information Exclusive",
-          "会议：Seed 内部会议／全员会",
-          "路线：自主开发、补基础、接受短期落后"
+          "报道时间：2026年8月7日",
+          "信源：Financial Times（FT），Reuters 转载"
         ],
         "sourceGrade": "B",
-        "sourceNote": "The Information 独家标题与作者可核验；付费正文不可完整读取，补充细节来自社区完整转述",
-        "impact": "战略上偏正面，短期财务上偏负面／中性。拒绝依赖竞争对手输出蒸馏可降低知识产权和地缘风险，但也放弃了快速缩短 benchmark 差距的路径，强化高强度 AI CapEx 与研发费用持续性的判断。",
-        "caveat": "“不使用蒸馏”应理解为报道中的战略立场，不能外推为所有模型训练都从未使用教师模型、合成数据或类似技术；原文可见范围有限。",
+        "sourceNote": "Reuters 转载 FT 报道，可信度较高，但原文内容未完整扫描，仅知标题与摘要",
+        "impact": "该信息与上一份日报中张一鸣接受短期落后、不依赖蒸馏的战略表述一致，但进一步暗示字节仍在追求顶级模型规模，意味着算力与研发投入不会压缩。对股东而言，长期技术路线确定性增强，但短期盈利压力持续。",
+        "caveat": "Mythos 规模的具体定义不明确，可能为内部代号或媒体推测；尚未获得字节官方确认。",
         "sources": [
           {
-            "label": "The Information 独家报道",
-            "href": "https://www.theinformation.com/articles/bytedances-founder-rules-distillation-ai-models"
-          },
-          {
-            "label": "The Information Most Popular",
-            "href": "https://www.theinformation.com/?view=popular"
-          },
-          {
-            "label": "社区完整转述（待核验）",
-            "href": "https://www.reddit.com/r/LocalLLM/comments/1vgzowb/bytedance_ceo_zhang_yiming_ai_distillation_is_not/"
+            "label": "Reuters 转载 FT 报道",
+            "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY191Y2FEemJtMWI3NGhTYXBXTUEtQnZiWE9lTG1CVWhaWnc3aUVuZC1sTXNkdXc4eFRtSExvaS1UaUFqYi10X1VLZzN3cXF0N0JXeHYtY1p0QXJQLVlCTlV5LVpPYjQzUGpmbTg2ZzI4a29MMi1FeWl0LVlmRW9ObkpHVlBCNjUtRHljZWg5NzVTU0l5bURsSFBvWDlnWjNja2FQbWVESGZha29OQjJmZC1YRVczdw?oc=5"
           }
         ]
       },
       {
-        "severity": "major",
-        "eyebrow": "历史重要补漏 · 集团全员会",
-        "title": "梁汝波据转述承认 LLM 差距扩大，并把豆包升为未来主干",
-        "conclusion": "若完整转述准确，8 月 6 日全员会给出的不是普通产品进展，而是集团资源配置框架：抖音继续作为交易业务主干，豆包则成为连接模型、企业场景和生态的新主干。",
+        "severity": "context",
+        "eyebrow": "历史重要补漏 · 监管",
+        "title": "欧盟委员会初步认定 TikTok 违反 DSA，未能确保未成年人账户安全",
+        "conclusion": "欧委会于7月24日向TikTok发送初步调查结果，认为其未成年人账户安全标准未达DSA要求。该认定可能触发罚款或整改要求，但最终裁定尚未做出。",
         "metrics": [
-          "豆包：消费市场仍具竞争力",
-          "Seedance：管理层判断仍处于 SOTA",
-          "LLM：与海外领先模型差距扩大",
-          "飞书新增客户 AI 采购率：超过 90%",
-          "内部 AI Token 使用量：半年增长超过 10 倍"
+          "欧盟委员会初步认定日期：2026年7月24日",
+          "涉及法规：Digital Services Act (DSA)"
         ],
-        "sourceGrade": "C",
-        "sourceNote": "社区完整转述，部分组织与飞书数据可由此前中国媒体交叉旁证；尚未获得公司纪要或第二份完整独立报道",
-        "impact": "这是明显的集团级资源重排信号。豆包若获得与抖音相近的“主干”地位，AI 投入将从单一应用扩展为跨业务基础设施；飞书产品并入豆包、GTM 并入火山引擎也因此更像长期架构，而不是短期降本重组。",
-        "caveat": "会议细节尚未逐句对照原始付费正文；超过 90% 的口径只适用于新增客户，Token 增长也没有披露绝对基数、成本或外部收入。",
+        "sourceGrade": "A",
+        "sourceNote": "欧盟委员会官方新闻稿，信源权威",
+        "impact": "若最终认定成立，TikTok可能面临最高全球年营业额6%的罚款，并需调整产品设计。短期对TikTok欧洲运营构成合规压力，但结合此前美国TikTok合资方案，欧洲监管风险已在市场预期之内。",
+        "caveat": "初步认定并非最终裁决，TikTok有权回应和辩护；罚款金额及整改要求尚未确定。",
         "sources": [
           {
-            "label": "社区完整转述（待核验）",
-            "href": "https://www.reddit.com/r/LocalLLM/comments/1vgzowb/bytedance_ceo_zhang_yiming_ai_distillation_is_not/"
-          },
-          {
-            "label": "36氪：飞书新增客户 AI 采购率",
-            "href": "https://www.36kr.com/p/3857331032396802"
-          },
-          {
-            "label": "36氪：豆包主干业务线索",
-            "href": "https://www.36kr.com/p/3929206861731715"
-          }
-        ]
-      },
-      {
-        "severity": "watch",
-        "eyebrow": "历史重要补漏 · TikTok",
-        "title": "TikTok 美国电商据称表现较好，欧洲略低于预期",
-        "conclusion": "管理层转述首次给出美国与欧洲电商的相对判断，但没有 GMV、订单、补贴或亏损数字，暂时只能作为区域趋势信号。",
-        "metrics": [
-          "美国电商：表现较好",
-          "欧洲：略低于预期",
-          "后续方向：增加优质内容投入"
-        ],
-        "sourceGrade": "C",
-        "sourceNote": "社区对全员会内容的完整转述；没有可核验的经营数字",
-        "impact": "美国业务偏正面，欧洲偏负面／中性。若美国电商在监管不确定性下仍表现良好，能增强 TikTok Shop 的业务韧性；欧洲低于预期则提示本地供给、履约、用户习惯或补贴效率仍可能是瓶颈。",
-        "caveat": "“表现较好”和“略低于预期”缺少预算基准及同比口径，不能据此调整 TikTok Shop 的 GMV 或盈利预测。",
-        "sources": [
-          {
-            "label": "社区完整转述（待核验）",
-            "href": "https://www.reddit.com/r/LocalLLM/comments/1vgzowb/bytedance_ceo_zhang_yiming_ai_distillation_is_not/"
+            "label": "EU Digital Strategy News",
+            "href": "https://digital-strategy.ec.europa.eu/en/news"
           }
         ]
       }
     ],
     "watch": [
-      "The Information 付费正文或第二份独立媒体报道对全员会细节的逐项确认",
-      "字节 LLM 差距的具体 benchmark、训练架构和 10 万亿参数模型进度",
-      "豆包“主干业务”是否对应预算、汇报线和跨业务产品整合",
-      "内部 Token 使用增长的绝对量、成本与外部商业化转化",
-      "TikTok Shop 美国与欧洲的 GMV、订单、补贴和亏损口径"
+      "FT关于字节AI模型规模目标的完整报道，确认具体参数与时间表",
+      "欧盟对TikTok DSA案件的最终裁定及罚款金额",
+      "字节跳动2026年Q2或H1经营数据（如有第三方披露）",
+      "抖音电商上半年GMV增速近20%的后续细节及与去年同期对比"
     ]
   },
   {
