@@ -1,0 +1,39 @@
+name: Daily ByteDance monitor
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-bytedance-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Research and update the public report database
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5.6-sol
+        run: node scripts/cloud-monitor.mjs
+      - name: Save the new daily report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/reports.json
+          if git diff --cached --quiet; then
+            echo "No report change"
+          else
+            git commit -m "Update ByteDance report"
+            git push
+          fi

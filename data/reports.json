@@ -1,0 +1,435 @@
+[
+  {
+    "date": "2026-08-10",
+    "displayDate": "08 / 10",
+    "verifiedAt": "北京时间 2026-08-10 10:09",
+    "status": "重大历史补漏",
+    "verdict": "需要更正此前对全员会线索的处理：The Information 已将张一鸣反对用模型蒸馏走捷径的报道标为 Exclusive，其 Most Popular 页面也把该报道列入前列；社区流传的完整转述进一步披露了 8 月 6 日集团全员会的 AI 路线、豆包资源地位、企业 AI 使用数据及 TikTok 区域进展。原始付费正文仍不可完整核验，因此会议细节按 B−／C 级收录，但不能再被降为日报边缘线索。",
+    "top": [
+      "The Information 独家报道称，张一鸣要求 Seed 接受短期落后，不把模型蒸馏作为追赶捷径。",
+      "社区完整转述称，梁汝波在 8 月 6 日全员会上承认字节 LLM 与海外领先模型的差距扩大，并将豆包定位为未来集团级“主干业务”。",
+      "会议转述披露：飞书新增客户 AI 采购率超过 90%，内部 AI Token 使用量半年增长超过 10 倍；TikTok 美国电商表现较好、欧洲略低于预期。"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "历史重要补漏 · AI 战略",
+        "title": "张一鸣据报明确反对用模型蒸馏走追赶捷径",
+        "conclusion": "字节选择接受基础模型短期落后、继续自主训练并补足底层能力；这提高了长期技术独立性，也意味着未来一至两年的算力、数据和人才投入压力不会明显减弱。",
+        "metrics": [
+          "报道标签：The Information Exclusive",
+          "会议：Seed 内部会议／全员会",
+          "路线：自主开发、补基础、接受短期落后"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "The Information 独家标题与作者可核验；付费正文不可完整读取，补充细节来自社区完整转述",
+        "impact": "战略上偏正面，短期财务上偏负面／中性。拒绝依赖竞争对手输出蒸馏可降低知识产权和地缘风险，但也放弃了快速缩短 benchmark 差距的路径，强化高强度 AI CapEx 与研发费用持续性的判断。",
+        "caveat": "“不使用蒸馏”应理解为报道中的战略立场，不能外推为所有模型训练都从未使用教师模型、合成数据或类似技术；原文可见范围有限。",
+        "sources": [
+          {
+            "label": "The Information 独家报道",
+            "href": "https://www.theinformation.com/articles/bytedances-founder-rules-distillation-ai-models"
+          },
+          {
+            "label": "The Information Most Popular",
+            "href": "https://www.theinformation.com/?view=popular"
+          },
+          {
+            "label": "社区完整转述（待核验）",
+            "href": "https://www.reddit.com/r/LocalLLM/comments/1vgzowb/bytedance_ceo_zhang_yiming_ai_distillation_is_not/"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "历史重要补漏 · 集团全员会",
+        "title": "梁汝波据转述承认 LLM 差距扩大，并把豆包升为未来主干",
+        "conclusion": "若完整转述准确，8 月 6 日全员会给出的不是普通产品进展，而是集团资源配置框架：抖音继续作为交易业务主干，豆包则成为连接模型、企业场景和生态的新主干。",
+        "metrics": [
+          "豆包：消费市场仍具竞争力",
+          "Seedance：管理层判断仍处于 SOTA",
+          "LLM：与海外领先模型差距扩大",
+          "飞书新增客户 AI 采购率：超过 90%",
+          "内部 AI Token 使用量：半年增长超过 10 倍"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "社区完整转述，部分组织与飞书数据可由此前中国媒体交叉旁证；尚未获得公司纪要或第二份完整独立报道",
+        "impact": "这是明显的集团级资源重排信号。豆包若获得与抖音相近的“主干”地位，AI 投入将从单一应用扩展为跨业务基础设施；飞书产品并入豆包、GTM 并入火山引擎也因此更像长期架构，而不是短期降本重组。",
+        "caveat": "会议细节尚未逐句对照原始付费正文；超过 90% 的口径只适用于新增客户，Token 增长也没有披露绝对基数、成本或外部收入。",
+        "sources": [
+          {
+            "label": "社区完整转述（待核验）",
+            "href": "https://www.reddit.com/r/LocalLLM/comments/1vgzowb/bytedance_ceo_zhang_yiming_ai_distillation_is_not/"
+          },
+          {
+            "label": "36氪：飞书新增客户 AI 采购率",
+            "href": "https://www.36kr.com/p/3857331032396802"
+          },
+          {
+            "label": "36氪：豆包主干业务线索",
+            "href": "https://www.36kr.com/p/3929206861731715"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "历史重要补漏 · TikTok",
+        "title": "TikTok 美国电商据称表现较好，欧洲略低于预期",
+        "conclusion": "管理层转述首次给出美国与欧洲电商的相对判断，但没有 GMV、订单、补贴或亏损数字，暂时只能作为区域趋势信号。",
+        "metrics": [
+          "美国电商：表现较好",
+          "欧洲：略低于预期",
+          "后续方向：增加优质内容投入"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "社区对全员会内容的完整转述；没有可核验的经营数字",
+        "impact": "美国业务偏正面，欧洲偏负面／中性。若美国电商在监管不确定性下仍表现良好，能增强 TikTok Shop 的业务韧性；欧洲低于预期则提示本地供给、履约、用户习惯或补贴效率仍可能是瓶颈。",
+        "caveat": "“表现较好”和“略低于预期”缺少预算基准及同比口径，不能据此调整 TikTok Shop 的 GMV 或盈利预测。",
+        "sources": [
+          {
+            "label": "社区完整转述（待核验）",
+            "href": "https://www.reddit.com/r/LocalLLM/comments/1vgzowb/bytedance_ceo_zhang_yiming_ai_distillation_is_not/"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "The Information 付费正文或第二份独立媒体报道对全员会细节的逐项确认",
+      "字节 LLM 差距的具体 benchmark、训练架构和 10 万亿参数模型进度",
+      "豆包“主干业务”是否对应预算、汇报线和跨业务产品整合",
+      "内部 Token 使用增长的绝对量、成本与外部商业化转化",
+      "TikTok Shop 美国与欧洲的 GMV、订单、补贴和亏损口径"
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "displayDate": "08 / 09",
+    "verifiedAt": "北京时间 2026-08-09 18:52",
+    "status": "今日无重大新增",
+    "verdict": "过去约 24–36 小时，没有发现新的核心经营数据、组织调整、资本市场动作或监管决定。值得补入历史基准的是 TRAE IDE 的桌面端使用规模；它增强产品 traction 判断，但还不能支持商业化预期上调。",
+    "top": [
+      "历史补漏：TRAE IDE 国内版 6 月桌面端月访问量 1,279 万次，在 17 款中国 AI 原生办公智能体中位列第二。"
+    ],
+    "items": [
+      {
+        "severity": "context",
+        "eyebrow": "历史重要补漏 · AI 生产力",
+        "title": "TRAE 进入国内办公智能体流量第一梯队",
+        "conclusion": "TRAE 从 AI Coding 向桌面办公扩展后已形成可观使用规模，但“访问量”并不是用户数，更不是付费或收入。",
+        "metrics": [
+          "TRAE IDE 国内版：1,279 万次月访问",
+          "腾讯 WorkBuddy：2,097 万次",
+          "阿里 QoderWork：788 万次",
+          "17 款产品合计：超过 6,000 万次"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "易观分析第三方市场监测；媒体二次引用",
+        "impact": "产品侧偏正面，财务侧中性。字节在企业生产力领域拥有 TRAE、飞书、豆包与扣子等入口；下一阶段更关键的是留存、付费与交叉销售，而不是继续堆叠流量。",
+        "caveat": "公开摘要未披露去重用户、MAU、留存、付费率、企业客户、收入或 Token 成本，不能把 1,279 万次访问写成 1,279 万用户。",
+        "sources": [
+          {
+            "label": "易观分析",
+            "href": "https://m.analysys.cn/article/detail/20021498"
+          },
+          {
+            "label": "36氪",
+            "href": "https://www.36kr.com/p/3929298798509192"
+          },
+          {
+            "label": "中国经营报转载",
+            "href": "https://finance.eastmoney.com/a/202607223817251569.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TRAE 的 MAU、留存、付费席位、企业客户与收入",
+      "10 万亿参数模型是否获得官方确认及其实际激活参数",
+      "飞书绝对 ARR、续费率与整合后的收入归属",
+      "抖音电商 H1 GMV 增速是否出现第二信源",
+      "字节 AI CapEx、员工回购与一级半估值"
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "displayDate": "08 / 08",
+    "verifiedAt": "北京时间 2026-08-08 17:17",
+    "status": "两条值得注意",
+    "verdict": "没有足以单独调整收入或利润预测的正式新增。模型训练报道指向更高的 AI 投入强度；历史补漏的飞书经营数据则显示商业化与 AI 产品附着率可能正在加速。",
+    "top": [
+      "媒体称字节正处于最高 10 万亿参数模型的早期预训练阶段，但架构、预算与 benchmark 均未披露。",
+      "历史补漏：飞书 Q2 ARR 同比增长超过 100%，新增客户 AI 采购率超过 90%。"
+    ],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "模型与资本开支",
+        "title": "媒体称字节正预训练最高 10 万亿参数模型",
+        "conclusion": "如果报道属实，字节正在把通用模型训练规模推向新的数量级；当前最确定的含义是训练投入上升，而不是近期利润增厚。",
+        "metrics": [
+          "报道参数规模：最高 10 万亿",
+          "阶段：早期预训练",
+          "约为 Kimi K3 披露总参数的 3.6 倍"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "虎嗅快讯转述未具名媒体；尚无官方或第二独立信源",
+        "impact": "战略上偏正面，短期财务影响偏负面／中性。只有模型完成训练、能力进入第一梯队，并转化为豆包留存、火山引擎调用量或企业收入后，才可能成为可量化的估值上行因素。",
+        "caveat": "没有披露稠密或 MoE 架构、实际激活参数、训练 Token、GPU 数量、预算、完成时间或 benchmark。总参数量不等于实际计算量或模型能力。",
+        "sources": [
+          {
+            "label": "虎嗅 AI 快讯",
+            "href": "https://www.huxiu.com/ainews/14481.html"
+          },
+          {
+            "label": "社区存档线索",
+            "href": "https://www.reddit.com/r/singularity/comments/1vhta3g/bytedance_is_at_an_early_stage_of_training_a/"
+          },
+          {
+            "label": "Kimi K3 参数口径",
+            "href": "https://zhuanlan.zhihu.com/p/2065221319797498039?share_code=MKi1ArsaAQAj"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "历史重要补漏 · 飞书",
+        "title": "飞书 Q2 ARR 同比翻倍，新增客户 AI 采购率超九成",
+        "conclusion": "飞书出现了比产品发布更有分量的商业化信号，但绝对收入规模、续费与单位经济性仍然缺失。",
+        "metrics": [
+          "2026 Q2 末 ARR：同比增长超过 100%",
+          "2026 新增客户：超过 90% 采购飞书 AI"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "《财经》与 36氪知情人士口径；非公司财报",
+        "impact": "明确偏正面。ARR 翻倍说明商业化可能进入加速期，高 AI 附着率也为飞书产品并入豆包、商业化团队并入火山引擎提供更强逻辑。",
+        "caveat": "ARR 不是季度确认收入；“超九成”只指新增客户。绝对 ARR、客户数、客单价、续费、净收入留存与毛利均未披露。",
+        "sources": [
+          {
+            "label": "36氪",
+            "href": "https://www.36kr.com/p/3857331032396802"
+          },
+          {
+            "label": "新浪财经转载",
+            "href": "https://finance.sina.com.cn/roll/2026-07-20/doc-iniimqsk8222438.shtml"
+          },
+          {
+            "label": "新浪科技口径说明",
+            "href": "https://finance.sina.com.cn/tech/roll/2026-07-22/doc-iniisxzy4701360.shtml"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "待验证线索 · 组织战略",
+        "title": "“豆包将成为未来主干业务”尚缺第二信源",
+        "conclusion": "若后续确认，这将意味着豆包从 AI 应用上升为集团级主航道；现阶段不把它视作已确认的组织或资本配置变化。",
+        "metrics": [
+          "线索日期：2026-08-07",
+          "状态：待第二信源或官方纪要"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "36氪内容合作文章；非独家报道",
+        "impact": "可能影响集团资源分配、飞书产品归属与火山引擎商业化协同，但确认前不调整投资判断。",
+        "sources": [
+          {
+            "label": "36氪内容合作文章",
+            "href": "https://www.36kr.com/p/3929206861731715"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "10 万亿参数模型的架构、激活参数、GPU 规模与预算",
+      "飞书绝对 ARR、净收入留存、AI 客单价与毛利",
+      "“豆包主干业务”是否出现官方纪要或第二信源",
+      "抖音电商 H1 GMV 增速的替代口径"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "displayDate": "08 / 07",
+    "verifiedAt": "北京时间 2026-08-07 16:45",
+    "status": "产品侧增量",
+    "verdict": "过去约 24–36 小时没有足以改变投资判断的经营数据、组织调整或资本动作。增量集中在 AI 产品，进一步强化字节在实时多模态与视频生成上的产品力，但尚未形成可量化的财务信号。",
+    "top": [
+      "SeedRealtime 正式发布并在豆包 App 全量上线，支持实时音视频理解与主动提醒。",
+      "历史补漏：Seedance 2.5 已于 7 月 31 日发布，单次生成时长提升至 30 秒。"
+    ],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "产品与模型",
+        "title": "SeedRealtime 在豆包全量上线",
+        "conclusion": "豆包进一步升级为能够持续理解实时画面、声音和对话节奏的全双工多模态助手，但暂时没有商业化数据。",
+        "metrics": [
+          "正式发布：2026-08-05",
+          "豆包 App：全量上线",
+          "公司称对话节奏问题减少约一半"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "字节 Seed 官方；评测结果为公司自评",
+        "impact": "战略上偏正面。实时音视频能力有助于豆包走向手机摄像头、智能眼镜、车载与生活助理入口；持续视频推理也可能抬高单用户算力成本。",
+        "caveat": "官方未披露评测样本量、对照模型、DAU、留存、付费转化或单位推理成本。",
+        "sources": [
+          {
+            "label": "SeedRealtime 官方项目页",
+            "href": "https://seed.bytedance.com/zh/SeedRealtime"
+          },
+          {
+            "label": "Seed 官方博客",
+            "href": "https://seed.bytedance.com/zh/blog"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "历史重要补漏 · 视频生成",
+        "title": "Seedance 2.5 已正式发布",
+        "conclusion": "30 秒生成、多模态参考与局部编辑，使 Seedance 更接近专业付费工作流；API 商业化仍待验证。",
+        "metrics": [
+          "单次生成：15 秒 → 30 秒",
+          "最多 30 张图片、10 段视频、10 段音频参考",
+          "即梦 AI、豆包专业版陆续上线"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "字节 Seed 官方发布",
+        "impact": "产品侧偏正面，可能同时拉动豆包专业版、即梦订阅与火山引擎 MaaS 调用；在价格、调用量与收入披露前不调整盈利预期。",
+        "caveat": "火山方舟 API 的正式 model ID、统一价格、调用量与首批客户尚未公开。",
+        "sources": [
+          {
+            "label": "Seedance 2.5 官方项目页",
+            "href": "https://seed.bytedance.com/zh/seedance2_5"
+          },
+          {
+            "label": "Seed 官方博客",
+            "href": "https://seed.bytedance.com/zh/blog"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "SeedRealtime 的使用量、留存、时长与单位推理成本",
+      "Seedance 2.5 火山方舟 API 的价格、调用量与客户",
+      "抖音电商 H1 GMV 增速的交叉验证",
+      "飞书与豆包、火山引擎整合后的收入归属"
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "displayDate": "08 / 06",
+    "verifiedAt": "北京时间 2026-08-06 08:45",
+    "status": "两条核心校准",
+    "verdict": "当天最重要的变化不是产品发布，而是两条主线同时发生校准：抖音电商增速可能比市场预期降得更快；飞书则不再按独立 SaaS 业务的逻辑组织，而被沿产品与商业化两条线整合进豆包和火山引擎。",
+    "top": [
+      "抖音电商 H1 GMV 增速据报接近 20%，618 约 19%；公司称报道不准确。",
+      "飞书产品并入豆包，GTM 并入火山引擎；原有飞书产品与服务保留。",
+      "TrendForce 判断字节 2026 年 CapEx 增幅或为中国四大云厂商最高。"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "核心经营 · 抖音电商",
+        "title": "H1 GMV 增速据报接近 20%，公司否认准确性",
+        "conclusion": "抖音电商仍在增长，但若媒体口径成立，增长中枢已进一步下移，618 也没有达到内部预期。",
+        "metrics": [
+          "H1 GMV 同比：接近 20%",
+          "618 GMV 同比：约 19%",
+          "报道所称内部预期：24%–25%",
+          "报道所称 2025 GMV：约 4.4 万亿元",
+          "货架电商贡献：约 40%–50%"
+        ],
+        "sourceGrade": "B−",
+        "sourceNote": "36氪独家、匿名信源；公司明确否认准确性",
+        "impact": "方向上偏负面，但不是增长停滞。内容场流量红利、消费者频次和补贴效率可能下降；未来更依赖商城、搜索，以及广告与交易的协同。",
+        "caveat": "没有披露绝对 H1 GMV、净 GMV、退货口径、take rate、广告收入或利润，不能直接外推集团收入和利润。",
+        "sources": [
+          {
+            "label": "36氪原文",
+            "href": "https://mp.weixin.qq.com/s?__biz=MzUxOTA3MzMzOQ==&mid=2247767368&idx=1&sn=21ead2351b09faa78cfc52e32f7f8902"
+          },
+          {
+            "label": "华尔街见闻转载",
+            "href": "https://wallstreetcn.com/articles/3778755"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "组织调整 · 飞书",
+        "title": "飞书产品并入豆包，GTM 并入火山引擎",
+        "conclusion": "更准确的表述是飞书被沿两条线拆分整合：产品进入豆包体系，销售、市场和客户成功进入火山引擎体系。",
+        "metrics": [
+          "产品团队：由赵祺统筹，谢欣向赵祺汇报",
+          "GTM 团队：整合为“创造力服务平台”",
+          "ToB GTM：由火山引擎负责人谭待负责"
+        ],
+        "sourceGrade": "B+",
+        "sourceNote": "多家中国媒体交叉确认内部邮件；官网未完整披露组织架构",
+        "impact": "字节正在用“AI 产品 + MaaS／SaaS 统一销售”的方式重做 ToB 业务。潜在好处是减少重复建设并提升交叉销售；风险是重组磨合、客户连续性与飞书独立品牌弱化。",
+        "caveat": "这不意味着飞书品牌或法律主体消失，也不是全部飞书团队整体进入豆包；原有飞书产品和服务继续保留。",
+        "sources": [
+          {
+            "label": "虎嗅",
+            "href": "https://www.huxiu.com/article/4880200.html?type=text"
+          },
+          {
+            "label": "腾讯新闻／财联社",
+            "href": "https://new.qq.com/rain/a/20260730A06QOQ00"
+          },
+          {
+            "label": "飞书官方旁证",
+            "href": "https://www.feishu.cn/content/article/7664559035831635186"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "业务合作 · TikTok",
+        "title": "TikTok 与 Disney 达成全球短视频内容共享合作",
+        "conclusion": "TikTok 从 Disney 的外部营销渠道进一步进入 Disney+ 内容供给与分发体系，但交易经济性尚未披露。",
+        "metrics": [
+          "美国将在未来数月试点",
+          "覆盖 Pixar、Marvel、Star Wars、FX 等 IP",
+          "TikTok 称平台日均产生约 650 万条影视相关帖子"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "TikTok 官方公告",
+        "impact": "战略上偏正面，验证 TikTok 对传统内容公司的发现与导流价值，也提高美国业务与大型版权方的合作嵌入度。",
+        "caveat": "授权费、广告分成、流量结算与收入影响均未披露；不能把本协议解读为 AI 训练版权授权。",
+        "sources": [
+          {
+            "label": "TikTok 官方公告",
+            "href": "https://newsroom.tiktok.com/the-walt-disney-company-and-tiktok-announce-a-first-of-its-kind-global-short-form-content-sharing-deal?lang=en"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "算力与资本开支",
+        "title": "第三方继续上调字节 AI 基建投入强度",
+        "conclusion": "AI 基建仍被外部研究机构视为字节 2026 年最强的资本配置方向，但没有新的公司绝对额披露。",
+        "metrics": [
+          "九大 CSP 2026 CapEx 预测：超过 8,867 亿美元",
+          "中国四家合计增幅：超过 80%",
+          "TrendForce 判断字节增幅最高"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "TrendForce 第三方产业研究预测",
+        "impact": "支持字节持续重投 AI 的判断，同时强化折旧、利润率和现金回报承压的风险。由于缺乏公司绝对额，不能确认市场流传的具体预算。",
+        "sources": [
+          {
+            "label": "TrendForce",
+            "href": "https://www.trendforce.com/presscenter/news/20260803-13161.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "抖音电商 H1 GMV 的公司认可口径、下半年目标与盈利变化",
+      "飞书整合后的产品路线、客户连续性与收入归属",
+      "红果电商的真实组织规模和交易口径",
+      "字节 AI CapEx 的绝对额与折旧影响",
+      "Disney+ Verts 试点的上线时间和商业分成"
+    ]
+  }
+]
