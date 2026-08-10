@@ -2,57 +2,57 @@
   {
     "date": "2026-08-10",
     "displayDate": "08 / 10",
-    "verifiedAt": "北京时间 2026-08-10 11:13",
+    "verifiedAt": "北京时间 2026-08-10 11:16",
     "status": "今日无重大新增",
-    "verdict": "扫描覆盖范围内未发现字节跳动当日重大新增事件或经营数字更新。上一份日报已覆盖全员会、张一鸣战略立场及豆包定位等核心线索。唯一可识别的增量是Reuters转载FT于8月7日报道的字节跳动AI模型规模目标，以及欧盟委员会7月24日对TikTok违反DSA的初步认定（历史补漏）。两者均不构成当日重大事件，但可作为后续关注点。",
+    "verdict": "扫描覆盖范围内未发现字节跳动当日重大新增事件或经营数字更新。上一份日报已覆盖张一鸣战略立场、AI模型规模目标及欧盟监管等核心线索。今日唯一可识别的增量为36氪关于Seedance爆火背后公司的报道，但信息不足且未获多方确认，不构成重大事件。另补充两项历史重要补漏：飞书团队整合至豆包和火山引擎（7月30日），以及Seedance 2.5和SeedRealtime模型发布（7月31日/8月5日）。",
     "top": [],
     "items": [
       {
         "severity": "context",
-        "eyebrow": "历史重要补漏 · AI 模型",
-        "title": "Reuters 转载 FT 报道：字节跳动目标开发匹配 Mythos 规模的大型 AI 模型",
-        "conclusion": "据FT报道，字节跳动正计划开发一个规模可与Mythos（外界推测为OpenAI或类似顶级模型）匹敌的大型AI模型。这强化了字节在AI基础模型上持续高强度投入的判断，但具体参数、训练成本和时间表未知。",
+        "eyebrow": "历史重要补漏 · 组织调整",
+        "title": "字节跳动将飞书团队整合至豆包和火山引擎，全面转向AI to B",
+        "conclusion": "据多家媒体报道，字节跳动于7月底将飞书部分团队并入豆包和火山引擎，标志着公司从SaaS协同工具全面转向AI企业服务。飞书作为独立产品仍在运营，但组织重心已转移。",
         "metrics": [
-          "报道时间：2026年8月7日",
-          "信源：Financial Times（FT），Reuters 转载"
+          "报道时间：2026年7月30日",
+          "涉及部门：飞书、豆包、火山引擎"
         ],
         "sourceGrade": "B",
-        "sourceNote": "Reuters 转载 FT 报道，可信度较高，但原文内容未完整扫描，仅知标题与摘要",
-        "impact": "该信息与上一份日报中张一鸣接受短期落后、不依赖蒸馏的战略表述一致，但进一步暗示字节仍在追求顶级模型规模，意味着算力与研发投入不会压缩。对股东而言，长期技术路线确定性增强，但短期盈利压力持续。",
-        "caveat": "Mythos 规模的具体定义不明确，可能为内部代号或媒体推测；尚未获得字节官方确认。",
+        "sourceNote": "多家中文媒体（京报网、界面）及英文媒体（The East is Read）报道，内容一致，可信度较高",
+        "impact": "这一调整强化了字节跳动AI to B的战略方向，与近期豆包收费、火山引擎扩张一致。飞书长期独立发展前景减弱，但短期对ARR影响有限。股东需关注AI B端收入贡献能否弥补飞书投入。",
+        "caveat": "具体整合范围和人员规模未披露；飞书是否仍作为独立品牌运营存在不确定性。",
         "sources": [
           {
-            "label": "Reuters 转载 FT 报道",
-            "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY191Y2FEemJtMWI3NGhTYXBXTUEtQnZiWE9lTG1CVWhaWnc3aUVuZC1sTXNkdXc4eFRtSExvaS1UaUFqYi10X1VLZzN3cXF0N0JXeHYtY1p0QXJQLVlCTlV5LVpPYjQzUGpmbTg2ZzI4a29MMi1FeWl0LVlmRW9ObkpHVlBCNjUtRHljZWg5NzVTU0l5bURsSFBvWDlnWjNja2FQbWVESGZha29OQjJmZC1YRVczdw?oc=5"
+            "label": "京报网",
+            "href": "https://news.google.com/rss/articles/CBMickFVX3lxTE1sR0pGWFVycTdLNk1LZXNhYk5RTE9mOW1HSkdNdDVLMmZ4QU9ld0M0bGcwdDhkd3dXdTZPYTVuMjdsTm5UOFVUeE1vSHBKLXJ6dC1xYVlxQTlZVDB3S00yXy1EWXNaYXk4NGMtSldBNV9OZw?oc=5"
           }
         ]
       },
       {
         "severity": "context",
-        "eyebrow": "历史重要补漏 · 监管",
-        "title": "欧盟委员会初步认定 TikTok 违反 DSA，未能确保未成年人账户安全",
-        "conclusion": "欧委会于7月24日向TikTok发送初步调查结果，认为其未成年人账户安全标准未达DSA要求。该认定可能触发罚款或整改要求，但最终裁定尚未做出。",
+        "eyebrow": "历史重要补漏 · AI 模型",
+        "title": "字节跳动 Seed 团队发布 Seedance 2.5 和 SeedRealtime 模型",
+        "conclusion": "Seed 官方博客于7月31日发布Seedance 2.5（一镜成片，随心参考），8月5日发布SeedRealtime（音视频全双工大模型）。这些更新表明字节在AI视频生成和实时交互领域的持续进步。",
         "metrics": [
-          "欧盟委员会初步认定日期：2026年7月24日",
-          "涉及法规：Digital Services Act (DSA)"
+          "Seedance 2.5 发布时间：2026年7月31日",
+          "SeedRealtime 发布时间：2026年8月5日"
         ],
         "sourceGrade": "A",
-        "sourceNote": "欧盟委员会官方新闻稿，信源权威",
-        "impact": "若最终认定成立，TikTok可能面临最高全球年营业额6%的罚款，并需调整产品设计。短期对TikTok欧洲运营构成合规压力，但结合此前美国TikTok合资方案，欧洲监管风险已在市场预期之内。",
-        "caveat": "初步认定并非最终裁决，TikTok有权回应和辩护；罚款金额及整改要求尚未确定。",
+        "sourceNote": "字节跳动 Seed 官方博客，信源权威",
+        "impact": "模型发布节奏正常，显示字节在AI基础模型和产品化上持续投入。Seedance 2.5 提升视频生成能力，SeedRealtime 拓展交互场景，对豆包、火山引擎等产品形成技术支撑。长期有助于维持AI竞争力，但短期收入贡献有限。",
+        "caveat": "模型性能指标未与竞品直接对比；商业化进度和定价尚未公布。",
         "sources": [
           {
-            "label": "EU Digital Strategy News",
-            "href": "https://digital-strategy.ec.europa.eu/en/news"
+            "label": "ByteDance Seed Blog",
+            "href": "https://seed.bytedance.com/zh/blog"
           }
         ]
       }
     ],
     "watch": [
-      "FT关于字节AI模型规模目标的完整报道，确认具体参数与时间表",
-      "欧盟对TikTok DSA案件的最终裁定及罚款金额",
-      "字节跳动2026年Q2或H1经营数据（如有第三方披露）",
-      "抖音电商上半年GMV增速近20%的后续细节及与去年同期对比"
+      "36氪关于Seedance爆火背后50亿美元独角兽的完整报道，确认是否涉及字节投资或竞争",
+      "飞书整合后的人员变动及ARR数据更新",
+      "Seedance 2.5 和 SeedRealtime 的商业化进展及用户反馈",
+      "字节跳动2026年Q2或H1经营数据（如有第三方披露）"
     ]
   },
   {
