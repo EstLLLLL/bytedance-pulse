@@ -10,7 +10,7 @@
 
 ## 云端运行
 
-GitHub Actions 每天北京时间 08:30 运行研究任务，更新 `data/reports.json`，随后自动部署 GitHub Pages。首次运行前，在仓库 Settings → Secrets and variables → Actions 中添加名为 `OPENAI_API_KEY` 的 repository secret。
+GitHub Actions 每天北京时间 08:30 运行研究任务，更新 `data/reports.json`，随后自动部署 GitHub Pages。首次运行前，在仓库 Settings → Secrets and variables → Actions 中添加名为 `OPENAI_API_KEY` 的 repository secret。API 使用量与 ChatGPT 订阅分开计费；未配置密钥时，定时流程会安静跳过，不会改动网站。
 
 也可以在 Actions 页面手动运行 `Daily ByteDance monitor`，用于首次校准或补跑。
 
