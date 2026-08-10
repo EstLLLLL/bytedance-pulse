@@ -54,7 +54,7 @@ const missingRequiredMedia = requiredMediaQueries.filter(
 );
 
 if (
-  successfulQueries < 18 ||
+  successfulQueries < 20 ||
   successfulEditorialPages < 8 ||
   missingRequiredMedia.length
 ) {
@@ -90,7 +90,7 @@ const outputShape = {
   watch: ["下次重点关注"],
 };
 
-const systemPrompt = `你是 ByteDance 股东视角每日增量监控研究员。你不能自行联网；只能分析用户提供的云端扫描结果。扫描器已执行 22 条中英文分维度查询，并直接抓取海外头部媒体编辑位、中文媒体最新页、相关正文和官方页面。
+const systemPrompt = `你是 ByteDance 股东视角每日增量监控研究员。你不能自行联网；只能分析用户提供的云端扫描结果。扫描器已执行 24 条中英文分维度查询，并直接抓取海外头部媒体编辑位、中文媒体最新页、相关正文和官方页面。
 
 覆盖集团战略与财务，以及抖音、TikTok/TikTok Shop、国内外电商、本地生活、直播、豆包/Seed、Seedance/Seedream、火山引擎、飞书/Lark、CapCut/剪映、红果、番茄、即梦、扣子、PICO。
 

@@ -1,5 +1,7 @@
 const QUERY_SPECS = [
-  ["字节跳动 全员会 内部信 梁汝波 张一鸣", "zh"],
+  ["字节跳动 全员会 All Hands 年中会 季度复盘 战略会", "zh"],
+  ["字节跳动 全员信 内部信 内部邮件 讲话 表态 纪要", "zh"],
+  ["梁汝波 张一鸣 周受资 谭待 赵祺 谢欣 郭平 字节 最近", "zh"],
   ["抖音电商 GMV 增速 目标 订单 客单价 商城 货架", "zh"],
   ["抖音 本地生活 GTV 补贴 商家 留存 利润", "zh"],
   ["飞书 Lark 并入 整合 汇报线 ARR 客户 席位", "zh"],
@@ -9,7 +11,7 @@ const QUERY_SPECS = [
   ["字节跳动 CapEx 芯片 数据中心 Nvidia 算力", "zh"],
   ["红果 番茄 剪映 CapCut PICO 即梦 扣子 字节", "zh"],
   ["抖音 直播 广告 收入 利润率 变现", "zh"],
-  ["ByteDance all hands internal memo Liang Rubo Zhang Yiming", "en"],
+  ["Seed 豆包 抖音 TikTok 飞书 全员会 all-hands", "zh"],
   ["TikTok Shop GMV orders sellers subsidy commission fulfillment", "en"],
   ["ByteDance valuation buyback ESOP IPO secondary shares", "en"],
   ["ByteDance AI capex chips Nvidia data center", "en"],
@@ -151,6 +153,42 @@ export function extractRelevantLinks(html, baseUrl, limit = 10) {
   return links;
 }
 
+function isLikelyEditorialArticle(url) {
+  const host = url.hostname.replace(/^www\./, "");
+  const path = url.pathname;
+  if (host === "36kr.com") return /^\/p\/\d+/.test(path);
+  if (host === "huxiu.com") return /^\/(article|moment)\//.test(path);
+  if (host === "jiemian.com") return /^\/article\/\d+/.test(path);
+  if (host === "yicai.com") return /^\/news\/\d+/.test(path);
+  if (host.endsWith("sina.com.cn")) return /\/doc-[^/]+\.shtml$/.test(path);
+  if (host === "thepaper.cn") return /\/newsDetail_forward_\d+/.test(path);
+  if (host === "theinformation.com") return /^\/(articles|briefings)\//.test(path);
+  if (host === "bloomberg.com") return /\/news\/articles\//.test(path);
+  if (host === "reuters.com") return /\/[^/]+\/[^/]+-\d{4}-\d{2}-\d{2}\/?$/.test(path);
+  if (host.endsWith("yahoo.com")) return /\/article(s)?\//.test(path);
+  return false;
+}
+
+export function extractArticleLinks(html, baseUrl, limit = 10) {
+  const links = [];
+  const seen = new Set();
+  const pattern = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  for (const match of html.matchAll(pattern)) {
+    const title = cleanText(match[2]);
+    if (title.length < 8) continue;
+    try {
+      const url = new URL(decodeEntities(match[1]), baseUrl);
+      url.hash = "";
+      if (!isLikelyEditorialArticle(url)) continue;
+      if (seen.has(url.href)) continue;
+      seen.add(url.href);
+      links.push({ title, url: url.href });
+      if (links.length >= limit) break;
+    } catch {}
+  }
+  return links;
+}
+
 async function fetchText(url, attempts = 2) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
@@ -210,6 +248,7 @@ async function scanDirectPage([label, url]) {
       label,
       status: "ok",
       links: extractRelevantLinks(text, finalUrl),
+      articleLinks: extractArticleLinks(text, finalUrl),
       document: {
         kind: "editorial-page",
         query: label,
@@ -223,7 +262,13 @@ async function scanDirectPage([label, url]) {
       },
     };
   } catch (error) {
-    return { label, status: `failed: ${error.message}`, links: [], document: null };
+    return {
+      label,
+      status: `failed: ${error.message}`,
+      links: [],
+      articleLinks: [],
+      document: null,
+    };
   }
 }
 
@@ -279,12 +324,24 @@ export async function collectPublicSources() {
       editorialLinks.push({ label: page.label, ...link });
     }
   }
-  const articleRuns = await runPool(editorialLinks.slice(0, 60), scanEditorialArticle, 5);
+  for (const page of pageRuns) {
+    for (const link of page.articleLinks) {
+      if (seenEditorialLinks.has(link.url)) continue;
+      seenEditorialLinks.add(link.url);
+      editorialLinks.push({ label: page.label, ...link });
+    }
+  }
+  const articleRuns = await runPool(editorialLinks.slice(0, 100), scanEditorialArticle, 5);
+  const relevantArticleRuns = articleRuns.filter(
+    (run) =>
+      run.document &&
+      BYTEDANCE_PATTERN.test(`${run.document.title} ${run.document.snippet}`),
+  );
 
   const documents = [
     ...queryRuns.flatMap((run) => run.documents),
     ...pageRuns.map((run) => run.document).filter(Boolean),
-    ...articleRuns.map((run) => run.document).filter(Boolean),
+    ...relevantArticleRuns.map((run) => run.document),
   ];
   const seen = new Set();
   const deduped = documents.filter((document) => {
