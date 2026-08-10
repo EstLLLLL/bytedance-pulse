@@ -1,10 +1,11 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { collectPublicSources } from "./source-scan.mjs";
 
-const apiKey = process.env.DEEPSEEK_API_KEY;
-if (!apiKey) {
+const apiKey = process.env.ARK_API_KEY;
+const model = process.env.ARK_MODEL;
+if (!apiKey || !model) {
   throw new Error(
-    "DEEPSEEK_API_KEY is missing. Add it as a GitHub Actions repository secret before running the daily monitor.",
+    "ARK_API_KEY or ARK_MODEL is missing. Add both as GitHub Actions repository secrets before running the daily monitor.",
   );
 }
 
@@ -89,21 +90,20 @@ ${JSON.stringify(previous, null, 2)}
 本次云端扫描覆盖情况与公开资料：
 ${JSON.stringify(sourceBundle, null, 2)}`;
 
-async function callDeepSeek(extraInstruction = "") {
-  const response = await fetch("https://api.deepseek.com/chat/completions", {
+async function callArkDeepSeek(extraInstruction = "") {
+  const response = await fetch("https://ark.cn-beijing.volces.com/api/v3/chat/completions", {
     method: "POST",
     headers: {
       Authorization: `Bearer ${apiKey}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: process.env.DEEPSEEK_MODEL || "deepseek-v4-pro",
+      model,
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: `${userPrompt}\n${extraInstruction}` },
       ],
       thinking: { type: "enabled" },
-      reasoning_effort: "max",
       response_format: { type: "json_object" },
       max_tokens: 12000,
       temperature: 0.2,
@@ -112,16 +112,16 @@ async function callDeepSeek(extraInstruction = "") {
   });
   const payload = await response.json();
   if (!response.ok) {
-    throw new Error(`DeepSeek API failed (${response.status}): ${JSON.stringify(payload)}`);
+    throw new Error(`Volcano Ark API failed (${response.status}): ${JSON.stringify(payload)}`);
   }
   return payload.choices?.[0]?.message?.content ?? "";
 }
 
-let outputText = await callDeepSeek();
+let outputText = await callArkDeepSeek();
 if (!outputText.trim()) {
-  outputText = await callDeepSeek("上一次返回为空。请立即输出完整、有效的 JSON 对象。");
+  outputText = await callArkDeepSeek("上一次返回为空。请立即输出完整、有效的 JSON 对象。");
 }
-if (!outputText.trim()) throw new Error("DeepSeek returned empty JSON output twice.");
+if (!outputText.trim()) throw new Error("Volcano Ark DeepSeek returned empty JSON output twice.");
 
 const report = JSON.parse(outputText);
 report.date = date;

@@ -24,19 +24,20 @@ jobs:
       - name: Check cloud research credential
         id: credential
         env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
+          ARK_MODEL: ${{ secrets.ARK_MODEL }}
         run: |
-          if [ -n "$DEEPSEEK_API_KEY" ]; then
+          if [ -n "$ARK_API_KEY" ] && [ -n "$ARK_MODEL" ]; then
             echo "configured=true" >> "$GITHUB_OUTPUT"
           else
             echo "configured=false" >> "$GITHUB_OUTPUT"
-            echo "DEEPSEEK_API_KEY has not been configured; skipping today's cloud run."
+            echo "ARK_API_KEY or ARK_MODEL has not been configured; skipping today's cloud run."
           fi
       - name: Research and update the public report database
         if: steps.credential.outputs.configured == 'true'
         env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          DEEPSEEK_MODEL: deepseek-v4-pro
+          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
+          ARK_MODEL: ${{ secrets.ARK_MODEL }}
         run: node scripts/cloud-monitor.mjs
       - name: Save the new daily report
         if: steps.credential.outputs.configured == 'true'

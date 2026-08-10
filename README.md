@@ -10,7 +10,7 @@
 
 ## 云端运行
 
-GitHub Actions 每天北京时间 08:30 运行研究任务，更新 `data/reports.json`，随后自动部署 GitHub Pages。云端扫描器先执行 20 条中英文检索并检查媒体编辑位，再将公开资料交给 DeepSeek 分析。仓库需要名为 `DEEPSEEK_API_KEY` 的 Actions secret；未配置时，定时流程会安静跳过，不会改动网站。
+GitHub Actions 每天北京时间 08:30 运行研究任务，更新 `data/reports.json`，随后自动部署 GitHub Pages。云端扫描器先执行 20 条中英文检索并检查媒体编辑位，再将公开资料交给火山方舟托管的 DeepSeek 分析。仓库需要 `ARK_API_KEY` 和 `ARK_MODEL` 两个 Actions secrets；未配置时，定时流程会安静跳过，不会改动网站。
 
 也可以在 Actions 页面手动运行 `Daily ByteDance monitor`，用于首次校准或补跑。
 
@@ -23,4 +23,4 @@ npm test
 npm run build:static
 ```
 
-云端研究的模型默认为 `deepseek-v4-pro`，使用 DeepSeek JSON Output 生成结构化日报；新闻搜索与网页抓取由独立扫描器完成。
+云端研究通过火山方舟的 OpenAI 兼容接口调用指定的 DeepSeek 模型，并使用 JSON Output 生成结构化日报；新闻搜索与网页抓取仍由独立扫描器完成。
