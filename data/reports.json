@@ -1,5 +1,153 @@
 [
   {
+    "date": "2026-08-12",
+    "displayDate": "08 / 12",
+    "verifiedAt": "北京时间 2026-08-12 11:02",
+    "status": "TikTok关闭纳什维尔办公室裁员250人 + 特朗普解除联邦设备禁令",
+    "verdict": "今日最重要的增量是TikTok在美国关闭纳什维尔办公室并裁员250人，反映其在美国运营整合与成本优化。同时，特朗普解除了TikTok在联邦设备上的使用禁令，标志着所有权转移后监管环境显著改善，对TikTok美国业务是重大利好。此外，字节将飞书产品团队与豆包团队整合，飞书GTM并入火山引擎，进一步推进AI办公To B战略。抖音电商正式转向利润优先，战略调整信号明确。",
+    "top": [
+      "TikTok关闭纳什维尔办公室，裁员250人，10月生效。",
+      "特朗普解除TikTok联邦设备禁令，所有权转移后监管松动。"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "海外运营 · TikTok组织调整",
+        "title": "TikTok关闭纳什维尔办公室并裁员250人",
+        "conclusion": "TikTok决定关闭其美国田纳西州纳什维尔办公室，裁员约250人，10月生效。该办公室原部分承担内容审核职能。此举旨在精简运营、优化长期增长，是TikTok美国业务结构整合的明确信号。",
+        "metrics": [
+          "裁员人数：250人",
+          "关闭办公室：纳什维尔",
+          "生效时间：2026年10月",
+          "TikTok U.S.D.S. Joint Venture声明称 'streamline our operations'"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech文章引用《纽约时报》报道，TikTok U.S.D.S. Joint Venture官方声明为信源，属于可靠媒体转述官方信息。",
+        "impact": "中性偏负面。裁员和关办反映TikTok美国业务在所有权转移后进入成本精简阶段，短期内可能影响内容审核效率，但长期看有助于提升运营效率和利润率。对股东而言，这是TikTok美国业务走向成熟、告别扩张期烧钱模式的信号。",
+        "caveat": "裁员规模相对TikTok整体员工数较小（约250人），且未披露是否涉及核心团队。Nashville办公室关闭可能影响当地内容审核团队，但TikTok在其他地区仍有审核力量。",
+        "sources": [
+          {
+            "label": "Yahoo Tech: Tech layoffs tracker 2026 (TikTok section)",
+            "href": "https://tech.yahoo.com/general/article/tech-layoffs-tracker-2026-all-of-the-job-losses-across-tiktok-microsoft-meta-oracle-samsung-zillow-and-others-144545528.html"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "监管 · TikTok美国",
+        "title": "特朗普解除TikTok联邦设备禁令，所有权转移完成",
+        "conclusion": "美国总统特朗普签署行政令，解除此前对联邦设备使用TikTok的禁令，原因是TikTok已完成所有权转移，符合美国国家安全要求。这是TikTok美国业务自所有权变更以来最重大的监管利好，标志其在美国运营的合规风险显著降低。",
+        "metrics": [
+          "生效时间：2026年8月11日",
+          "涉及范围：所有美国政府联邦设备",
+          "前提条件：TikTok完成所有权转移（TikTok U.S.D.S. Joint Venture）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Finance Australia报道，引用路透社消息，涉及白宫行政令，属于官方动作。",
+        "impact": "重大正面。解除联邦设备禁令消除了TikTok在美国最大的一块监管不确定性，有助于恢复政府机构及合作伙伴信心，对TikTok美国用户增长、广告主预算和与政府合作均有利。对字节跳动整体估值是积极信号。",
+        "caveat": "联邦设备禁令仅涉及政府雇员工作设备，对普通用户影响有限，但象征意义重大。TikTok仍面临其他监管挑战，如欧盟DSA调查、各州数据隐私诉讼等。",
+        "sources": [
+          {
+            "label": "Yahoo Finance Australia: Trump lifts TikTok ban on federal devices after ownership transfer",
+            "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOTZ0Mzl6ZkhjOEZEdTllZUhuVmRfT3ZPMzRhSVE1VlJvU3hTSzJFVXJPelBBUS1jWU90NnhEV0xETFhmcnBaOVY2VlN6NzNzeTVpSXdPVWpYWXVHZ0c4RTg1c2ZjcWdQOGFqLW56SjRtVEVXenBkeEN1cXhZQkxlQUVGTzRZUQ?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "组织变化 · AI办公",
+        "title": "字节整合飞书与豆包团队，推进AI办公To B战略",
+        "conclusion": "36氪报道透露，字节将飞书产品团队与豆包团队整合，飞书GTM（Go-to-Market）并入火山引擎To B销售体系，同时内测豆包企业版，原生接入飞书文档、表格、会议和群聊。这标志着字节在AI办公领域从内部赛马转向集中资源，豆包将成为企业级AI入口。",
+        "metrics": [
+          "飞书产品团队与豆包团队整合",
+          "飞书GTM并入火山引擎销售体系",
+          "豆包企业版内测中，原生接入飞书文档、表格、会议、群聊"
+        ],
+        "sourceGrade": "B-",
+        "sourceNote": "36氪文章《WorkBuddy里的腾讯棋局》引用降噪NoNoise采访，为单一媒体调查报道，但涉及组织变动细节较为具体，可信度中等。",
+        "impact": "中性。组织整合有利于减少内部赛马内耗，集中资源与腾讯WorkBuddy竞争。但对飞书原有独立品牌和销售团队可能产生短期动荡。对股东而言，字节在AI办公的投入决心明确，但商业化路径仍需验证。",
+        "caveat": "此信息来自媒体文章，未得到字节官方确认。整合具体范围和节奏尚不明确，豆包企业版尚未正式上线。",
+        "sources": [
+          {
+            "label": "36氪: WorkBuddy里的腾讯棋局",
+            "href": "https://www.36kr.com/p/3935829398132357"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "经营战略 · 抖音电商",
+        "title": "抖音电商战略转向利润优先，不再追求增长",
+        "conclusion": "8月10日新浪财经文章《抖音电商不卷增长了，开始卷“赚钱”》指出，抖音电商内部已明确将利润而非GMV增长作为首要目标，2026年下半年将重点提升take rate和商家变现效率，减少补贴。这是抖音电商成立以来最明确的战略转向信号。",
+        "metrics": [
+          "战略转向：从GMV增长转向利润优先",
+          "重点：提升take rate、减少补贴、提高商家变现效率"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "新浪财经文章，引用抖音电商内部人士信息，属于可靠媒体独家报道。",
+        "impact": "正面。抖音电商从烧钱换增长转向盈利，有利于改善集团整体利润率。如果执行到位，抖音电商可能成为集团利润贡献新引擎。但短期GMV增速可能放缓，需关注take rate提升对商家生态的影响。",
+        "caveat": "文章未披露具体take rate目标或时间表，战略转向的实际执行效果有待观察。商家可能因费率上升而流失。",
+        "sources": [
+          {
+            "label": "新浪财经: 抖音电商不卷增长了，开始卷“赚钱”",
+            "href": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNM2tVT2JFSFZVemJHVG5uY1NNdXVIVTRtbmhWSUJIWVBlQUppTF81N2pJUFQ1MlJDWjJ2Zng0TC0xRUJ3Z3hMTGdlVnRpVW1MdWhlTnNLbThFWERmeFhRaFEyTUNrNkdPS3lyUGhCNDI?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "竞争格局 · AI Agent",
+        "title": "前阿里千问负责人林俊旸获腾讯投资创办AI Agent公司",
+        "conclusion": "前阿里千问大模型技术负责人林俊旸在上海创办Pragmatik Labs（语用科技），研究方向为横跨数字世界和物理世界的下一代智能体。高榕创投、红杉中国共同领投，腾讯和上海未来产业基金跟投，融资规模数亿美元。腾讯此举显示其在AI Agent领域的布局，与字节豆包、TRAE Work形成竞争。",
+        "metrics": [
+          "公司：Pragmatik Labs（语用科技）",
+          "融资：高榕创投、红杉中国领投，腾讯跟投",
+          "融资规模：数亿美元",
+          "研究方向：数字Agent + 物理Agent具身智能"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "第一财经独家报道，采访林俊旸本人，包括天眼查股权信息，属于可靠信源。",
+        "impact": "轻微。腾讯通过投资外部团队布局AI Agent，与字节内部自研豆包办公和TRAE Work形成竞争。对字节股东而言，意味着AI办公赛道竞争加剧，但字节已有完整产品矩阵，短期影响有限。",
+        "caveat": "Pragmatik Labs尚处于早期，产品未落地，商业化路径不明。",
+        "sources": [
+          {
+            "label": "第一财经: 腾讯跟投阿里千问前负责人，林俊旸相信AGI“应以此为目标”",
+            "href": "https://www.yicai.com/news/103314638.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "行业生态 · 开源",
+        "title": "字节跳动加入Open Invention Network 2.0社区",
+        "conclusion": "Yahoo Finance Singapore报道，字节跳动已加入Open Invention Network 2.0社区，这是一个以专利保护为宗旨的开源专利联盟。此举有利于字节在开源社区中降低专利风险，并展示其对开源生态的承诺。",
+        "metrics": [
+          "加入组织：Open Invention Network 2.0 Community",
+          "时间：2026年8月11日"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Finance Singapore报道，引用OIN官方公告，属于公开信息。",
+        "impact": "轻微正面。加入OIN有助于字节跳动在开源领域获得专利保护，尤其在其AI和软件业务广泛使用开源技术背景下，可降低法律风险。对股东是长期正面信号，但短期无直接财务影响。",
+        "caveat": "OIN成员包括许多科技公司，此为常规操作，不构成重大战略改变。",
+        "sources": [
+          {
+            "label": "Yahoo Finance Singapore: ByteDance Joins the Open Invention Network 2.0 Community",
+            "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONU5sX1ZfNmZvTDRLTzdKdXdWaGJqQThoVncwOGpmdFJKZGxmWVRtVFJIRnhlSXFnZVowLVY5YU4zUUdYQVRMeHlSV3BtQXhFZ3lnQkhOdnBDRV9zMWUtN0xNVmRnWDRNdWFITXJuMm5CZ0NHU0dzUGQxNUEwdFJKOUw5SExKNkFMTXhPZkl0RHM?oc=5"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok纳什维尔办公室关闭后，内容审核团队是否会转移至其他地区，以及后续是否还有更多裁员或关办",
+      "特朗普解除联邦设备禁令后，TikTok美国广告主和品牌合作恢复情况",
+      "飞书与豆包团队整合后，豆包企业版正式上线时间及定价策略，与腾讯WorkBuddy的竞争态势",
+      "抖音电商利润优先战略的执行细节：take rate提升幅度、补贴削减对GMV和商家留存的影响",
+      "字节2026年2000亿元资本开支计划是否有进一步官方确认或调整",
+      "豆包生活服务新费率（12%-18%）执行后对订单量的实际影响",
+      "TikTok在欧盟DSA违规调查的最终裁决及罚款可能性"
+    ]
+  },
+  {
     "date": "2026-08-11",
     "displayDate": "08 / 11",
     "verifiedAt": "北京时间 2026-08-11 10:32",
