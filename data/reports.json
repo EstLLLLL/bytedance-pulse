@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-08-13",
+    "displayDate": "08 / 13",
+    "verifiedAt": "北京时间 2026-08-13 11:05",
+    "status": "TikTok湾区办公室强制5天线下 + 字节AI战略间接报道",
+    "verdict": "今日增量信息有限。TikTok要求湾区员工从下月起每周5天回办公室，反映远程办公政策收紧，与上周关闭纳什维尔办公室、裁员250人的成本优化信号一致。此外，36 Kr英文版报道字节AI战略涉及12%税率规则、不进行模型蒸馏、5万亿战略赌注，但信源单一且无正文，有待验证。整体来看，字节在TikTok运营效率化和AI资本配置上持续释放信号，但无重大新事件。",
+    "top": [
+      "TikTok湾区员工下月起每周5天回办公室"
+    ],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "海外运营 · TikTok组织",
+        "title": "TikTok要求湾区员工下月起5天办公室工作制",
+        "conclusion": "Yahoo Finance报道，TikTok告知其湾区（Bay Area）员工，从下个月（2026年9月）开始，每周必须到办公室工作5天。此举是TikTok美国业务在所有权转移后进一步推进运营整合和成本优化的举措，与上周关闭纳什维尔办公室、裁员250人的动作一致。",
+        "metrics": [
+          "生效时间：2026年9月",
+          "涉及范围：TikTok湾区办公室员工",
+          "政策：每周5天线下办公"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Finance报道，引用TikTok内部通知，为单一媒体来源，但属可靠信源。",
+        "impact": "中性偏负面。强制5天线下可能影响员工士气和招聘吸引力，但有助于提升团队协作和运营效率，是TikTok美国业务从扩张期转向成熟运营的又一信号。对股东而言，短期可能增加人员流失风险，长期有利于成本控制和效率提升。",
+        "caveat": "仅涉及湾区办公室，其他地区政策未知。TikTok未官方确认具体原因，也未说明是否与远程办公效率或裁员有关。",
+        "sources": [
+          {
+            "label": "Yahoo Finance: TikTok's Bay Area workers face a 5-day office mandate starting next month",
+            "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYy0tQTdZTkVXVWpacjY2VkdkdlNqODcwb1diUkpIbVg2OEZEODBTSzZzR29aeWVPZTZSeFJnX2t6ZXhsNU5xOUtJUGhuWVQtOXh6bDZJOG9wTC05WkFaTTZaODhpSWo2RDZXT0p0dFo3dDJqR050MTd1blFJNW5fZHhMQlh6ZHVVRHp1alpsdFZMcnct?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "AI战略 · 资本配置",
+        "title": "36 Kr报道字节AI战略：12%税率规则、不进行模型蒸馏、5万亿战略赌注",
+        "conclusion": "36 Kr英文版8月11日报道，字节AI战略涉及12%税率规则、不进行模型蒸馏（No Model Distillation）、5万亿高赌注战略。但该报道仅为标题，正文未在扫描中提供，无法核实具体细节。若属实，可能反映字节在AI商业化中的独特策略。",
+        "metrics": [
+          "报道日期：2026年8月11日",
+          "关键词：12% Tax Rule, No Model Distillation, 5 Trillion Strategic Bet"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "36 Kr英文版单一标题，无正文，信源受限，无法确认内容准确性。",
+        "impact": "待验证。若属实，可能预示字节AI在成本控制（12%税率）、技术路线（不蒸馏以保持模型独特性）和资本投入（5万亿级）方面的重大战略。但当前信息不足以支撑判断。",
+        "caveat": "仅有标题，无正文，无法验证。可能为解读性或推测性内容，需后续关注原始文章。",
+        "sources": [
+          {
+            "label": "36 Kr: ByteDance AI Breaks Cover: 12% Tax Rule, No Model Distillation, 5 Trillion High-Stakes Strategic Bet",
+            "href": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA4dUcydHd5aDB1ZmRpVklXejZzN2I5cm40OGJpRmpEeXRYc214enBfWmpvSnZEd3ZDRW9sMUR6V0pBdTY4WWc2ZTM0azBZaWN3U3ZV?oc=5"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok湾区5天办公室政策执行后员工流失率及招聘影响",
+      "36 Kr报道的字节AI战略细节进一步验证，关注官方或可靠媒体后续报道",
+      "字节AI CapEx是否有新动态，2026年2000亿元资本开支计划进展",
+      "TikTok美国业务在所有权转移后是否还有更多运营整合措施（如更多裁员或办公室关闭）",
+      "抖音电商利润优先战略下take rate调整对商家生态和GMV的实质影响"
+    ]
+  },
+  {
     "date": "2026-08-12",
     "displayDate": "08 / 12",
     "verifiedAt": "北京时间 2026-08-12 11:02",
