@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { appendFile, readFile, writeFile } from "node:fs/promises";
 import { collectPublicSources } from "./source-scan.mjs";
 
 const apiKey = process.env.ARK_API_KEY;
@@ -7,6 +7,24 @@ if (!apiKey || !model) {
   throw new Error(
     "ARK_API_KEY or ARK_MODEL is missing. Add both as GitHub Actions repository secrets before running the daily monitor.",
   );
+}
+
+function escapeWorkflowCommand(value) {
+  return String(value)
+    .replaceAll("%", "%25")
+    .replaceAll("\r", "%0D")
+    .replaceAll("\n", "%0A");
+}
+
+async function reportWorkflowError(title, message) {
+  console.error(
+    `::error title=${escapeWorkflowCommand(title)}::${escapeWorkflowCommand(message)}`,
+  );
+
+  const summaryPath = process.env.GITHUB_STEP_SUMMARY;
+  if (summaryPath) {
+    await appendFile(summaryPath, `## ${title}\n\n${message}\n`);
+  }
 }
 
 const now = new Date();
@@ -150,6 +168,18 @@ async function callArkDeepSeek(extraInstruction = "") {
   });
   const payload = await response.json();
   if (!response.ok) {
+    const apiError = payload?.error ?? {};
+    if (apiError.code === "AccountOverdueError") {
+      await reportWorkflowError(
+        "Volcano Ark account overdue",
+        "The configured Volcano Ark account has an overdue balance. Settle the balance, then rerun this workflow.",
+      );
+    } else {
+      await reportWorkflowError(
+        "Volcano Ark API request failed",
+        `HTTP ${response.status}: ${apiError.code ?? apiError.type ?? "unknown error"}`,
+      );
+    }
     throw new Error(`Volcano Ark API failed (${response.status}): ${JSON.stringify(payload)}`);
   }
   return payload.choices?.[0]?.message?.content ?? "";
