@@ -1,5 +1,64 @@
 [
   {
+    "date": "2026-08-18",
+    "displayDate": "08 / 18",
+    "verifiedAt": "北京时间 2026-08-18 09:56",
+    "status": "字节与MPA达成全球AI版权协议，抖音成立汇智观云科技公司",
+    "verdict": "今日增量集中在AI版权合规和组织架构微调。TikTok官方新闻稿宣布与Motion Picture Association签署谅解备忘录，为Seedance和Seedream等AI视频/图像模型建立版权保护框架，这是字节在AI内容合规上的重要进展，有助于降低版权诉讼风险并推动与好莱坞的合作。此外，企查查数据显示抖音集团（香港）全资持股成立汇智观云（上海）科技有限公司，注册资本15.6亿元，经营范围含信息技术咨询、软件开发等，可能为抖音在沪的实体布局。整体看，今日无重大经营数据或战略变动，AI版权协议是积极信号。",
+    "top": [
+      "字节与MPA达成全球AI版权协议，为Seedance/Seedream建立版权保护框架",
+      "抖音集团成立汇智观云科技公司，注册资本15.6亿元"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "AI版权 · 监管合规",
+        "title": "字节与MPA达成全球AI版权协议，为Seedance和Seedream建立版权保护框架",
+        "conclusion": "TikTok官方新闻稿宣布，美国电影协会（MPA）与字节跳动达成谅解备忘录，为Seedance和Seedream等AI视频/图像模型建立知识产权保护框架。该协议标志着双方在2月MPA发出停止函后的建设性对话成果，字节在近期推出的Seedream 5.0 Pro和Seedance 2.5中已体现IP保护改进。协议覆盖TikTok、TikTok USDS合资企业、CapCut和Dreamina等平台。",
+        "metrics": [
+          "协议签署日：2026年8月17日",
+          "涉及模型：Seedance 2.0/2.5、Seedream 5.0 Lite/Pro"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "TikTok官方新闻稿，直接引用字节总法律顾问John Rogovin和MPA CEO声明，属官方第一手信息。",
+        "impact": "正面。该协议降低字节AI视频/图像模型在美欧市场的版权诉讼风险，为与好莱坞内容合作打开通道，增强AI产品商业化合规性。对股东而言，减少监管不确定性，有利于Seedance和Seedream的海外B端变现。",
+        "caveat": "MOU为框架性协议，具体执行细节和效果需观察。MPA包含Netflix、迪士尼等成员，但非所有版权方。",
+        "sources": [
+          {
+            "label": "TikTok Newsroom: MPA and ByteDance Announce Global Agreement",
+            "href": "https://newsroom.tiktok.com/mpa-and-bytedance-announce-global-agreement-to-protect-intellectual-property-on-ai-video-and-image-generation-models?lang=en"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "组织架构 · 资本布局",
+        "title": "抖音集团成立汇智观云科技公司，注册资本15.6亿元",
+        "conclusion": "据企查查数据，抖音集团（香港）有限公司全资持股的汇智观云（上海）科技有限公司于近日成立，注册资本15.6亿元，经营范围包括信息技术咨询服务、软件开发、非居住房地产租赁、物业管理等。",
+        "metrics": [
+          "注册资本：15.6亿元人民币",
+          "持股结构：抖音集团（香港）有限公司间接全资持股"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "信息源自企查查工商数据，经虎嗅引用，属可靠第三方数据。",
+        "impact": "中性偏正面。新公司可能用于上海地区的资产持有或业务拓展，15.6亿元注册资本较大，暗示可能有实质性投入，但具体业务方向未明，对股东估值影响有限。",
+        "caveat": "经营范围较宽泛，具体业务定位和运营计划尚未披露，需后续跟踪。",
+        "sources": [
+          {
+            "label": "虎嗅24小时：字节小报",
+            "href": "https://www.huxiu.com/moment/"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "字节与MPA版权协议的执行细节及对Seedance/Seedream商业化推进的影响",
+      "汇智观云科技公司的后续业务方向及可能涉及的土地或资产收购",
+      "TikTok美国业务裁员（250人，10月执行）进展及监管动态（EU DSA违规认定）",
+      "豆包会员付费转化率及ARPU趋势"
+    ]
+  },
+  {
     "date": "2026-08-17",
     "displayDate": "08 / 17",
     "verifiedAt": "北京时间 2026-08-17 12:02",
