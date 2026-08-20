@@ -1,5 +1,64 @@
 [
   {
+    "date": "2026-08-20",
+    "displayDate": "08 / 20",
+    "verifiedAt": "北京时间 2026-08-20 09:56",
+    "status": "字节Seed大模型部门重组，与MPA达成AI版权协议",
+    "verdict": "今日增量集中在组织架构和知识产权保护。据虎嗅报道，字节跳动大模型部门Seed近期完成新一轮组织调整，成立四个新一级部门，强化AI研发专业化分工。同时，字节与MPA签署全球谅解备忘录，为Seedance和Seedream等AI模型建立知识产权保护框架，降低版权诉讼风险。此外，TikTok在Bellevue再裁员75人，显示持续成本优化；特斯拉车机上线豆包大模型，拓展AI应用场景。整体上，今日事件正面偏多，组织调整和中美IP合作均有利于长期竞争力。",
+    "top": [
+      "字节Seed大模型部门完成组织调整，成立四个新一级部门",
+      "字节跳动与MPA达成全球AI版权保护协议"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "组织变化 · AI",
+        "title": "字节Seed大模型部门完成新一轮组织调整，成立四个新一级部门",
+        "conclusion": "据虎嗅报道，字节跳动大模型部门Seed在上周完成组织调整，Seed Foundation Model新设Pretrain Data、Horizon RL、Product Posttrain-Work、Product Posttrain-Chat四个一级部门，负责人分别向吴永辉汇报。这显示字节在AI研发上进一步强化分工和集中管理。",
+        "metrics": [
+          "调整时间：上周（2026年8月中旬）",
+          "新部门：Pretrain Data（李成刚）、Horizon RL（唐晟宇）、Product Posttrain-Work（秦禹嘉）、Product Posttrain-Chat（朱文佳）"
+        ],
+        "sourceGrade": "B-",
+        "sourceNote": "虎嗅资讯页面中的“字节小报”条目，属单一信源社区转述，未获字节官方确认。",
+        "impact": "正面。组织架构细化表明字节在AI大模型研发上加速专业化，尤其是强化预训练数据、强化学习和产品后训练分工，有利于提升模型迭代效率。但需注意人员调整可能带来的短期磨合成本。",
+        "caveat": "信息来源为虎嗅社区“字节小报”条目，未获官方证实，需后续验证。",
+        "sources": [
+          {
+            "label": "虎嗅24小时资讯",
+            "href": "https://www.huxiu.com/moment/"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "知识产权 · 监管",
+        "title": "字节跳动与MPA达成全球协议，保护AI视频和图像生成模型知识产权",
+        "conclusion": "据TikTok Newsroom官方新闻稿，字节跳动与美国电影协会（MPA）签署谅解备忘录，为Seedance和Seedream等AI模型设置知识产权保护框架。这是继MPA今年2月发出停止函后双方达成的合作，标志着字节在AI版权保护上取得重大进展。",
+        "metrics": [
+          "签署日期：2026年8月17日",
+          "涉及产品：Seedance、Seedream、TikTok、CapCut、Dreamina等"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "TikTok Newsroom官方新闻稿，字节跳动法务负责人John Rogovin和MPA CEO Charles Rivkin均发表声明。",
+        "impact": "正面。该协议降低了字节AI视频/图像生成模型面临版权诉讼的风险，尤其是此前MPA曾发出停止函。协议建立行业合作框架，有利于字节AI产品在影视行业的合规使用和商业化拓展。",
+        "caveat": "协议为谅解备忘录，具体执行细节有待观察。",
+        "sources": [
+          {
+            "label": "TikTok Newsroom: MPA and ByteDance Announce Global Agreement",
+            "href": "https://newsroom.tiktok.com/mpa-and-bytedance-announce-global-agreement-to-protect-intellectual-property-on-ai-video-and-image-generation-models?lang=en"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok Bellevue裁员75人的后续影响及是否与USDS裁员250人重叠",
+      "特斯拉上线豆包大模型后的用户反馈与商业化进展",
+      "Seedance 2.5及Seedance Studio内测的行业反响",
+      "抖音电商从增长转向盈利策略的具体执行数据"
+    ]
+  },
+  {
     "date": "2026-08-19",
     "displayDate": "08 / 19",
     "verifiedAt": "北京时间 2026-08-19 09:57",
