@@ -1,5 +1,91 @@
 [
   {
+    "date": "2026-08-22",
+    "displayDate": "08 / 22",
+    "verifiedAt": "北京时间 2026-08-22 09:55",
+    "status": "TikTok 4亿美元和解美国儿童隐私案，与MPA达成AI版权协议",
+    "verdict": "今日增量集中在TikTok的监管与合规进展：与美国司法部达成4亿美元儿童隐私和解（多源确认，编辑位重要），与MPA签署AI知识产权保护MOU（官方新闻室），以及欧盟初步认定TikTok违反DSA未成年人安全规定。这些事件显示字节海外业务面临多重监管压力，但和解与协议也降低了部分不确定性，有利于股东评估风险。",
+    "top": [
+      "TikTok 4亿美元和解美国儿童隐私案",
+      "字节与MPA达成AI知识产权保护全球协议"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "监管 · 诉讼 · 美国",
+        "title": "TikTok同意支付4亿美元和解美国司法部儿童隐私案",
+        "conclusion": "据Bloomberg、Reuters、Yahoo Finance等多家媒体报道，TikTok已与美国司法部达成4亿美元和解，以解决其违反儿童隐私法的指控。这是美国历史上最大的儿童隐私和解案之一。",
+        "metrics": [
+          "和解金额：4亿美元",
+          "公开报道日：2026年8月21日（美国时间）",
+          "信源：Bloomberg（独家）、Reuters、Yahoo Finance"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Bloomberg、Reuters、Yahoo Finance等多方报道，内容一致，但和解协议细节尚未完全公开。",
+        "impact": "正面偏中性。和解消除了TikTok在美国面临的一项重大法律不确定性，但4亿美元金额对字节跳动利润有一定影响，且表明美国监管机构对TikTok儿童安全问题的持续关注。",
+        "caveat": "和解协议尚未获得法院最终批准，具体条款可能调整。",
+        "sources": [
+          {
+            "label": "Bloomberg: TikTok to Pay $400 Million to Settle DOJ Child Privacy Case",
+            "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQTNuS2hsQUZRdnRIVVdkRmtvRGJmRXZTWHhfdXgtdU5FUjl4Y0tLVUdSTnBtUGFVbExySVBxR0FEeGRVVndpaDI5Mkh1SGt5V24tYm1na2M4YTV3OF8wZlhtbG9YLWFINmU0X2RoN2t1ZEJNWjJPYktnaVAycC1TeTR5WktVeUZnN09NYkwyN1N3ZWtPSmFwZjJsUTVBeS1ZRlYzOFZqVkFMYUJxWFE?oc=5"
+          },
+          {
+            "label": "Reuters: TikTok agrees to $400 million US children's privacy settlement",
+            "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdHp4WjducldzcUtEUTljcWhGYmpkOUgzc2RKaFFhaUFyVjdCZW9XajFRb1BNTWVGUnVmdVNVWDBLQmVWS3d1UkZncVp3R2cwQWxRVDB4c1VFVW5Gc1RoUzRZVUZ0aFlQTGc2ekF3T0w5QUQtSXFPYml1cnBzamdJV0NVR3d3ZTFoTVRocVp2dm4xQXFyX0U2TXdwM2I5ZmNqa0Q1emcza0N0dkczb25xdzY0UFZvSElWLUE?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "战略 · AI · 知识产权",
+        "title": "字节跳动与MPA（美国电影协会）达成全球协议，保护AI视频与图像生成模型知识产权",
+        "conclusion": "据TikTok官方新闻室公告，字节跳动与MPA签署谅解备忘录（MOU），为Seedance和Seedream等生成式AI模型建立知识产权保护框架。该协议标志着字节在AI内容版权合规方面取得重要进展。",
+        "metrics": [
+          "公开报道日：2026年8月17日",
+          "涉及模型：Seedance、Seedream",
+          "涉及产品：TikTok、TikTok USDS合资公司、CapCut、Dreamina等"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "TikTok官方新闻室发布，并附有字节跳动总法律顾问John Rogovin的声明，信源可靠。",
+        "impact": "正面。该协议降低了字节AI视频/图像生成模型面临的版权诉讼风险，为Seedance、Seedream等产品的商业化扫清障碍，有利于AI业务长期发展。",
+        "caveat": "MOU为框架性协议，具体执行细节有待进一步明确。",
+        "sources": [
+          {
+            "label": "TikTok Newsroom: MPA and ByteDance Announce Global Agreement to Protect Intellectual Property on AI Video and Image Generation Models",
+            "href": "https://newsroom.tiktok.com/mpa-and-bytedance-announce-global-agreement-to-protect-intellectual-property-on-ai-video-and-image-generation-models?lang=en"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "监管 · 欧盟 · DSA",
+        "title": "欧盟委员会初步认定TikTok违反数字服务法（DSA），未能确保未成年人账户安全",
+        "conclusion": "欧盟委员会于7月24日向TikTok发出初步调查结果，认为TikTok未成年人账户默认设置不符合DSA安全标准，包括公开账户可见性和内容推荐机制。",
+        "metrics": [
+          "公开报道日：2026年7月24日",
+          "来源：EU Digital Strategy官方新闻稿"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "欧盟委员会官方新闻稿，信源权威。",
+        "impact": "负面。若最终认定违规，TikTok可能面临高达全球年营业额6%的罚款，并需调整产品设计。但初步调查结果不具最终效力，字节可提出抗辩。",
+        "caveat": "此为初步调查结果，TikTok有权回应，最终决定尚未做出。",
+        "sources": [
+          {
+            "label": "EU Digital Strategy: Commission preliminary finds TikTok in breach of Digital Services Act for failing to ensure safe accounts for minors",
+            "href": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminary-finds-tiktok-breach-digital-services-act-failing-ensure-safe-accounts-minors"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok 4亿美元和解最终法院批准进展",
+      "字节与MPA协议执行细节及对Seedance/Seedream商业化影响",
+      "欧盟DSA调查后续：TikTok回应及最终决定",
+      "TikTok裁员250人关闭纳什维尔办公室（Yahoo Tech 8月21日报道，待确认细节）",
+      "TikTok P2P支付功能测试进展（Yahoo Tech 8月19日报道）"
+    ]
+  },
+  {
     "date": "2026-08-21",
     "displayDate": "08 / 21",
     "verifiedAt": "北京时间 2026-08-21 10:03",
