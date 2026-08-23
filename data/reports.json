@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-08-23",
+    "displayDate": "08 / 23",
+    "verifiedAt": "北京时间 2026-08-23 10:07",
+    "status": "TikTok 4亿美元和解持续传播，无新重大事件",
+    "verdict": "今日无重大新增事件。昨日已报道的TikTok 4亿美元儿童隐私和解、字节与MPA协议、欧盟DSA初步认定仍在媒体传播期，但无新事实主张。Yahoo Tech确认了TikTok裁员250人关闭纳什维尔办公室的细节，以及P2P支付功能开发进展，但均为之前watch中已标注的待确认事项，属于已知进展的确认。",
+    "top": [],
+    "items": [
+      {
+        "severity": "context",
+        "eyebrow": "组织 · 海外 · TikTok",
+        "title": "Yahoo Tech确认TikTok裁员250人并关闭纳什维尔办公室",
+        "conclusion": "Yahoo Tech在8月21日更新的科技裁员追踪文章中确认，The New York Times此前报道的TikTok裁员250人并关闭纳什维尔办公室的消息属实，该办公室主要涉及内容审核团队。",
+        "metrics": [
+          "裁员人数：250人",
+          "关闭办公室：纳什维尔",
+          "公开报道日：2026年8月21日（美国时间）",
+          "信源：Yahoo Tech（引用The New York Times）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech汇总文章，援引The New York Times独家报道，信源可靠但非一手。",
+        "impact": "轻微负面。TikTok USDS合资公司精简运营，关闭纳什维尔办公室表明组织在持续优化成本结构，但不影响核心业务。",
+        "caveat": "Yahoo Tech文章为追踪汇总，未提供新细节，仅确认此前报道。",
+        "sources": [
+          {
+            "label": "Yahoo Tech: Tech layoffs tracker 2026",
+            "href": "https://tech.yahoo.com/general/article/tech-layoffs-tracker-2026-all-the-job-losses-across-apple-tiktok-meta-microsoft-oracle-and-others-144545528.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "产品 · 海外 · TikTok",
+        "title": "TikTok P2P支付功能开发进展：代码被发现，使用TikTok Pay",
+        "conclusion": "据Bloomberg报道，在最新版TikTok iPhone应用中发现代码引用，显示TikTok正在开发用户间P2P支付功能，将使用TikTok Pay系统。目前尚未在任何市场测试，仍处于早期开发阶段。",
+        "metrics": [
+          "公开报道日：2026年8月19日（美国时间）",
+          "信源：Bloomberg（独家）",
+          "使用基础：TikTok Pay（已在东南亚用于TikTok Shop支付）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Bloomberg独家报道，Yahoo Tech引用，信源等级为B。代码层面的发现，但功能是否最终上线不确定。",
+        "impact": "中性偏正面。P2P支付功能若推出，将增强TikTok社交+电商生态，但尚处于早期开发阶段，短期无实质性影响。",
+        "caveat": "TikTok发言人表示该功能尚未测试，可能最终不推出。",
+        "sources": [
+          {
+            "label": "Yahoo Tech: TikTok may soon let you send money to other users",
+            "href": "https://tech.yahoo.com/social-media/article/tiktok-may-soon-let-you-send-money-to-other-users-150240415.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok 4亿美元和解最终法院批准进展",
+      "字节与MPA协议执行细节及对Seedance/Seedream商业化影响",
+      "欧盟DSA调查后续：TikTok回应及最终决定",
+      "TikTok裁员250人关闭纳什维尔办公室细节（已确认，关闭时间10月）",
+      "TikTok P2P支付功能测试进展（已确认代码发现，尚未测试）",
+      "英伟达财报（8月26日）对AI算力需求及字节CapEx影响的间接信号"
+    ]
+  },
+  {
     "date": "2026-08-22",
     "displayDate": "08 / 22",
     "verifiedAt": "北京时间 2026-08-22 09:55",
