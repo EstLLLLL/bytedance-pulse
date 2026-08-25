@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-08-25",
+    "displayDate": "08 / 25",
+    "verifiedAt": "北京时间 2026-08-25 09:57",
+    "status": "字节AI战略收拢：TRAE、扣子并入豆包，将推独立办公产品",
+    "verdict": "今日唯一新增重大事件：字节跳动完成TRAE（AI编程）、扣子（Coze Agent平台）团队整体并入豆包体系，并计划推出独立AI办公产品「豆包工作」。这是继飞书AI能力整合后，字节AI战略从赛马试错转向集中主干的关键一步，CEO梁汝波在8月全员会上提出的「高度优先、粗主干、优化长期」方针开始落地。该事件由36氪「版面之外」独家报道，Bloomberg亦有相关标题提及。其余priorityCandidates均为历史旧闻（2月全员会、8月7日全员会、抖音电商旧数据等），无新事实主张。",
+    "top": [
+      "字节AI战略收拢：TRAE、扣子并入豆包，将推「豆包工作」"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "AI · 组织 · 战略",
+        "title": "字节跳动将TRAE、扣子团队并入豆包，即将推出独立AI办公产品「豆包工作」",
+        "conclusion": "36氪独家报道，字节近期完成办公AI产品团队整合，TRAE、扣子（Coze）团队整体并入豆包体系，后续TRAE Work、扣子将与豆包工作场景能力整合，TRAE IDE和CLI继续作为豆包品牌下的编程产品线发展。字节还将推出独立AI办公产品「豆包工作」。这是继飞书调整后不到一个月，字节AI战略从赛马走向主干集中的关键举措，CEO梁汝波在8月年中全员会提出的「高度优先、粗主干、优化长期」方针开始落地。",
+        "metrics": [
+          "整合时间：2026年8月（近期）",
+          "涉及团队：TRAE、扣子（Coze）",
+          "新品牌产品：豆包工作（独立AI办公产品）",
+          "公开报道日：2026-08-25"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "36氪「版面之外」独家深度报道，引用智能涌现披露信息，同时Bloomberg有标题提及但未抓取正文。单一信源但内容详实，符合字节公开承认的8月全员会方向。",
+        "impact": "重大正面。字节AI战略从多线赛马转向集中资源，将提升豆包在AI办公领域的竞争力，但同时也增加了单点失败风险。对股东而言，这是字节在AI时代确立主干业务的关键一步，长期有利于估值但短期需关注整合执行风险。",
+        "caveat": "产品细节和发布时间尚未官方确认，整合效果需观察。同时企业级市场竞争激烈（微软Copilot、钉钉、WPS等），字节在企业服务领域经验不足。",
+        "sources": [
+          {
+            "label": "36氪：豆包是蜜糖，也是砒霜",
+            "href": "https://www.36kr.com/p/3954173501357193"
+          },
+          {
+            "label": "Bloomberg: ByteDance Folds AI Tools Into Doubao Super-App to Fight Tencent",
+            "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdDZkbDY5ajhDQ3Z3a0RVaUpVaWFuVXN2MmhlZkxBY2pydVAxbGV3OGY5bFhfWDJ4aG9OSHJuUHU4ZlRHRUZiQXhRTXFsOVh3N1NxOHdBaDA0UjZYNnV0RVZwOVBlOHAyQWxmMk1GSnFyajBvODBCcUE5UmpWUkVIRXlYVEtyTWZXVWNHMWxqRUpIWWNzTElmRkFWNXd0dU5TVWZKbVBpMlVoNWRlTXhkUXlrT2E?oc=5"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "豆包工作产品正式发布及市场反响",
+      "飞书与豆包整合进展及对飞书ARR的影响",
+      "字节AI主干战略下其他赛马项目（如即梦、剪映AI）的归属变化",
+      "TikTok 4亿美元儿童隐私和解最终法院批准进展",
+      "欧盟DSA对TikTok未成年人保护初步调查的后续决定",
+      "英伟达财报（8月26日）对AI算力需求及字节CapEx间接影响"
+    ]
+  },
+  {
     "date": "2026-08-24",
     "displayDate": "08 / 24",
     "verifiedAt": "北京时间 2026-08-24 10:03",
