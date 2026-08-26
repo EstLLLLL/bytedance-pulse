@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-08-26",
+    "displayDate": "08 / 26",
+    "verifiedAt": "北京时间 2026-08-26 10:06",
+    "status": "巴西罚款2980万美元，TikTok美国裁员250人",
+    "verdict": "今日无重大战略新增，但监管和组织层面各有一项新事件：巴西数据保护监管机构对TikTok所有者字节跳动罚款2980万美元，涉及未成年人数据处理；TikTok关闭纳什维尔办公室并裁员250人。两项事件均为中等影响，不改变字节AI集中主干的大方向。此外，36氪今日多篇深度文章进一步确认了豆包工作的产品整合细节，但无新事实主张。",
+    "top": [
+      "巴西对TikTok所有者字节跳动罚款2980万美元"
+    ],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "监管 · 海外",
+        "title": "巴西数据保护机构对TikTok所有者字节跳动处以2980万美元罚款",
+        "conclusion": "巴西国家数据保护局（ANPD）对TikTok所有者字节跳动罚款2980万美元（约1.5亿巴西雷亚尔），原因是非法处理青少年数据。该罚款由Bloomberg、Reuters、Yahoo Finance等多家国际媒体在8月25日集中报道。字节跳动尚未公开回应。",
+        "metrics": [
+          "罚款金额：2980万美元",
+          "原因：未成年人数据处理违规",
+          "公开报道日：2026-08-25"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Bloomberg、Reuters、Yahoo Finance等多信源交叉确认，均引用官方罚款决定。信源可靠，但罚款金额相较字节整体规模较小。",
+        "impact": "中等负面。罚款金额绝对值不大，但反映出字节跳动在海外未成年人数据保护方面持续面临监管压力，叠加此前美国4亿美元和解和欧盟DSA初步调查，全球监管风险在上升。对估值影响有限，但可能增加合规成本。",
+        "caveat": "字节跳动可能上诉，最终罚款金额或执行时间存在变数。",
+        "sources": [
+          {
+            "label": "Bloomberg: Brazil Slaps TikTok Owner With $30 Million Fine Over Data Use",
+            "href": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcDlydVZULUNlNlFMM3ZSUjFMYVpzbEcxZE9hTndEZTBZTmZERWNyckl5UVRDRTc4VEwydnZ5TGswaC1FbVNneF92S3Z4WDdRMXZsRVI5M2hrdHE2WHdkd0o5UHJNYUNSME03NmhRSW1sZUxhdGlMbFlmTkpqakF4bnZ1MXYyZjRhaElLTE9CZ18yT1hpNXk1NDRjUXg3elFoNHBrblNMZmZJWmJDN0dqTVpVakVYMGNFQWkzY3J0LWl1cjRlSVJlRk5wMWRsRXc?oc=5"
+          },
+          {
+            "label": "Reuters: Brazil fines TikTok owner ByteDance for unlawful processing of teenagers' data",
+            "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWU9jT2RKYjFBamQwbHdlQnF4SkJaak4weUl0d2x1TXQybF83dHljWHJEaTlNcXg1QlBaQ0hDZ19HRG5XQ3pnWWh3Q1d3WVA5V2lvSlktUjM0T0cxVEx6RTM5cDlBWlJSSnJxUzllVnViNkNaQnV2VmpfMFpoMVhsR3Z6VllhemsxMkl3SmRMV0c3cnBqV2NNNjJGaVJHTU0ycm1XOEZiRGY1Tk11X0xWUzhvN1ZUZGVSOUl6MmdseVI?oc=5"
+          },
+          {
+            "label": "Yahoo Finance: Brazil fines TikTok owner ByteDance for unlawful processing of teenagers' data",
+            "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc2Nma2EyVFEzdXIwU0FxdHR5OWNJb211UXJIdkhOZTN2WXUtQWQzVTBzT0lfZXh6YklNVC1Qa25Yd1F4cy1tVWUtYnN3WHJqbzhSTy1Zei1aQlJTSmxSQWlzeEtoeU90Q1RwYm9BWkd5Q1B2Y2g5MTVIU2VwckdNMEVlMk9rZU5TX3FxaG1ZM2lpV2JYWFNFMU5yLXA?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "组织 · 海外",
+        "title": "TikTok裁员250人并关闭纳什维尔办公室",
+        "conclusion": "据Yahoo Tech援引纽约时报报道，TikTok在8月裁员250人，并关闭位于田纳西州纳什维尔的办公室。该办公室此前容纳部分内容审核团队。TikTok USDS合资公司发言人表示此举是为了简化运营和长期增长。这是字节海外组织持续优化的又一信号。",
+        "metrics": [
+          "裁员人数：250人",
+          "关闭办公室：纳什维尔",
+          "公开报道日：2026-08-25（Yahoo Tech更新）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech文章引用纽约时报，单一信源但来源可靠。TikTok官方已确认。",
+        "impact": "轻微负面。裁员规模较小（约250人），但关闭办公室表明字节在海外持续进行成本优化和组织调整，可能影响部分运营效率。对整体业务影响有限，但需关注后续是否波及更多团队。",
+        "caveat": "裁员是否涉及AI相关岗位或与TikTok美国禁令不确定性有关尚未明确。",
+        "sources": [
+          {
+            "label": "Yahoo Tech: Tech layoffs 2026: Tracking all the job losses across Apple, TikTok, Meta, Microsoft, Oracle and others",
+            "href": "https://tech.yahoo.com/general/article/tech-layoffs-2026-tracking-all-the-job-losses-across-apple-tiktok-meta-microsoft-oracle-and-others-144545528.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "AI · 产品 · 战略",
+        "title": "36氪等多篇深度文章详述豆包工作产品整合逻辑",
+        "conclusion": "今日36氪刊发多篇深度文章（如《办公Agent大战，重点不是Agent》《俞敏洪定战略，孙进抓落地》等），其中详细分析了字节将飞书团队并入豆包、推出豆包工作产品的战略逻辑，强调飞书作为企业上下文平台对豆包工作的支撑作用。这些文章虽无新事实主张，但进一步确认了字节AI办公战略的优先级和产品细节。",
+        "metrics": [
+          "涉及产品：豆包工作、飞书、豆包",
+          "文章主题：飞书上下文优势、豆包工作与飞书深度集成"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "36氪作为可信中文科技媒体，文章内容与8月25日36氪独家报道一致，属于补充分析而非首次披露。",
+        "impact": "无直接影响。但加强了市场对字节AI办公战略的理解，间接有利于豆包工作后续推广。",
+        "caveat": "产品尚未大规模发布，实际市场反响未知。",
+        "sources": [
+          {
+            "label": "36氪：办公Agent大战，重点不是Agent",
+            "href": "https://www.36kr.com/p/3954955726716290"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "巴西罚款后续：字节跳动是否上诉及最终执行情况",
+      "TikTok美国裁员是否波及更多部门或与禁令风险有关",
+      "豆包工作产品正式发布及市场反响",
+      "TikTok 4亿美元儿童隐私和解最终法院批准进展",
+      "欧盟DSA对TikTok未成年人保护初步调查的后续决定",
+      "英伟达财报（8月26日）对AI算力需求及字节CapEx间接影响"
+    ]
+  },
+  {
     "date": "2026-08-25",
     "displayDate": "08 / 25",
     "verifiedAt": "北京时间 2026-08-25 09:57",
