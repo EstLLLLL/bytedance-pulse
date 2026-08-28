@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-08-28",
+    "displayDate": "08 / 28",
+    "verifiedAt": "北京时间 2026-08-28 19:34",
+    "status": "TikTok被曝裁员250人并关闭纳什维尔办公室",
+    "verdict": "今日唯一增量是Yahoo Tech报道的TikTok裁员250人并关闭纳什维尔办公室，该消息于8月25日更新，但此前日报未覆盖。裁员规模较小，对TikTok整体运营影响有限，但关闭纳什维尔办公室（涉及内容审核团队）可能反映运营优化或合规压力。其他所有搜索结果显示均为旧闻或无直接关联内容。",
+    "top": [
+      "TikTok被曝裁员250人并关闭纳什维尔办公室"
+    ],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "组织 · 海外",
+        "title": "TikTok 8月裁员250人并关闭纳什维尔办公室",
+        "conclusion": "据Yahoo Tech 8月25日更新的科技裁员追踪报道，TikTok（美国数据安全联合体U.S.D.S.）将在10月前关闭纳什维尔办公室，裁员250人，主要涉及内容审核团队。公司官方称此举为简化运营、实现长期增长。",
+        "metrics": [
+          "裁员人数：250人",
+          "关闭办公室：纳什维尔（田纳西州）",
+          "执行时间：2026年10月前",
+          "涉及团队：内容审核及相关运营"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech综合多家媒体报道，引用《纽约时报》及TikTok官方声明，信源可靠，但非独家。",
+        "impact": "轻微负面。250人裁员占TikTok美国员工比例很小，但关闭纳什维尔办公室可能影响内容审核效率，增加其他站点压力。此举可能是为应对美国监管压力进行成本优化，长期看有利于合规和运营效率，短期对员工士气有影响。",
+        "caveat": "TikTok未明确说明裁员原因是否与AI替代或合规有关，实际情况可能更复杂。",
+        "sources": [
+          {
+            "label": "Yahoo Tech: Tech layoffs 2026",
+            "href": "https://tech.yahoo.com/general/article/tech-layoffs-2026-tracking-all-the-job-losses-across-apple-tiktok-meta-microsoft-oracle-and-others-144545528.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok美国裁员后续是否波及更多团队或国家",
+      "字节跳动自研芯片进展（Nvidia客户变竞争对手的报道暗示字节可能加大自研投入）",
+      "欧盟电子证据条例实际执行对TikTok的影响"
+    ]
+  },
+  {
     "date": "2026-08-27",
     "displayDate": "08 / 27",
     "verifiedAt": "北京时间 2026-08-27 18:02",
