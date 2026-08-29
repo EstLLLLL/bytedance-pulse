@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-08-29",
+    "displayDate": "08 / 29",
+    "verifiedAt": "北京时间 2026-08-29 15:12",
+    "status": "无重大新增，TikTok Shop欧洲GMV出现新数据",
+    "verdict": "今日唯一增量是Retail News Asia报道的TikTok Shop欧洲GMV接近5亿欧元，由创作者联盟驱动，数据发布于8月28日。该规模较小，但显示TikTok电商在欧洲的初步进展。其他所有搜索结果均为旧闻或无直接关联内容。无新的全员会、组织变动、监管事件或资本动作。",
+    "top": [],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "电商 · 海外",
+        "title": "TikTok Shop欧洲GMV接近5亿欧元",
+        "conclusion": "据Retail News Asia 8月28日报道，TikTok Shop在欧洲的GMV已接近5亿欧元，主要由创作者联盟驱动。该数据为第三方估算，未经官方确认。",
+        "metrics": [
+          "欧洲GMV：接近5亿欧元",
+          "驱动因素：创作者联盟",
+          "报道时间：2026-08-28"
+        ],
+        "sourceGrade": "B−",
+        "sourceNote": "单一信源Retail News Asia，未提供原始数据来源，属于第三方估算。",
+        "impact": "轻微正面，表明TikTok电商在欧洲市场取得初步增长，但规模较小，对整体估值影响有限，需持续关注后续增长趋势。",
+        "caveat": "数据未得到TikTok官方确认，可能高估或低估。",
+        "sources": [
+          {
+            "label": "Retail News Asia: TikTok Shop Nears €500 Million in European GMV",
+            "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNEJyWWJKeHI1WUFpQmxMZlVFanpVTHdpTVo2ZnFRX3ZGQWFmTXVDbFdRay1DR0hoYS1wNUwyTjZxVjBPSWlrX1JucThlU2ZEUkxMdVNka3ozUURUR0JNN0h1YjBwb3p1dkNPVkFEZVNlVU9HR2xmQkQ2VkFJOW1WQW9BUFI5OFZiVEpmVnVVaGkwUzdDS09RZDRvdVE?oc=5"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok Shop欧洲GMV后续增长数据及官方披露",
+      "字节跳动自研芯片进展（Nvidia客户变竞争对手的报道暗示字节可能加大自研投入）",
+      "TikTok美国监管及裁员后续"
+    ]
+  },
+  {
     "date": "2026-08-28",
     "displayDate": "08 / 28",
     "verifiedAt": "北京时间 2026-08-28 19:34",
