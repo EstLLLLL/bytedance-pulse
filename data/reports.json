@@ -1,5 +1,88 @@
 [
   {
+    "date": "2026-08-30",
+    "displayDate": "08 / 30",
+    "verifiedAt": "北京时间 2026-08-30 13:34",
+    "status": "豆包工作发布，TikTok新加坡GMV数据，TikTok美国裁员",
+    "verdict": "今日增量包括：字节跳动正式发布AI办公产品豆包工作，并将TRAE、扣子团队并入豆包体系，标志着AI办公战略整合；TikTok Shop新加坡站点2026上半年GMV同比增长超80%，显示东南亚电商增长强劲；TikTok计划裁员250人并关闭纳什维尔办公室，反映美国运营调整。全员会、资本动作、监管无新信息。",
+    "top": [
+      "字节跳动发布AI办公产品豆包工作，TRAE和扣子团队并入豆包体系"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "AI · 产品 · 组织",
+        "title": "字节跳动发布AI办公产品豆包工作，TRAE/扣子团队并入豆包体系",
+        "conclusion": "8月25日，字节跳动正式发布独立AI办公产品豆包工作，该产品与飞书深度打通，能自主拆解任务、调用工具、跨软件操作电脑。同时，旗下AI编程产品TRAE和AI智能体开发平台扣子（Coze）团队整体并入豆包体系，表明字节跳动正集中资源抢占AI办公赛道。",
+        "metrics": [
+          "产品发布时间：2026-08-25",
+          "整合团队：TRAE、扣子（Coze）",
+          "报道时间：2026-08-30"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "第一财经AI周报报道，内容基于记者了解，非官方公告。属于可靠媒体，但未提供官方口径。",
+        "impact": "正面，显示字节跳动在AI办公领域加速布局，将飞书与豆包能力整合，有望提升B端产品竞争力。但面临百度搭子、腾讯WorkBuddy等竞品，短期对估值影响有限。",
+        "caveat": "产品详细功能、定价、用户数据尚未披露，需观察后续市场反响。",
+        "sources": [
+          {
+            "label": "第一财经：AI周报 | OpenAI官宣断供 Cursor；百家科技厂商呼吁强化AI网络防御 字节跳动发布AI办公产品豆包工作",
+            "href": "https://www.yicai.com/news/103339832.html"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "电商 · 海外",
+        "title": "TikTok Shop新加坡站点2026上半年GMV同比翻倍，直播GMV涨96%",
+        "conclusion": "据36氪出海8月30日报道，TikTok Shop新加坡站点2026年上半年GMV达去年同期1.8倍以上，接近翻番；直播GMV同比涨96%；购买用户数为去年同期1.6倍。6.6大促期间日均GMV创历史新高。参与东南亚跨境电商专项扶持的商家GMV增速达大盘3.8倍。平台已上线多国客服互通、全球统一看数等能力，并推出“马来西亚海外仓发新加坡”物流服务。",
+        "metrics": [
+          "上半年GMV：去年同期1.8倍以上",
+          "直播GMV同比增长：96%",
+          "购买用户数：去年同期1.6倍",
+          "6.6大促日均GMV：历史新高",
+          "数据时间：2026年上半年"
+        ],
+        "sourceGrade": "B−",
+        "sourceNote": "36氪出海报道，数据来源为TikTok Shop官方，但未提供直接链接，属可信信源转述官方数据。",
+        "impact": "正面，显示TikTok Shop在东南亚重点市场保持高增长，新加坡作为区域中心表现强劲，验证跨境电商战略有效性。对估值有轻度支撑。",
+        "caveat": "数据为官方披露，但未提供绝对GMV数值，仅给相对倍数。",
+        "sources": [
+          {
+            "label": "36氪：中国公司全球化周报｜TikTok Shop新加坡成跨境商家新支点",
+            "href": "https://www.36kr.com/p/3961435764440198"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "组织 · 海外",
+        "title": "TikTok计划裁员250人并关闭纳什维尔办公室",
+        "conclusion": "据Yahoo Tech 8月28日更新的科技裁员追踪报道，TikTok将裁员250人并关闭其纳什维尔（田纳西州）办公室，该办公室部分负责内容审核。TikTok USDS合资公司发言人表示此举是为了优化运营和长期增长。",
+        "metrics": [
+          "裁员人数：250人",
+          "关闭办公室：纳什维尔",
+          "报道时间：2026-08-28（更新）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech引用纽约时报报道，信源可靠。裁员人数和关闭办公室信息有明确来源。",
+        "impact": "轻微负面，显示TikTok在美国继续优化成本结构，裁员规模较小，对整体业务影响有限，但反映美国运营调整仍在继续。",
+        "caveat": "裁员原因未明确说明，可能涉及AI替代或组织精简。",
+        "sources": [
+          {
+            "label": "Yahoo Tech: Tech layoffs tracker 2026: All the job losses across TikTok, Apple, Meta, Microsoft, Oracle and others",
+            "href": "https://tech.yahoo.com/general/article/tech-layoffs-tracker-2026-all-the-job-losses-across-tiktok-apple-meta-microsoft-oracle-and-others-144545528.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "豆包工作产品后续用户数据和市场反馈",
+      "TikTok Shop新加坡GMV持续增长及东南亚其他市场表现",
+      "TikTok美国裁员及运营调整后续",
+      "字节跳动AI办公赛道竞争格局（百度搭子、腾讯WorkBuddy等）"
+    ]
+  },
+  {
     "date": "2026-08-29",
     "displayDate": "08 / 29",
     "verifiedAt": "北京时间 2026-08-29 15:12",
