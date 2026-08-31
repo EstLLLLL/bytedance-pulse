@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-08-31",
+    "displayDate": "08 / 31",
+    "verifiedAt": "北京时间 2026-08-31 13:49",
+    "status": "TikTok Shop日本GMV数据，欧盟DSA违规认定补漏",
+    "verdict": "今日增量包括：TikTok Shop日本上线一年GMV约500亿日元，显示日本市场开局顺利但规模较小；欧盟委员会7月24日初步认定TikTok违反DSA未能确保未成年人账户安全，属于历史重要补漏。全员会、资本动作、其他业务无新信息。",
+    "top": [
+      "TikTok Shop日本上线一年GMV约500亿日元"
+    ],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "电商 · 海外 · 日本",
+        "title": "TikTok Shop日本上线一年GMV约500亿日元，入驻商家5万家",
+        "conclusion": "据36氪8月31日转引自日经中文网报道，TikTok Shop在日本上线一年（2025年6月-2026年6月）商品交易总额（GMV）达到约500亿日元（约合人民币25亿元），入驻商家约5万家，创作者约20万人。约7成GMV来自直播和短视频，食品品类增长突出。平台已推出地方特产扶持和中小商家扶持计划。",
+        "metrics": [
+          "GMV：约500亿日元（约25亿人民币）",
+          "入驻商家：约5万家（截至2025年12月底）",
+          "创作者：约20万人（截至2025年12月底）",
+          "视频贡献占比：约70%",
+          "上线时间：2025年6月"
+        ],
+        "sourceGrade": "B−",
+        "sourceNote": "36氪转载日经中文网，数据来源为日本数字商务综合研究所及字节跳动日本法人，属于可靠第三方转述。",
+        "impact": "轻度正面，验证TikTok Shop在日本市场从零起步取得初步进展，但GMV规模约500亿日元（约25亿人民币），相比全球643亿美元（约4600亿人民币）规模极小，对整体估值贡献有限。",
+        "caveat": "GMV绝对规模较小，约500亿日元；日本用户渗透率仅百分之几，本土品牌入驻仍较少，视频电商在教育用户方面存在挑战。",
+        "sources": [
+          {
+            "label": "36氪：TikTok Shop日本上线1年：开局顺利，挑战仍存",
+            "href": "https://www.36kr.com/p/3961291466440070"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "监管 · 欧盟 · 未成年人",
+        "title": "欧盟委员会初步认定TikTok违反DSA，未能确保未成年人账户安全",
+        "conclusion": "2026年7月24日，欧盟委员会向TikTok发出初步调查结果，认为TikTok未按DSA要求确保未成年人账户安全。未成年人可将账户设为公开，其内容可被任何用户（包括未登录用户）查看，且16-17岁用户内容可被推荐给其他用户。欧盟要求TikTok调整默认设置，限制未成年人内容可见性。",
+        "metrics": [
+          "初步认定日期：2026-07-24",
+          "涉及法规：Digital Services Act (DSA)",
+          "违规点：未成年人公开账户默认设置、内容推荐"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "欧盟委员会官方新闻稿，属于官方监管文件。",
+        "impact": "中性偏负面，若最终裁定违规，TikTok可能面临罚款或运营调整。但DSA流程较长，短期影响有限。",
+        "caveat": "初步调查结果，TikTok可回应和辩护，最终裁定尚未作出。",
+        "sources": [
+          {
+            "label": "EU Digital Strategy: Commission preliminary finds TikTok in breach of DSA",
+            "href": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminary-finds-tiktok-breach-digital-services-act-failing-ensure-safe-accounts-minors"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok Shop日本GMV增长及用户渗透率变化",
+      "欧盟DSA对TikTok未成年保护的最终裁定及潜在罚款",
+      "TikTok美国裁员及运营调整后续",
+      "字节跳动AI办公产品豆包工作的市场反馈"
+    ]
+  },
+  {
     "date": "2026-08-30",
     "displayDate": "08 / 30",
     "verifiedAt": "北京时间 2026-08-30 13:34",
