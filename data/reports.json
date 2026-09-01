@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-09-01",
+    "displayDate": "09 / 01",
+    "verifiedAt": "北京时间 2026-09-01 13:22",
+    "status": "TikTok欧盟用户1.89亿，TikTok美国裁员250人，抖音推荐异常",
+    "verdict": "今日增量包括：TikTok在欧盟月活用户达1.89亿，上半年新增900万，用户增长持续但增速放缓；TikTok计划裁员250人并关闭纳什维尔办公室，为美国运营调整；抖音8月31日晚出现推荐算法异常及服务中断，已修复。此外，QuestMobile报告显示抖音旗下办公Agent TRAE Work月活190.4万，AI办公赛道三足鼎立格局初显。全员会、资本动作、其他业务无新信息。",
+    "top": [
+      "TikTok欧盟月活用户达1.89亿，上半年新增900万",
+      "TikTok计划裁员250人并关闭纳什维尔办公室"
+    ],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "用户增长 · 海外 · 欧盟",
+        "title": "TikTok欧盟月活用户达1.89亿，上半年新增900万",
+        "conclusion": "据Yahoo Tech转引Social Media Today报道，TikTok最新DSA披露数据显示，截至2026年6月，其在欧盟月活跃用户（MAU）达1.89亿，较2025年下半年增加900万。TikTok同时报告上半年移除约1.04亿条违规内容，94.1%由自动化手段完成。",
+        "metrics": [
+          "欧盟MAU：1.89亿（截至2026年6月）",
+          "上半年新增：900万",
+          "违规内容移除：约1.04亿条",
+          "自动化移除占比：94.1%"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech转引Social Media Today，数据基于TikTok向欧盟提交的DSA披露文件，属于可靠媒体转述官方数据。",
+        "impact": "轻度正面，验证TikTok在欧盟用户基础持续扩大，但增速较此前放缓（2025年9月曾自称达2亿用户）。用户增长为广告变现和电商业务提供基础，但增速放缓可能反映市场趋于饱和。",
+        "caveat": "TikTok此前声称欧盟用户达2亿，官方DSA数据略低，可能存在统计口径差异。",
+        "sources": [
+          {
+            "label": "Yahoo Tech: TikTok continues to add users in EU",
+            "href": "https://tech.yahoo.com/social-media/articles/tiktok-continues-add-users-eu-185002876.html"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "组织 · 海外 · 美国",
+        "title": "TikTok计划裁员250人并关闭纳什维尔办公室",
+        "conclusion": "据Yahoo Tech转引《纽约时报》报道，TikTok计划于10月裁员250人并关闭其美国田纳西州纳什维尔办公室。该办公室部分为内容审核团队所在地，公司称此举旨在精简运营、促进长期增长。",
+        "metrics": [
+          "裁员人数：250人",
+          "关闭办公室：纳什维尔",
+          "执行时间：2026年10月"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech转引《纽约时报》，属于可靠媒体独家报道。",
+        "impact": "轻度负面，裁员规模较小（约占TikTok美国员工比例不高），但关闭办公室显示TikTok在美持续优化成本结构。对整体估值影响有限。",
+        "caveat": "裁员原因未明确说明，可能与AI替代或业务调整有关。",
+        "sources": [
+          {
+            "label": "Yahoo Tech: Tech layoffs 2026: Tracking the job losses across TikTok, Apple, Meta, Microsoft, Oracle and others",
+            "href": "https://tech.yahoo.com/general/article/tech-layoffs-2026-tracking-the-job-losses-across-tiktok-apple-meta-microsoft-oracle-and-others-144545528.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "产品 · 国内 · 抖音",
+        "title": "抖音8月31日晚出现推荐算法异常及服务中断，已修复",
+        "conclusion": "据虎嗅资讯转引用户反馈，8月31日晚抖音平台突发大规模服务异常，用户刷到与偏好明显不符的视频（如养生、AI短剧等），部分用户出现卡顿、加载失败。9月1日“抖音推荐 难看”登上热搜，抖音客服回应称已加急排查，建议重启APP。豆包表示故障已基本修复。",
+        "metrics": [
+          "事件时间：2026-08-31晚间",
+          "热搜：抖音推荐 难看（2026-09-01）",
+          "状态：已修复"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "虎嗅资讯社区转述用户反馈及抖音客服回应，缺乏官方正式公告，信源等级较低。",
+        "impact": "轻度负面，短期影响用户体验和广告投放效果，但已修复，对长期运营影响有限。",
+        "caveat": "未获抖音官方正式故障公告，具体原因和影响范围不明。",
+        "sources": [
+          {
+            "label": "虎嗅 · 资讯: 字节小报 字节跳动对抗互联网老巨头",
+            "href": "https://www.huxiu.com/moment/"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "AI · 办公 · 国内",
+        "title": "QuestMobile报告：抖音办公Agent TRAE Work月活190.4万，AI办公三足鼎立",
+        "conclusion": "据36氪发布的QuestMobile 2026年AI平台发展研究报告，截至2026年7月，抖音旗下办公Agent TRAE Work PC客户端月活跃用户规模为190.4万，腾讯WorkBuddy为658.2万，阿里千问办公为23万。报告指出抖音将TRAE Work与扣子、豆包整合，独立发布“豆包工作”并与飞书深度打通。",
+        "metrics": [
+          "TRAE Work月活：190.4万（2026年7月）",
+          "腾讯WorkBuddy月活：658.2万",
+          "阿里千问办公月活：23万",
+          "AI效率办公赛道总月活：1.02亿"
+        ],
+        "sourceGrade": "B−",
+        "sourceNote": "36氪发布QuestMobile第三方研究报告，数据为估算，但来源为专业研究机构。",
+        "impact": "轻度正面，显示抖音在AI办公赛道已占据一定份额，但与腾讯差距较大。豆包与飞书深度整合可能提升企业服务竞争力。",
+        "caveat": "月活数据为PC客户端，未包含移动端；整体AI办公赛道仍早期，格局未定。",
+        "sources": [
+          {
+            "label": "36氪: QuestMobile 2026年 AI 平台发展研究报告",
+            "href": "https://www.36kr.com/p/3964203537865990"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok欧盟用户增长趋势及DSA合规进展",
+      "TikTok美国裁员及运营调整后续",
+      "抖音推荐算法异常原因及修复效果",
+      "抖音办公Agent TRAE Work用户增长及与飞书整合进展",
+      "字节跳动AI办公赛道竞争格局变化"
+    ]
+  },
+  {
     "date": "2026-08-31",
     "displayDate": "08 / 31",
     "verifiedAt": "北京时间 2026-08-31 13:49",
