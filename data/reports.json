@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-02",
+    "displayDate": "09 / 02",
+    "verifiedAt": "北京时间 2026-09-02 12:48",
+    "status": "TikTok同意支付4亿美元和解美国司法部儿童数据诉讼",
+    "verdict": "今日增量：TikTok同意支付4亿美元，与美国司法部就涉嫌非法收集13岁以下儿童数据的诉讼达成和解。该和解待法院批准，对TikTok财务影响有限，但凸显其在美国面临的持续监管压力。其他业务线无重大新增信息。",
+    "top": [
+      "TikTok同意支付4亿美元和解美国司法部儿童数据诉讼"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "监管 · 诉讼 · 海外 · 美国",
+        "title": "TikTok同意支付4亿美元和解美国司法部儿童数据诉讼",
+        "conclusion": "据Yahoo Finance报道，TikTok已同意支付4亿美元，就美国司法部指控其收集13岁以下儿童数据、违反《儿童在线隐私保护法》(COPPA)的诉讼达成和解。和解协议尚待法院批准。",
+        "metrics": [
+          "和解金额：4亿美元",
+          "报道时间：2026-09-02"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Finance报道，未提供TikTok官方声明，但为可靠媒体转述。",
+        "impact": "轻度负面，4亿美元罚款对TikTok整体财务影响有限，但表明TikTok在美国面临持续监管压力，可能影响其声誉和运营。和解消除了部分法律不确定性，长期对TikTok有利。",
+        "caveat": "待TikTok官方确认及法院批准。",
+        "sources": [
+          {
+            "label": "Yahoo Finance: TikTok agrees to pay $400 million to settle DOJ suit over data from children under 13",
+            "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTHJzdnVheWZkejBpeHRlamdBMk5kLWJ6VW9iYzFMeDFaSmRLUTlUQWtxcW9oOE1tRXVjbzNZUVp5VDZhOWtQN3FRYmRfdnh0dlFIOG5qdDQ5YXpIUm93b3BJNUdiVThHTDVtcHZUSW9WUXc2ZGpfbGE4aHVNcFEzV2hpUTBYb2ZUbmlLd0NrVUxQR09RVE9JbkZaVm1jQQ?oc=5"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok美国儿童数据诉讼和解后续及法院批准进展",
+      "TikTok美国监管合规措施及COPPA执行情况",
+      "字节跳动AI业务Seedance商业化进展（36氪深度报道）"
+    ]
+  },
+  {
     "date": "2026-09-01",
     "displayDate": "09 / 01",
     "verifiedAt": "北京时间 2026-09-01 13:22",
