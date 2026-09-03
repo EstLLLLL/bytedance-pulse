@@ -1,5 +1,145 @@
 [
   {
+    "date": "2026-09-03",
+    "displayDate": "09 / 03",
+    "verifiedAt": "北京时间 2026-09-03 12:47",
+    "status": "字节跳动获得300亿美元贷款，为亚洲今年第二大贷款",
+    "verdict": "今日重大增量：ByteDance获得300亿美元贷款，为亚洲今年第二大贷款（Bloomberg/Yahoo Finance），增强公司财务灵活性。TikTok退出美国众议院国家安全会议，避免回答儿童安全问题，凸显监管压力。此外，历史重要补漏：8月字节年中全员会，梁汝波定调豆包为主干业务，坚持自研大模型；抖音电商过去一年GMV增速34%，上半年增速近20%，货架场占比持续提升。TikTok 8月裁员250人并关闭纳什维尔办公室。其他业务线无重大新增。",
+    "top": [
+      "ByteDance获得300亿美元贷款，亚洲今年第二大贷款",
+      "TikTok退出美国众议院国家安全会议，避免回答儿童安全问题",
+      "字节年中全员会：梁汝波定调豆包为主干业务，坚持自研大模型"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "资本配置 · 融资",
+        "title": "ByteDance获得300亿美元贷款，为亚洲今年第二大贷款",
+        "conclusion": "据Bloomberg和Yahoo Finance报道，ByteDance获得一笔300亿美元贷款，是亚洲今年第二大贷款。该贷款将用于一般公司用途，增强财务灵活性。",
+        "metrics": [
+          "300亿美元",
+          "亚洲今年第二大贷款",
+          "报道时间：2026-09-03 02:26 UTC"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Bloomberg独家报道，Yahoo Finance转载，字节跳动官方未确认。",
+        "impact": "正面，提升公司流动性，可能用于AI CapEx、海外扩张或ESOP回购；但同时增加财务杠杆，需关注利率和条款。",
+        "caveat": "未披露具体条款、利率和用途，待官方确认。",
+        "sources": [
+          {
+            "label": "Bloomberg: ByteDance Gets $30 Billion Loan, Asia’s Second-Largest This Year",
+            "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDZ5TS16SGlnZnEwdVRGM3FQQXI4X3lmU21YUm9wSXpGWFdkYnlMQU9jNnEyRllQTkZJa3hRZ3lRZDRaV3VpMXZfYzhnNW10cnpkeFdncWZzZmJRM25URkhGR1pxYmctaGp5MkhhcDNRM0wyUTQxdmF6SHVlMWw1MTE1bk9udUZoWEtGNG5abk5CM2liVDlvWGdmVnQ1NG1xaWFIWGRYSjhUSnJpYjZfOFE5OA?oc=5"
+          },
+          {
+            "label": "Yahoo Finance: ByteDance Gets $30 Billion Loan, Asia’s Second-Largest This Year",
+            "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSUNadGlRY1lFcVh3a0hReERzU2VwelJCa19vdGhram5nZzZCMHV2SWhxVGI3SF9LQmFzVFFoakhhSm1xekZGaFZLZlVmdExrbzdvV1FWQTBaWWdjU0NIOG9UOU5DUE5yNmF2c2V6NVBjb0RPQzdWUUxDc1MxMFFkTDAtVjI2dWZBdnN4c2Z2d2hlVmRBUFFKem1n?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "监管 · 诉讼 · 海外 · 美国",
+        "title": "TikTok退出美国众议院国家安全会议，避免回答儿童安全问题",
+        "conclusion": "据Yahoo Finance UK报道，TikTok退出一场与美国众议院举行的国家安全会议，以避免回答关于儿童安全的问题。同日Market Chatter也报道TikTok退出众议院国家安全会议。这是继昨日4亿美元和解后的又一事件，显示TikTok与美国立法者关系紧张。",
+        "metrics": [
+          "Yahoo Finance UK报道时间：2026-09-02 22:24 UTC",
+          "Market Chatter报道时间：2026-09-02 23:38 UTC"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Finance UK和Market Chatter报道，均引用内部消息，无TikTok官方声明。",
+        "impact": "负面，加剧美国监管不确定性，可能影响TikTok美国运营和品牌声誉，投资者需关注后续立法行动。",
+        "caveat": "未确认TikTok退出会议的具体原因，官方未回应。",
+        "sources": [
+          {
+            "label": "Yahoo Finance UK: TikTok Backs Out of House Meeting to Avoid Kids Safety Questions",
+            "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRXdjY2RMWlVLcWNoN3ZCX1R5cFhhSzRINTZLNTN3bldpaHdYQjAxcW94LUtHSUttY2M4QVNEeTZHVWdheHY5LXlXdEMxSzFieDRhUWtPVTlQS0dkbGpZeTJhOEdYczl5bUZwQ1FhT29veFNZQ3pZcklfV3YyZ2xYNjdhcXhWaXNx?oc=5"
+          },
+          {
+            "label": "Yahoo Finance: Market Chatter: TikTok Pulls out of House National Security Meeting",
+            "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNWlPSXFRTzM3ZnFCOVJPeXczUUJyNVBKVVhKcXZEZ3dHR3RJTEtYRWpRNHYwYmZkaFRlTzNDUnVrX3VESmRJcFB5ZlZ0WWlEOVJIYWFsMXkyWjUtNW9qM0NpZ0VlT29Xdm0waFJ4WXdYbkNETzhuQnJqdUc2WGVKSzhXcXpBQjJodmRHZmdOdGZMbV9QNEN3UlRvdDhHU2QtQ2xj?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "集团战略 · AI · 组织",
+        "title": "字节年中全员会：梁汝波定调豆包为主干业务，坚持自研大模型，接受短期落后",
+        "conclusion": "据凤凰网等多家媒体报道，2026年8月字节跳动召开年中全员会，CEO梁汝波表示希望未来豆包（Doubao）成为集团主干业务，大语言模型将坚持自研，接受短期落后于竞争对手。张一鸣此前也定调AI战略。该会议在8月6日前后被报道，今日首次被扫描收录。",
+        "metrics": [
+          "报道时间：2026-08-06",
+          "全员会召开时间：2026年8月"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "凤凰网、东方财富网、新浪财经等多家中文媒体转述，非字节官方确认，但多源一致。",
+        "impact": "正面，明确AI战略方向，豆包成为核心，且坚持自研表明长期投入，接受短期落后避免过度竞争，利于聚焦。",
+        "caveat": "为媒体转述，未获字节官方确认，具体细节可能不完整。",
+        "sources": [
+          {
+            "label": "凤凰网：张一鸣定调后，字节开了一场全员会!CEO梁汝波：希望未来豆包是\"主干\"业务，大语言模型会坚持自研，接受短期落后",
+            "href": "https://news.ifeng.com/c/8vNDHjaofDO"
+          },
+          {
+            "label": "东方财富网：今年字节跳动的年中全员会上 梁汝波都说了什么？",
+            "href": "https://finance.eastmoney.com/a/202608063833971034.html"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "电商 · 抖音 · 经营数据",
+        "title": "抖音电商过去一年GMV增速34%，上半年增速近20%，货架场占比持续提升",
+        "conclusion": "据36氪独家报道，过去一年抖音电商GMV增速34%，2026上半年GMV增速近20%，继续放缓但优于大盘；货架场GMV占比持续提升，年度新战略为商家减负增收。",
+        "metrics": [
+          "过去一年GMV增速：34%",
+          "2026年上半年GMV增速：近20%",
+          "报道时间：2026-08-05"
+        ],
+        "sourceGrade": "B-",
+        "sourceNote": "36氪独家报道，非官方数据，可能为第三方估算或内部流出的粗略数字。",
+        "impact": "正面，增速虽放缓但仍高于行业平均，货架场占比提升优化电商结构，有助于提升take rate和利润。",
+        "caveat": "非官方数据，准确性待验证。",
+        "sources": [
+          {
+            "label": "36氪独家：过去一年抖音电商gmv增速 34%，年度新战略是商家减负增收",
+            "href": "https://www.36kr.com/p/3480136952077441"
+          },
+          {
+            "label": "腾讯新闻：抖音电商上半年GMV增速近20%，继续放缓但优于大盘",
+            "href": "https://news.qq.com/rain/a/20260805A09FMH00"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "海外 · TikTok · 运营重组",
+        "title": "TikTok 8月裁员250人，关闭纳什维尔办公室",
+        "conclusion": "据Yahoo Tech 9月2日更新的文章，TikTok在8月裁员250人，并关闭纳什维尔办公室，该办公室主要用于内容审核。这是TikTok美国业务重组的一部分。",
+        "metrics": [
+          "裁员规模：250人",
+          "关闭纳什维尔办公室",
+          "报道时间：2026-09-02"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech引用纽约时报报道，TikTok USDS联合声明确认。",
+        "impact": "中性偏负面，显示TikTok在美业务持续调整，可能因监管压力或成本优化，对长期运营效率有利。",
+        "caveat": "为8月事件，非今日新发生，但今日首次被扫描收录。",
+        "sources": [
+          {
+            "label": "Yahoo Tech: Tech layoffs 2026 (TikTok section)",
+            "href": "https://tech.yahoo.com/general/article/tech-layoffs-2026-tracking-the-job-losses-across-uber-apple-tiktok-meta-microsoft-oracle-and-others-144545528.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "300亿美元贷款的具体用途、利率及条款，是否用于AI CapEx或ESOP回购",
+      "TikTok与美国众议院关系后续，是否会有进一步立法或执法行动",
+      "豆包DAU/MAU、收入及Token调用量数据，验证主干业务战略",
+      "抖音电商下半年GMV增速及货架场占比变化，关注商家减负增收战略效果",
+      "TikTok美国业务重组进展，是否还有更多裁员或办公室关闭"
+    ]
+  },
+  {
     "date": "2026-09-02",
     "displayDate": "09 / 02",
     "verifiedAt": "北京时间 2026-09-02 12:48",
