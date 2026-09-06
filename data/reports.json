@@ -1,5 +1,89 @@
 [
   {
+    "date": "2026-09-06",
+    "displayDate": "09 / 06",
+    "verifiedAt": "北京时间 2026-09-06 12:52",
+    "status": "历史补漏：字节8月6日全员会梁汝波表态接受AI短期落后；GPT-6 Astra调用字节Seedance 2.5",
+    "verdict": "今日无重大增量新事件。新增一项历史重要补漏：字节2026年8月6日年中全员会，CEO梁汝波表示接受大模型短期落后、坚持自研，并回应豆包、飞书、火山引擎整合。此外，OpenAI GPT-6 Astra可调用字节Seedance 2.5生成视频，显示Seedance在AI视频生态中的工具地位。TikTok上线评论语音、投票等新功能属常规迭代。整体经营、资本、监管面无新变化。",
+    "top": [
+      "历史补漏：字节8月6日全员会梁汝波表态接受AI短期落后、坚持自研"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "组织·战略·全员会",
+        "title": "历史补漏：字节2026年8月6日年中全员会，梁汝波表态接受AI短期落后、坚持大模型自研",
+        "conclusion": "据新浪财经、腾讯新闻等多源报道，2026年8月6日字节跳动举行年中全员会，CEO梁汝波明确表示大语言模型接受短期落后，坚持优化长期；同时回应豆包、飞书、火山引擎整合，称组织调整是为了集中资源。该全员会为首次公开报道，属于历史重要补漏。",
+        "metrics": [
+          "全员会日期：2026年8月6日",
+          "梁汝波核心表态：大语言模型接受短期落后，坚持自研",
+          "组织调整回应：豆包、飞书、火山引擎整合"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "新浪财经、腾讯新闻、东方财富等多源独立报道，内容一致，可信度较高。",
+        "impact": "向内外传递字节AI战略定力，稳定团队信心；但短期业绩压力与AI投入矛盾仍存，需持续观察。",
+        "caveat": "全员会具体经营数字未披露，利润下滑70%为另一信源，此处未直接关联。",
+        "sources": [
+          {
+            "label": "新浪财经：字节举行年中全员会 梁汝波：接受短期落后 坚持大模型自研",
+            "href": "https://finance.sina.com.cn/jjxw/2026-08-06/doc-inimkfvp0704798.shtml"
+          },
+          {
+            "label": "腾讯新闻：今年字节跳动的年中全员会上，CEO梁汝波都说了什么？一文读懂",
+            "href": "https://news.qq.com/rain/a/20260806A0BSJ400"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "AI生态·视频模型",
+        "title": "GPT-6 Astra调用字节Seedance 2.5生成视频，Seedance成为AI视频创作工具链一环",
+        "conclusion": "36氪/量子位报道，网友让GPT-6 Astra担任导演，使用字节Seedance 2.5生成动画短片，GPT-6还能调用Seedance配合其他模型完成跨语言短剧本地化。Seedance被GPT-6、Fable 5.1、Gemini 3.8等模型调用，体现其生态位。",
+        "metrics": [
+          "事件时间：2026年9月6日",
+          "涉及模型：GPT-6 Astra + Seedance 2.5"
+        ],
+        "sourceGrade": "B-",
+        "sourceNote": "36氪/量子位报道，基于网友实验，非字节官方公告，但展示了产品实际能力。",
+        "impact": "正面：Seedance作为视频生成工具被主流AI生态接纳，有利于扩大品牌影响力和开发者使用。但对营收贡献极小。",
+        "caveat": "属于社区实验性质，非字节正式商业合作，不宜过度解读。",
+        "sources": [
+          {
+            "label": "36氪：GPT-6最佳拍档＝字节Seedance",
+            "href": "https://www.36kr.com/p/3971407306141955"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "产品更新·TikTok",
+        "title": "TikTok上线语音评论、投票、照片轮播等评论新功能",
+        "conclusion": "Yahoo Tech报道，TikTok宣布推出语音评论（最长60秒）、创作者投票、最多9张照片轮播评论以及Live Photos支持，旨在提升用户互动。",
+        "metrics": [
+          "发布日期：2026年9月3日-4日",
+          "语音评论上限：60秒"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech报道，TikTok官方公告，信源可靠。",
+        "impact": "常规产品迭代，有助于提升用户参与度和时长，但对财务影响甚微，不构成重大事件。",
+        "sources": [
+          {
+            "label": "Yahoo Tech: TikTok is adding voice replies, polls and photo galleries to comments",
+            "href": "https://tech.yahoo.com/apps/article/tiktok-is-adding-voice-replies-polls-and-photo-galleries-to-comments-145308252.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "296亿美元贷款资金使用进度与AI资本开支实际落地情况",
+      "2025年净利润数据是否得到字节官方确认，以及后续季度利润趋势",
+      "豆包工作与飞书整合后的产品体验与市场反应，对比腾讯WorkBuddy竞争态势",
+      "华为昇腾芯片供应与英伟达H200审批进展对算力建设的影响",
+      "模型权重出口管制政策进展，是否影响字节AI海外布局",
+      "字节Seedance在AI视频生态中的商业化进展及与OpenAI、Anthropic模型合作深度"
+    ]
+  },
+  {
     "date": "2026-09-05",
     "displayDate": "09 / 05",
     "verifiedAt": "北京时间 2026-09-05 12:42",
