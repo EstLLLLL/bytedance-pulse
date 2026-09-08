@@ -1,5 +1,131 @@
 [
   {
+    "date": "2026-09-08",
+    "displayDate": "09 / 08",
+    "verifiedAt": "北京时间 2026-09-08 12:54",
+    "status": "有重大增量：彭博报道字节跳动加入世界模型竞速；张一鸣被传亲自带队实时世界模型；296亿美元银团贷款细节浮出",
+    "verdict": "今日新增多项重大信息。彭博社报道字节跳动加入AI精英竞速完善世界模型，表明AI战略投入持续加码。36氪多篇文章披露张一鸣亲自带队打造实时世界模型，若属实为重大组织/战略信号，但目前仅单一信源。字节296亿美元银团贷款细节陆续曝光，为2026年亚洲第二大美元贷款，资金用途预计投向AI基础设施，对资本配置和债务结构影响深远。此外，TikTok裁员250人并关闭纳什维尔办公室属常规运营调整。整体而言，今日增量涉及AI方向、资本运作和核心人员，对股东判断有实质影响。",
+    "top": [
+      "彭博报道字节跳动加入世界模型竞速",
+      "字节296亿美元银团贷款细节浮出"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "AI战略·世界模型",
+        "title": "彭博：ByteDance Joins AI Elite in Race to Perfect World Models",
+        "conclusion": "彭博社于2026年9月8日报道，字节跳动加入AI精英行列，竞相完善世界模型（World Models）。该报道出现在Bloomberg Technology板块，属于头部媒体编辑位，表明字节在AI前沿研究领域的布局受到全球关注。",
+        "metrics": [
+          "报道日期：2026-09-08",
+          "来源：Bloomberg.com"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Bloomberg为全球头部财经媒体，报道可信度高。但扫描器未抓取正文，仅标题片段，具体细节待确认。",
+        "impact": "正面信号：字节AI战略持续深入，世界模型是通往通用人工智能的关键路径，投入可能加大。对股东而言，AI愿景增强但短期财务压力同步上升。",
+        "caveat": "报道具体内容未知，需关注字节在世界模型领域的具体进展、团队规模和预算。",
+        "sources": [
+          {
+            "label": "Bloomberg: ByteDance Joins AI Elite in Race to Perfect World Models",
+            "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbTNscGYxNUFIUms5a0tuUG5scnBtam96SUNVVk14OUtIZFNzOGxQZnNUTWw5SERDdjBweldhWXA3SWxZRUgwYW1aTXFjeWtPSERWTU85cGJSV3lJY1hJRU1WUVc2V01PUEU5V0NEb1AzNkFpek82dUVTM1hGaUlJWWhRX0cwZGtSck1mWVRZOTRmOFVDaUJNWEh2SXJ4b2VfNGYtVTJsWkFmWXNUdVFxRFVLamxkUQ?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "资本配置·银团贷款",
+        "title": "历史补漏：字节跳动获296亿美元银团贷款，为2026年亚洲第二大美元贷款",
+        "conclusion": "据36氪等多家中文媒体报道，字节跳动于2026年9月初完成一笔296亿美元（约合2100亿元人民币）的银团贷款，仅次于软银集团3月的400亿美元过桥贷款，为2026年亚洲第二大美元贷款交易。该贷款资金预计将用于AI基础设施建设和算力投资。",
+        "metrics": [
+          "贷款金额：296亿美元",
+          "排名：2026年亚洲第二大美元贷款",
+          "报道时间：2026年9月3日-5日"
+        ],
+        "sourceGrade": "B-",
+        "sourceNote": "36氪、投行圈子等多源报道，内容一致，但字节官方未确认。信源为财经媒体转述，可信度中等。",
+        "impact": "重大：巨额贷款将显著增加字节债务杠杆，但为企业AI CapEx提供充足弹药。若用于数据中心和芯片采购，可加速AI能力建设；但利息支出将侵蚀利润，股东需关注债务可持续性。",
+        "caveat": "贷款具体条款（利率、期限、抵押）未披露，资金用途仅推测，需官方确认。",
+        "sources": [
+          {
+            "label": "36氪：字节拿到296亿美元“弹药”",
+            "href": "https://www.36kr.com/motif/327686225921"
+          },
+          {
+            "label": "36氪：字节跳动拿下2100亿",
+            "href": "https://www.36kr.com/motif/327686225921"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "组织·战略·AI",
+        "title": "张一鸣被传亲自带队打造字节跳动实时世界模型",
+        "conclusion": "36氪专题页面及Tech商业文章报道，张一鸣正在亲自打造字节跳动的实时世界模型，并可能在下月推出。若属实，意味字节创始人回归一线主导AI核心研发，组织层级扁平化，战略优先级极高。",
+        "metrics": [
+          "报道时间：2026年9月8日",
+          "涉及产品：实时世界模型"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "仅36氪转载的Tech商业文章标题提及，未抓取正文细节。单一信源，且为自媒体转述，真实性待验证。",
+        "impact": "若为真，将极大提振市场对字节AI能力的信心，并可能加速世界模型产品化；但需警惕过度解读。",
+        "caveat": "目前仅标题传闻，无官方确认，无第二信源。需进一步核实。",
+        "sources": [
+          {
+            "label": "36氪·字节跳动的版图：张一鸣正在亲自打造字节跳动的实时世界模型",
+            "href": "https://www.36kr.com/motif/327686225921"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "运营·TikTok",
+        "title": "历史补漏：TikTok裁员250人并关闭纳什维尔办公室",
+        "conclusion": "据Yahoo Tech引述纽约时报报道，TikTok于2026年8月裁员250人，并关闭位于田纳西州纳什维尔的办公室，该办公室涉及部分内容审核团队。裁员旨在精简运营。",
+        "metrics": [
+          "裁员人数：250人",
+          "闭店：纳什维尔办公室",
+          "报道时间：2026年9月4日（更新）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech报道，援引纽约时报，信源可靠。",
+        "impact": "轻微：250人规模较小，反映TikTok在美运营持续优化，不影响核心业务。",
+        "caveat": "裁员原因未明确是否与AI替代或成本削减直接相关。",
+        "sources": [
+          {
+            "label": "Yahoo Tech: Tech layoffs tracker 2026: All the job losses across Uber, Apple, TikTok, Meta, Microsoft, Oracle and others",
+            "href": "https://tech.yahoo.com/general/article/tech-layoffs-tracker-2026-all-the-job-losses-across-uber-apple-tiktok-meta-microsoft-oracle-and-others-144545528.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "AI算力·行业对标",
+        "title": "南华早报：中国AI巨头支出远低于美国同行但仍缩小算力差距",
+        "conclusion": "南华早报9月6日报道，中国AI巨头（包括字节跳动）在AI资本支出上远低于美国同行，但通过优化效率和国产芯片替代，正在缩小算力差距。该报道为行业分析，未提供字节具体数据。",
+        "metrics": [
+          "报道日期：2026-09-06"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "南华早报为可靠媒体，但文章为行业综述，非字节独家。",
+        "impact": "中性：印证字节AI投入效率较高，但长期仍需大量资金维持竞争力。",
+        "caveat": "无字节具体数据，仅行业背景。",
+        "sources": [
+          {
+            "label": "SCMP: Why China’s AI giants spend far less and still shrink compute gap with US rivals",
+            "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbXdoZ0Q2RU9PbUhPYkxvNG9FejJIRUpLVEJiNXJZS2xQSFhxbS1ybGcyTlFrckR5VGU5SzhwV2tVTkY5ZUZGaDdVTDBCVGpRT3pJSFdJMngwMzJPWlkxaE5lVEhWMndiVjdidGg5VmUyelRwWmlSeUVvdzJSdXBpZ2EzUUZOMlpmZllZcXl6TkFzaFVCYzdZZWxrdHNMbl9JMzJYNWFacjZMQVlXOExxbU05clN3dkprNm43U2ZDQmdqQlJUemNWWEs5ZlDSAcwBQVVfeXFMUG13aGdENkVPT21IT2JMbzRvRXoySEVKS1RCYjVyWUtsUEhYcW0tcmxnMk5Ra3JEeVRlOUs4cFdrVU5GOWVGRmg3VUwwQlRqUU96SUhXSTJ4MDMyT1pZMWhOZVRIVjJ3YlY3YnRoOVZlMnpUcFppUnlFb3cyUnVwaWdhM1FGTjJaZmZZWXF5ek5Bc2hVQmM3WWVsa3RzTG5fSTMyWDVhWnI2TEFZVzhMcW1NOXJTd3ZKazZuN1NmQ0JnakJSVHpjVlhLOWZQ?oc=5"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "张一鸣亲自带队世界模型进展，是否有官方确认或更多媒体跟进",
+      "296亿美元贷款资金使用明细与AI CapEx落地节奏",
+      "TikTok美国业务剥离后运营数据（用户、营收、广告份额）",
+      "字节AI模型（Seedance/Seedream）商业化进展与外部合作",
+      "飞书与豆包整合后产品协同效果及市场反馈",
+      "中国AI芯片出口管制对字节算力建设的影响"
+    ]
+  },
+  {
     "date": "2026-09-06",
     "displayDate": "09 / 06",
     "verifiedAt": "北京时间 2026-09-06 12:52",
