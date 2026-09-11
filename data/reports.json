@@ -1,5 +1,64 @@
 [
   {
+    "date": "2026-09-11",
+    "displayDate": "09 / 11",
+    "verifiedAt": "北京时间 2026-09-11 12:54",
+    "status": "新增两条：抖音生活服务H1交易额超6000亿；TikTok在葡萄牙因成瘾设计被起诉。",
+    "verdict": "今日扫描结果显示两个增量事件。1) 虎嗅网援引消息称抖音生活服务2026年上半年交易额超6000亿元，并提及字节跳动战略转向AI。这是本地生活业务的重要规模数据，此前未公开披露，可佐证该业务增速与集团资源再分配方向。2) Reuters报道葡萄牙团体D3对Meta、TikTok和YouTube提起成瘾设计诉讼，TikTok再次面临欧洲合规挑战。诉讼规模及具体诉求待观察，但增加监管不确定性。昨日关注的抖音时长登顶、TikTok裁员、商务部AI蒸馏回应等事件今日无实质更新。总体而言，今日信息量偏低，有两条中等重要性线索。",
+    "top": [
+      "抖音生活服务2026上半年交易额超6000亿元",
+      "TikTok在葡萄牙因成瘾设计被起诉"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "经营数据·抖音本地生活",
+        "title": "虎嗅网：抖音生活服务2026年上半年交易额超6000亿元，字节跳动战略转向AI",
+        "conclusion": "据虎嗅网报道，抖音生活服务2026年上半年交易额超过6000亿元。该报道同时指出字节跳动战略重心转向AI。这是抖音本地生活业务的关键经营数字，此前集团未官方披露该数据。",
+        "metrics": [
+          "2026年上半年：交易额超6000亿元",
+          "报道日期：2026-09-11"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "虎嗅网通过Google News RSS snippet发布，仅见标题，无全文。信源为单一媒体，可靠性待验证。",
+        "impact": "中度正面。6000亿半年交易额显示抖音生活服务仍在高速增长，但集团战略转向AI意味着该业务的资源倾斜可能放缓。该数据有助于市场评估字节本地生活竞争力及盈利前景。",
+        "caveat": "缺乏官方确认和详细构成（GMV口径、佣金收入等），且报道来源为二手摘要，可能不完整。",
+        "sources": [
+          {
+            "label": "虎嗅网 via Google News",
+            "href": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TaTJyeURKM2J0cVdrQ1VnSjBGa0Fpc1h2YWtrQm1iQ3pKNW5XNG9fcGtqM3FpNk9JdUo2aHdWQ0xTSldXRmt1SWVZTjF5V3Mza2c?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "监管·TikTok",
+        "title": "Reuters：葡萄牙团体D3起诉Meta、TikTok和YouTube成瘾设计",
+        "conclusion": "葡萄牙团体D3向法院起诉Meta、TikTok和YouTube，指控其平台设计具有成瘾性。该诉讼是TikTok在欧洲面临的又一法律挑战，可能影响其用户增长模式和内容推荐算法合规成本。",
+        "metrics": [
+          "起诉方：Portuguese group D3",
+          "报道日期：2026-09-11"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Reuters报道，属可靠国际通讯社。诉讼内容未全文披露，仅从标题获知涉及成瘾设计。",
+        "impact": "轻微负面。单一诉讼短期内不构成重大风险，但若欧洲多国跟进或胜诉，可能迫使TikTok调整产品设计，增加合规成本。需关注后续进展。",
+        "caveat": "诉讼具体诉求、索赔金额及法院受理情况不明。每日成千上万诉讼，多数不会产生实质影响。",
+        "sources": [
+          {
+            "label": "Reuters: Portuguese group D3 sues Meta, TikTok and YouTube over addictive design",
+            "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY1ZUdV8ySE9LN2ZodTVWN21hcC0wOHZ1Ml9oMy1zVGFNY1R2RHo4UWVjV1RGMER4MGJDWllvbFFVbW5TS1VaZTk0WW5QV2RZbHZPMnpXSVhSUlVSUXAwbWdRS1dpVEo4Wk1SU3lUVk5sTkR4V0pHRkhyVU05VFMxTFI1VWYyZlE3dTBRWDVVNVNnZEg0TVByVWg5QlMzaU1wRGxoTW9uYmtKTUxJTm5HUQ?oc=5"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "抖音生活服务上半年交易额数据是否得到官方或第三方验证，后续季度增速变化",
+      "葡萄牙D3诉讼是否进入审理程序，以及是否引发其他欧洲国家类似诉讼",
+      "TikTok裁员250人执行情况与后续组织调整",
+      "中美AI蒸馏问题后续政策走向及对字节AI业务影响"
+    ]
+  },
+  {
     "date": "2026-09-10",
     "displayDate": "09 / 10",
     "verifiedAt": "北京时间 2026-09-10 12:57",
