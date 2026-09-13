@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-13",
+    "displayDate": "09 / 13",
+    "verifiedAt": "北京时间 2026-09-13 13:02",
+    "status": "新增一条：TikTok裁员250人并关闭纳什维尔办公室",
+    "verdict": "今日扫描结果显示一个增量事件：TikTok宣布裁员250人（约占员工总数比例较小）并关闭位于田纳西州纳什维尔的办公室，该办公室主要承接内容审核团队。Yahoo Tech报道引用NYT信源。这是TikTok在美国持续进行运营优化的最新动作，可能与其面临的地缘政治压力和成本控制需求相关。此前关注的抖音电商GMV、飞书整合、全员会等事项无实质更新。行业层面，OpenAI宣布今年不上市、Anthropic呼吁AI减速等消息虽不直接影响字节，但可留意AI领域一级市场情绪变化。",
+    "top": [
+      "TikTok裁员250人并关闭纳什维尔办公室"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "组织调整·TikTok美国",
+        "title": "Yahoo Tech：TikTok裁员250人并关闭纳什维尔办公室",
+        "conclusion": "据报道，TikTok将裁员约250人，并于今年10月关闭位于田纳西州纳什维尔的办公室。该办公室部分负责内容审核业务。公司表示此举是为了精简运营、优化团队以实现长期增长。",
+        "metrics": [
+          "裁员人数：约250人",
+          "关闭办公室：田纳西州纳什维尔",
+          "执行时间：2026年10月",
+          "报道日期：2026-09-11（Yahoo Tech更新）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech转载自《纽约时报》（NYT），属于可靠媒体独家报道，但TikTok官方未在新闻室发布声明，仅为媒体引述公司发言人的回应。",
+        "impact": "负面但影响有限。250人占TikTok全球员工比例很小，但关闭纳什维尔办公室可能影响其内容审核与运营效率。此举反映TikTok在美国持续面临监管与经济双重压力下主动控制成本，对短期士气有影响，但不会改变核心业务走向。",
+        "caveat": "报道未说明裁员具体岗位分布及是否涉及中国员工，也未提及未来是否会有进一步裁员。",
+        "sources": [
+          {
+            "label": "Yahoo Tech · Tech layoffs tracker 2026",
+            "href": "https://tech.yahoo.com/general/article/tech-layoffs-tracker-2026-all-the-job-losses-across-uber-apple-tiktok-meta-microsoft-oracle-and-others-144545528.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok美国后续监管动态：是否会有更多裁员或办公室关闭",
+      "飞书整合进豆包的执行细节：人员调整、管理层变更、产品路线图",
+      "抖音电商下半年GMV增速及618后表现",
+      "AI领域竞争：OpenAI IPO推迟、Anthropic呼吁减速，观察字节AI战略（豆包、Seed）是否调整节奏"
+    ]
+  },
+  {
     "date": "2026-09-12",
     "displayDate": "09 / 12",
     "verifiedAt": "北京时间 2026-09-12 12:47",
