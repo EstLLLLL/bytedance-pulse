@@ -1,5 +1,90 @@
 [
   {
+    "date": "2026-09-15",
+    "displayDate": "09 / 15",
+    "verifiedAt": "北京时间 2026-09-15 13:05",
+    "status": "发现三条增量事件",
+    "verdict": "今日扫描发现三条增量事件：Bloomberg确认字节跳动获300亿美元银团贷款（工行、汇丰等参与）；Yahoo Tech裁员追踪文章披露TikTok裁员250人并关闭纳什维尔办公室的具体细节（此前仅有裁员预期）；36氪独家报道字节即将发布独立智能网盘ADrive（火山引擎打造）。前两条为近期重大资本和组织调整的进一步确认，第三条为新产品布局。",
+    "top": [
+      "字节跳动获300亿美元银团贷款（Bloomberg确认）",
+      "TikTok裁员250人及关闭纳什维尔办公室细节",
+      "字节将发布独立智能网盘ADrive"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "资本配置",
+        "title": "字节跳动获300亿美元银团贷款，工行、汇丰等主要银行参与",
+        "conclusion": "Bloomberg报道字节跳动已获得300亿美元银团贷款，工商银行、汇丰银行等为主要贷款方。这是2026年亚洲第二大美元贷款交易，仅次于软银的400亿美元过桥贷款。",
+        "metrics": [
+          "贷款总额：300亿美元",
+          "主要参与行：工商银行、汇丰银行等",
+          "发布时间：2026-09-14"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "Bloomberg独家报道，多名信源确认；多平台转载",
+        "impact": "巨额贷款显著增强字节跳动资本储备，主要用于AI基础设施（算力、数据中心）投入。对股东而言，短期增加财务杠杆，但显示公司对长期AI投入的信心。可能影响一级市场估值预期。",
+        "caveat": "贷款具体条款（利率、期限）未披露；与9月初报道的296亿美元是否为同一笔需进一步确认。",
+        "sources": [
+          {
+            "label": "Bloomberg.com",
+            "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdzhCdEd4d01Sel9ZOXNaX2NNU1gtb1l4MGxWdzB6bF8yTmhYVkl6dW9Kc21WM3ZhdURUd3JpVlV1WDY2VWRpcEw3bFpTRDJCMENBaFpLODBUX005OEs0TlluQmxJbGkzdTZUVmdWVUc5WDRvalhFcmRoX3JQeU1OamJsemtCZ2RjdzRQcngyRm1scUM0TU53MmFWcWFmTElqTEVGYUhMN0dzVE8tTUtyQQ?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "组织调整",
+        "title": "TikTok裁员250人并关闭纳什维尔办公室，内容审核团队受影响",
+        "conclusion": "据纽约时报报道并经Yahoo Tech确认，TikTok将在10月裁员250人并关闭其纳什维尔办公室。该办公室部分负责内容审核，裁员旨在简化运营以促进长期增长。",
+        "metrics": [
+          "裁员人数：250人",
+          "关闭办公室：纳什维尔（田纳西州）",
+          "执行时间：2026年10月",
+          "性质：TikTok USDS联合体运营"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech引用纽约时报报道；单一信源但直接引述官方声明",
+        "impact": "这是TikTok美国业务持续精简的一部分。规模较小（250/数千人），但关闭实体办公室表明公司继续收紧成本、推进远程或集中化运营。对TikTok美国业务营收影响有限，但可能反映对监管环境的适应性调整。",
+        "caveat": "具体受影响团队未完全明确；裁员原因未提AI替代，但与行业普遍AI驱动裁减趋势一致。",
+        "sources": [
+          {
+            "label": "Yahoo Tech",
+            "href": "https://tech.yahoo.com/general/article/tech-layoffs-tracker-2026-all-the-job-losses-across-uber-apple-tiktok-meta-microsoft-oracle-and-others-144545528.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "产品发布",
+        "title": "字节跳动将于9月发布独立智能网盘ADrive，火山引擎打造",
+        "conclusion": "36氪独家获悉，字节跳动将在9月发布独立企业智能网盘产品ADrive，由火山引擎打造，主打AI智能体与人类协同办公。产品已开启试用申请，与腾讯网盘形成直接竞争。",
+        "metrics": [
+          "产品名：ADrive（火山引擎）",
+          "发布窗口：2026年9月",
+          "目标场景：AI Agent数据持久化、人机协同办公",
+          "竞品：腾讯网盘"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "36氪独家报道，署名作者“读佳”；单一信源但细节丰富",
+        "impact": "ADrive是字节跳动AI办公生态的重要拼图，与火山引擎云服务、豆包AI深度绑定。短期收入贡献有限，但有助于增强企业客户粘性和AI Agent基础设施布局。对股东而言，属于战略性产品扩展，非核心变现业务。",
+        "caveat": "产品正式发布日期尚未确认；计费模式等细节未完全披露；市场接受度待观察。",
+        "sources": [
+          {
+            "label": "36氪",
+            "href": "https://www.36kr.com/p/3984022571964039"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "300亿美元贷款资金用途：是否按预期投入AI CapEx和数据中心，关注后续Nvidia芯片采购及算力建设",
+      "TikTok美国办公室关闭后续：剩余团队如何调整，是否进一步裁员",
+      "ADrive正式发布日期及第一波用户数据，观察企业客户迁移情况",
+      "字节跳动全员会/内部信：关注是否有关于贷款、组织整合的最新口径"
+    ]
+  },
+  {
     "date": "2026-09-14",
     "displayDate": "09 / 14",
     "verifiedAt": "北京时间 2026-09-14 13:11",
