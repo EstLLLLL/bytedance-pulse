@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-09-17",
+    "displayDate": "09 / 17",
+    "verifiedAt": "北京时间 2026-09-17 13:02",
+    "status": "发现两条增量事件：字节系AI制药公司获2.9亿美元首轮融资，TikTok确认裁员250人并关闭纳什维尔办公室",
+    "verdict": "今日扫描发现两条增量事件：一是字节跳动分拆的AI制药公司新生探途完成2.9亿美元天使轮融资，投后估值15亿美元，字节跳动保留56%控股，这是字节在AI for Science领域的重要资本布局；二是据Yahoo Tech报道，TikTok将在10月裁员约250人并关闭田纳西州纳什维尔办公室，受影响的主要为内容审核团队，体现TikTok美国运营的持续调整。此外Bloomberg报道张一鸣以超千亿美元身家成为亚洲首富，反映字节跳动整体估值在二级市场的映射。三条信息均属增量，其中融资事件对股东理解字节资本配置策略有直接参考价值。",
+    "top": [
+      "字节系AI制药公司新生探途获2.9亿美元首轮融资，字节跳动持股56%保持控股",
+      "TikTok确认裁员250人并关闭纳什维尔办公室，运营调整持续"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "资本配置与资产分拆",
+        "title": "字节系AI制药公司新生探途完成2.9亿美元首轮融资，字节跳动保留56%股份",
+        "conclusion": "据36氪报道，字节跳动分拆的AI制药公司新生探途（Anew Labs）宣布完成2.9亿美元天使轮融资，投后估值15亿美元。字节跳动保留56%股份，保持控股地位。该公司前身为字节跳动内部药物发现团队，2021年组建，2026年6月分拆独立运营，核心团队约50人。融资将用于推进生物分子结构预测、抗体设计优化等平台及IL-17等靶点管线的研发。",
+        "metrics": [
+          "融资金额：2.9亿美元（天使轮）",
+          "投后估值：15亿美元",
+          "字节持股比例：56%",
+          "分拆时间：2026年6月",
+          "报道时间：2026年9月17日"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "36氪独家报道，文章详细引述公司官网及团队背景，字节跳动官方未置评。单一信源但信息完整度高。",
+        "impact": "这是字节跳动在AI for Science领域首次公开的重大资本操作。将内部孵化项目分拆独立融资，既降低集团直接研发成本，又通过控股保留战略协同，为未来潜在IPO或资产增值保留空间。15亿美元估值对应约50人团队，显示了资本市场对AI制药赛道和字节系团队的认可。对股东而言，此举优化了集团资本配置效率，但也意味着字节核心AI能力向外部延展的边界在扩大。需关注后续管线临床进展及是否会有更多AI项目分拆。",
+        "caveat": "天使轮估值较高，但新药研发风险极大，管线尚处于早期阶段，商业化前景不确定。字节官方未确认。",
+        "sources": [
+          {
+            "label": "36氪",
+            "href": "https://www.36kr.com/p/3986974433917701"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "组织与人员",
+        "title": "TikTok确认裁员250人并关闭纳什维尔办公室",
+        "conclusion": "据Yahoo Tech综合报道，TikTok将在10月裁员约250人，并关闭位于田纳西州纳什维尔的办公室。该办公室部分承担内容审核职能，裁员是TikTok美国运营调整的一部分。TikTok美国发言人表示此举旨在简化运营、优化团队以实现长期增长。",
+        "metrics": [
+          "裁员人数：约250人",
+          "关闭办公室：纳什维尔办公室",
+          "执行时间：2026年10月",
+          "信源：The New York Times（转引自Yahoo Tech）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech文章引用NYT报道，且文章位于Yahoo Tech编辑位。多信源交叉（Yahoo Tech自身追踪裁员列表亦包含TikTok条目）。",
+        "impact": "TikTok美国继续收缩运营规模，继此前多次裁员后再次削减约250个岗位。纳什维尔办公室关闭可能影响内容审核等关键职能，但整体规模不大（仅占总员工数很小比例）。对股东而言，这反映了TikTok在美持续面临监管不确定性和成本控制压力，但也表明公司正主动调整组织效率，对长期盈利能力影响中性偏正面。需关注后续是否影响TikTok Shop的内容审核效率。",
+        "caveat": "裁员人数相对TikTok全球数万员工规模较小；关闭办公室的具体原因未明确说明是否与监管或地缘因素有关。",
+        "sources": [
+          {
+            "label": "Yahoo Tech",
+            "href": "https://tech.yahoo.com/general/breaking-news/article/tech-layoffs-2026-tracking-the-job-losses-across-oracle-uber-apple-tiktok-meta-microsoft-and-others-144545528.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "资本估值与市场信号",
+        "title": "彭博报道张一鸣以超千亿美元身家成为亚洲首富",
+        "conclusion": "Bloomberg报道，张一鸣以超1050亿美元净资产超越阿达尼成为亚洲首富。这一财富主要源于其持有的字节跳动股份，间接反映字节跳动估值水平的市场预期。",
+        "metrics": [
+          "张一鸣财富：超1050亿美元",
+          "排名：亚洲首富（超越阿达尼）",
+          "报道时间：2026年9月16日"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "Bloomberg亿万富翁指数官方排名，权威金融数据。36氪亦有转载。",
+        "impact": "张一鸣成为亚洲首富本身就构成了字节跳动估值的市场信号。尽管未获得官方一级市场估值数字，但彭博的财富估算通常基于公开持股和可比公司估值，暗示市场对字节跳动的价值认同处于高位。这对股东而言是正面外部信号，但须注意财富估算与公司实际流动性估值存在差异。",
+        "caveat": "财富估算基于Bloomberg模型，非字节官方确认。个人财富与公司运营及可交易估值未必直接线性对应。",
+        "sources": [
+          {
+            "label": "Bloomberg",
+            "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcHNqc0ZZMG04VjVxZENVcGhEMGlQREJOdlFIeUduSzE3WnI0NkszanhKcm1OYWhOZ3BXRlVYdHF4TENwUWZqZGIzUTRfU0IwbTZhX0ptYkFRbVV6NjRiVGVVLVNwSjE2ZVRYZzJJdHpTQkd6ay1zRnQ4QnVkOVZQY25oM1pvdlpzZUVUWVlyRHU4RmVocC1wdDZoZTNjVWMzRDBOb1NFUUtBLWpqb004OUFwZ1BvQVN3UlZEXzMya3o2VzJOSHB5bGRBRHctQjRn?oc=5"
+          },
+          {
+            "label": "36氪",
+            "href": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBNMGt4d2JQVzdZSGhnbTFfNTJYSkpqM1RiMXFRWmJzejJNVWJnTXpxcUhUcGI2b1ZKb2xwa3FoRXVSUDVCdjUxcGQ5Y2Z0QQ?oc=5"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "字节系AI制药公司新生探途后续融资及管线进展，是否会有更多AI项目分拆",
+      "TikTok美国是否还有进一步裁员或办公室关闭计划，TikTok Shop运营是否受影响",
+      "张一鸣财富变化是否伴随字节跳动一级市场估值调整或员工回购动向",
+      "抖音电商及本地生活最新季度数据是否更新"
+    ]
+  },
+  {
     "date": "2026-09-16",
     "displayDate": "09 / 16",
     "verifiedAt": "北京时间 2026-09-16 13:00",
