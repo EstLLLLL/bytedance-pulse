@@ -1,5 +1,97 @@
 [
   {
+    "date": "2026-09-19",
+    "displayDate": "09 / 19",
+    "verifiedAt": "北京时间 2026-09-19 12:47",
+    "status": "发现三条增量事件：TikTok Shop越南9.9大促日均GMV增70%；TikTok宣布裁员250人并关闭纳什维尔办公室；张一鸣以1050亿美元身家成为亚洲首富",
+    "verdict": "今日扫描发现三条增量信息：一是TikTok Shop越南9.9大促日均GMV同比增长70%，买家数与搜索量均增长约50%，显示海外电商强劲增长；二是TikTok宣布将于10月裁员250人并关闭纳什维尔办公室，为美国业务调整的一部分；三是彭博亿万富翁指数显示张一鸣以1050亿美元身家成为亚洲首富，侧面反映市场对字节跳动的估值预期。无全员会、内部信或组织调整信息。字节296亿美元贷款传闻仍无新确认。",
+    "top": [
+      "TikTok Shop越南9.9大促日均GMV同比增长70%",
+      "TikTok宣布裁员250人并关闭纳什维尔办公室",
+      "张一鸣以1050亿美元身家成为亚洲新首富"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "海外电商与经营数据",
+        "title": "TikTok Shop越南9.9大促日均GMV同比增长70%",
+        "conclusion": "9月3日至10日，TikTok Shop越南9.9大促期间日均GMV同比增长70%，买家数与购物相关搜索量均增长约50%。参与TikTok Choice Award的品牌搜索量增幅比大盘高15%，搜索带来的GMV增幅高出38%。消费者从被动种草转向主动搜索成交。",
+        "metrics": [
+          "日均GMV同比增长：70%",
+          "买家数增长：约50%",
+          "购物相关搜索量增长：约50%",
+          "大促时间：2026-09-03至2026-09-10"
+        ],
+        "sourceGrade": "B-",
+        "sourceNote": "36氪出海周报引用亿恩网消息，非官方直接披露，但数据明确且来自行业媒体转载。",
+        "impact": "这是TikTok Shop在东南亚核心市场（越南）的重要增长信号，表明平台从内容种草到主动成交的转化效率正在提升。对字节海外电商GMV增长逻辑形成正面验证，有助于支撑TikTok整体商业化估值。",
+        "caveat": "数据为单一信源转载，未经TikTok官方证实。且大促期间数据可能存在波动，不代表长期趋势。",
+        "sources": [
+          {
+            "label": "36氪 - 中国公司全球化周报",
+            "href": "https://www.36kr.com/p/3989676934298369"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "组织与海外运营",
+        "title": "TikTok宣布裁员250人并关闭纳什维尔办公室",
+        "conclusion": "据《纽约时报》报道，TikTok将于10月裁员约250人，并关闭位于田纳西州纳什维尔的办公室。该办公室原为部分内容审核团队所在地。TikTok USDS合资企业发言人表示此举是为了“简化运营并更好地调整团队以实现长期增长”。",
+        "metrics": [
+          "裁员人数：约250人",
+          "关闭办公室：纳什维尔，田纳西州",
+          "执行时间：2026年10月",
+          "报道日期：2026-09-18（Yahoo Tech）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech综合报道，引用《纽约时报》消息，信源可靠。同时Yahoo Tech的tech layoffs tracker中包含此信息。",
+        "impact": "这是TikTok美国业务持续调整的一部分，继此前美国数据隔离（USDS）合资公司成立后，进一步优化成本结构。裁员规模较小（占TikTok美国员工比例低），但关闭办公室象征意义较强，可能影响当地团队士气和内容审核效率。对股东而言，这是TikTok美国运营趋于成熟的正常优化动作，短期影响有限。",
+        "caveat": "TikTok官方未直接说明裁员原因，具体部门分布未披露。",
+        "sources": [
+          {
+            "label": "Yahoo Tech - Tech layoffs tracker 2026",
+            "href": "https://tech.yahoo.com/general/breaking-news/article/tech-layoffs-tracker-2026-all-the-job-losses-across-oracle-uber-apple-tiktok-meta-microsoft-and-others-144545528.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "资本配置与市场情绪",
+        "title": "张一鸣以1050亿美元身家成为亚洲新首富",
+        "conclusion": "彭博亿万富翁指数显示，字节跳动创始人张一鸣净资产达到1050亿美元，成为亚洲首富。财富增长主要受AI投资推动——彭博估算字节跳动2024年净利润约310亿美元，2025年约320亿美元。Yahoo Finance和Reuters均对此进行报道，路透社评论称其“在美中风暴中航行”。",
+        "metrics": [
+          "张一鸣身家：1050亿美元",
+          "排名：亚洲首富",
+          "对比：2019年身家约130亿美元，6年增长约8倍",
+          "报道时间：2026-09-17至2026-09-18"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "综合Yahoo Finance（引用彭博数据）和Reuters报道，第三方权威指数，非字节官方披露。",
+        "impact": "张一鸣的个人财富增长反映了字节跳动整体估值的市场预期（尽管2026上半年净利润率下滑）。这对一级市场员工回购定价和潜在IPO估值具有间接锚定作用，但需注意个人财富不等于公司估值。对股东情绪有利好影响。",
+        "caveat": "彭博估算基于有限公开数据（如净利润、行业市盈率等），实际估值可能不同。个人财富与股东可实现的流动性价值存在差异。",
+        "sources": [
+          {
+            "label": "Yahoo Finance - Billionaire TikTok founder is now the richest person in all of Asia",
+            "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONUFiTGxfSl9YRUVXT250cndBbGx6R3ZhdnYtcXhlOXUtcTR5ektqX1V5a3FBMW1rR2RjNG1XSldMVGhNS1ZjNW15ZHpRN19oUjhCbXF0OWh1SE1nUDlqYngyQmtaU0tjZi1fOTFBN0Z5YmhPbGhxU0dERE8wamk5aEpydnFVZmdkZGs0OE5UNTVHYjFuYkdLMDVsZnR1TTlyU1hWOQ?oc=5"
+          },
+          {
+            "label": "Reuters - Breakingviews: Asia's richest man sails through US-China storm",
+            "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaXJCazF1eW9ib1I0R2ZnSHdNZXZJdnNhaFJpQmFfSENyVjlIRFdHMnR0WkZUeXRweE1BVURBTDB2X1NhU1QyQ0pJdHd6VGJKUjRIRUlwbnVrcEIwNi1PMW84SnR0NHg2UktsSFlKUHI4XzQ2R3hEa0VhcV82Y1lybDJ4cEtsM3Y4eDl2dGNwUU1rVUdYQ3NJR2FpaXRfYTBNbml5aExmbnVPT1E?oc=5"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "字节跳动296亿美元贷款传闻的后续确认（利率、期限、用途）",
+      "TikTok美国裁员及办公室关闭对内容审核和广告业务的实际影响",
+      "TikTok Shop越南大促后Q3整体GMV趋势及商家留存",
+      "字节跳动2026年Q3营收与利润率表现（如有高层透露）",
+      "AI投入（CapEx）对下半年利润率的进一步挤压程度",
+      "张一鸣财富变化是否引发一级市场股权交易活跃度"
+    ]
+  },
+  {
     "date": "2026-09-18",
     "displayDate": "09 / 18",
     "verifiedAt": "北京时间 2026-09-18 12:55",
