@@ -1,5 +1,98 @@
 [
   {
+    "date": "2026-09-20",
+    "displayDate": "09 / 20",
+    "verifiedAt": "北京时间 2026-09-20 13:05",
+    "status": "发现三条增量事件：TikTok 4亿美元隐私和解被法院部分阻止；字节上半年净利润率降至16.7%但海外收入占比超30%；字节拆出AI制药公司Anew Labs融资2.9亿美元",
+    "verdict": "今日扫描发现三条增量信息：一是加州法院阻止了TikTok 4亿美元隐私和解协议的部分条款，为美国监管风险再添变数；二是界面新闻援引知情人士称字节跳动2026上半年净利润同比下滑、净利润率降至约16.7%，但营收同比增长30%，海外收入占比超30%，印证AI投入对利润的挤压及海外扩张成效；三是字节拆分的AI制药业务Anew Labs完成2.9亿美元首轮融资，估值约15亿美元，字节仍控股56%。无全员会、内部信或组织调整信息。TikTok裁员250人属昨日已报事件。",
+    "top": [
+      "加州法院阻止TikTok 4亿美元隐私和解部分条款",
+      "字节跳动上半年净利润率降至16.7%，海外收入占比创新高",
+      "字节拆分AI制药公司Anew Labs完成2.9亿美元融资"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "监管与诉讼",
+        "title": "加州法院阻止TikTok 4亿美元隐私和解部分条款",
+        "conclusion": "美国加州法院部分拒绝了TikTok提出的4亿美元隐私集体诉讼和解协议，具体被拒条款未明，但法官示意需修改。该和解原拟解决2021年以来的用户数据隐私索赔。",
+        "metrics": [
+          "和解金额：4亿美元",
+          "报道时间：2026-09-19（Bloomberg、Reuters）",
+          "法院：加州联邦法院"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Bloomberg和Reuters均报道，信源可靠。Yahoo Finance Canada亦引用。",
+        "impact": "TikTok在美国的隐私诉讼风险仍未消除，4亿美元和解受阻意味着公司可能需要支付更高金额或面临更严格的数据合规要求。这对TikTok美国业务的运营成本和监管不确定性构成负面影响。",
+        "caveat": "仅部分条款被阻止，和解并未完全废除，双方可能重新协商。具体被拒条款内容未披露。",
+        "sources": [
+          {
+            "label": "Bloomberg - California Court Blocks Part of TikTok’s $400 Million Settlement",
+            "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQejMxT0JoZ0RJMlIxejBDMTRqV3plSGUyT3FZdFNRTGRwcml3Y3NCTklHa2d1MUJxOXVZRVJBenF5V0d3M0szY3prbFlsb05hZlhibnVpSm5FNGYtRE1CQUZESzMzWGZEM203WFdXMHZxTlhtOThabW1DODdOV2lPZTF6eUxLS2VnbkdrTnl1Smcxa0tXeDN3d3lOWldINVhLMWpqTl9sTkJKQmFIZVotTzgzdlc?oc=5"
+          },
+          {
+            "label": "Reuters - US judge signals rejection of part of TikTok privacy settlement",
+            "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSnBGVERDNWVhWllSTG51NkpYTmtjcGhrWlVtanhqMHdkN0NFNXNJaHVlWloyaUQyRmM0ZnhkdkxCTU9jTm81Y1I0Q0s3cHFuUFBhZjhLUkExaTlKWDNycl8wZXUyQnNiOEgzbk9hSGVxMnVFVWxvc053d244eDB3RHdXZGxTOFVlbnU3RDI5bXhJTnMtQl82Q3prYUNPUWV0cjB0U19XTjE5ZkstV2FZ?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "经营数据与战略",
+        "title": "字节跳动上半年净利润率降至16.7%，海外收入占比创新高",
+        "conclusion": "据知情人士透露，字节跳动2026上半年净利润同比下滑，净利润率降至约16.7%（2024年为21%），但营收同比增长30%，海外收入占比首次超过30%。利润下滑主要因AI领域加大投资。",
+        "metrics": [
+          "2026H1净利润率：约16.7%",
+          "2024年净利润率：21%",
+          "2023年净利润率：26%",
+          "营收同比增长：30%",
+          "海外收入占比：>30%（2025年为30%，2024年为25%）",
+          "报道时间：2026-09-20（界面新闻转载9月16日消息）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "界面新闻引用知情人士，非官方披露，但数据具体且与过往趋势吻合，可信度较高。",
+        "impact": "AI投入持续挤压利润，净利润率明显下滑，反映字节在模型和算力上的巨额资本支出。但营收保持30%增长且海外占比提升，表明TikTok等海外业务的商业化仍在加速。利润与增长的权衡是股东需持续关注的核心矛盾。",
+        "caveat": "数据未经官方证实；净利润率为估算值；下半年AI投入可能继续影响利润率。",
+        "sources": [
+          {
+            "label": "界面新闻 - 界面早报（字节跳动上半年净利润出现下滑，但海外收入占比再创新高）",
+            "href": "https://www.jiemian.com/article/15099386.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "资本配置与业务拆分",
+        "title": "字节拆分AI制药公司Anew Labs完成2.9亿美元融资",
+        "conclusion": "字节跳动旗下AI制药业务Anew Labs（新生实验室）独立完成2.9亿美元首轮融资，投后估值约15亿美元。字节保留56%股份，保持控股。领投方包括HSG（原红杉中国）、IDG资本、高瓴投资。该业务原为字节内部AI for Science药物发现团队。",
+        "metrics": [
+          "首轮融资额：2.9亿美元",
+          "投后估值：约15亿美元",
+          "字节持股比例：56%",
+          "报道时间：2026-09-20（第一财经，事件发生在9月16日）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "第一财经综合市场消息报道，多家媒体转载，未获字节官方确认。",
+        "impact": "字节将非核心AI制药业务拆分独立融资，一方面为集团减负（制药研发周期长、投入大），另一方面通过外部资本杠杆放大价值。字节仍保留控股权，未来若Anew Labs上市或进一步融资，可能带来投资回报。但短期对集团利润无直接贡献。",
+        "caveat": "融资消息尚未得到字节官方或Anew Labs确认；制药业务具有高度不确定性。",
+        "sources": [
+          {
+            "label": "第一财经 - AI周报（字节拆出一家AI制药公司）",
+            "href": "https://www.yicai.com/news/103371038.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok 4亿美元隐私和解被拒后的后续进展，是否有更高和解金额或诉讼风险加剧",
+      "字节跳动2026年Q3营收与利润率变化，AI CapEx是否继续侵蚀利润",
+      "Anew Labs融资后独立运营进展及后续融资或IPO计划",
+      "第二代豆包手机销量及AI代理商业模式的验证",
+      "抖音本地生活GMV增速是否放缓（有报道称2026年目标降至50%）",
+      "字节296亿美元贷款传闻的最终条款"
+    ]
+  },
+  {
     "date": "2026-09-19",
     "displayDate": "09 / 19",
     "verifiedAt": "北京时间 2026-09-19 12:47",
