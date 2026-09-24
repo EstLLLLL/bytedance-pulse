@@ -1,5 +1,70 @@
 [
   {
+    "date": "2026-09-24",
+    "displayDate": "09 / 24",
+    "verifiedAt": "北京时间 2026-09-24 13:05",
+    "status": "字节通过挪威数据中心获2000+ B200芯片；TikTok 8月裁员250人",
+    "verdict": "今日扫描发现两条增量信息：1）Yahoo Finance独家报道字节跳动通过挪威数据中心获取超过2000块Nvidia B200芯片，这是继上半年利润率承压后，字节在AI算力侧的最新动向，可能涉及规避美国芯片出口管制，影响AI竞争格局与地缘风险；2）Yahoo Tech汇总报道TikTok于8月裁员250人并关闭田纳西州纳什维尔办公室，此乃今年7月以来TikTok已知的又一轮组织精简。无全员会、内部信、融资或监管事件。",
+    "top": [
+      "字节通过挪威数据中心获2000+ Nvidia B200芯片，AI算力布局再升级",
+      "TikTok 8月裁员250人并关闭纳什维尔办公室，持续优化运营"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "AI算力 / 地缘合规",
+        "title": "字节跳动通过挪威数据中心获取超过2000块Nvidia B200芯片",
+        "conclusion": "9月23日Yahoo Finance独家报道，字节跳动通过位于挪威的数据中心获得了超过2000块Nvidia B200 AI芯片。此举有望规避美国对中国AI芯片出口管制，强化字节在AI大模型训练和推理侧的算力储备。B200是英伟达Blackwell架构的高性能芯片，单卡成本数万美元，此次获取量对应数亿美元投资。该消息未经字节官方置评。",
+        "metrics": [
+          "报道时间：2026-09-23 20:00（北京时间）",
+          "芯片型号：Nvidia B200（Blackwell架构）",
+          "数量：2000+ 块",
+          "部署地：挪威数据中心"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Finance独家报道，未披露信源细节；字节官方未置评。",
+        "impact": "若报道属实，字节将获得更充裕的高端AI算力，缩短与OpenAI、Meta等对手在大模型训练上的算力差距，并降低对国内替代芯片的依赖。同时可能引发美国监管机构关注，增加地缘政治风险。对股东而言，算力扩张有利于AI业务长期增长，但合规不确定性上升。",
+        "caveat": "单一信源，尚未独立确认；挪威数据中心具体运营方与合规路径不明。",
+        "sources": [
+          {
+            "label": "Yahoo Finance - China's ByteDance gained access to over 2,000 Nvidia B200 chips through Norway data center",
+            "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcVhXaGZhLVNCa2VwbElGWEFMalBqbUx0UVhlbmxrVmVTSV9IN1h2X0doY3Q5ME11LTlmOHJqREVNY2JsdzY3OXpzd0RjS19oQkx4bFNaMXBPYTBzT1RfV0prSjViaEJ2RjFEYUVBd095RWRwYkY5aTk5SUd6d3lILVh4ZWRqY1gtZTkteHEwY1lIQThrU002TzdfeFB1eGtC?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "组织人事",
+        "title": "TikTok 8月裁员250人并关闭纳什维尔办公室（历史补漏）",
+        "conclusion": "9月23日Yahoo Tech汇总文章披露，TikTok于2026年8月裁员250人，并关闭位于田纳西州纳什维尔的办公室。该办公室原负责内容审核等运营职能。此举是TikTok USDS（美国数据安全）合资企业为简化运营、适应长期增长而采取的组织调整。此前纽约时报已有报道。",
+        "metrics": [
+          "报道时间：2026-09-23（Yahoo Tech）",
+          "事件时间：2026年8月",
+          "裁员人数：250人",
+          "关闭办公室：纳什维尔（田纳西州）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech综合报道，引用纽约时报及TikTok官方声明。",
+        "impact": "裁员规模较小，占TikTok全球员工比例有限，但反映TikTok在美国持续进行成本优化和组织瘦身，与TikTok USDS合资公司的独立运营策略一致，对股东影响有限。",
+        "caveat": "事件发生于8月，并非最新动态；此次汇总报道未提供额外经营数据。",
+        "sources": [
+          {
+            "label": "Yahoo Tech - Tech layoffs 2026: Tracking all the job losses across Xbox, Apple, Oracle, Uber, TikTok, Meta and others",
+            "href": "https://tech.yahoo.com/general/breaking-news/article/tech-layoffs-2026-tracking-all-the-job-losses-across-xbox-apple-oracle-uber-tiktok-meta-and-others-144545528.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "字节通过挪威数据中心获取B200芯片的后续官方确认及合规动态",
+      "TikTok下半年是否还有进一步组织精简或裁员",
+      "抖音电商下半年GMV增速以及货架场占比变化",
+      "AI大模型（豆包/Seed）的DAU与商业化进展",
+      "美国对中国AI芯片出口管制政策是否会因字节挪威数据中心事件收紧",
+      "字节ESOP回购价格及一级半估值变化"
+    ]
+  },
+  {
     "date": "2026-09-22",
     "displayDate": "09 / 22",
     "verifiedAt": "北京时间 2026-09-22 13:11",
