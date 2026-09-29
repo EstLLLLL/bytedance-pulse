@@ -1,5 +1,99 @@
 [
   {
+    "date": "2026-09-29",
+    "displayDate": "09 / 29",
+    "verifiedAt": "北京时间 2026-09-29 13:55",
+    "status": "今日无头条级重大事件；增量集中在三处：36氪文章顺带确认字节AI办公整合时间线（豆包工作8月25日发布，飞书团队/TRAE/扣子并入豆包）；英伟达AI芯片对华销售再传放松市场消息（未经官方确认）；Reuters补报阿拉巴马TikTok和解律师费约1400万美元。",
+    "verdict": "今日无重大新增，priorityCandidates中P01-P31（全员会、抖音电商GMV、本地生活8500亿等）均为旧闻重述，P32/P38为Yahoo Tech裁员追踪（TikTok裁250人已收录），P37中央网信办直播会议已收录，P35/P36媒体列表页无字节新事实。实质性增量有三类：1）36氪今日文章（新商纪，12:58）以腾讯WorkBuddy为背景，顺带披露字节AI办公整合节奏——8月25日发布豆包工作，此前一个月内先后将飞书团队、TRAE、扣子团队并入豆包，豆包工作接入飞书资料并支持云端执行与多Agent协作；该信息与昨日日报收录的梁汝波'豆包、飞书与火山引擎整合后加大企业市场投入'线索互相印证，但扩充了具体产品与团队整合细节，信源为自媒体对比稿，等级C。2）英伟达芯片进口传闻——Stocktwits/Yahoo Finance等渠道9月27-28日转载'中国据报考虑允许字节、阿里购买部分英伟达AI芯片（RTX PRO 5500）'，以Market Chatter定性，无官方或公司确认，若落地将缓解字节算力自主压力但改变CapEx采购结构，等级C。3）Reuters报道阿拉巴马TikTok和解案律师将获约1400万美元，为已收录和解事件的财务细节延伸，等级B。竞品与市场参照方面：Manus发布2.0与全天候智能体Cue、Anthropic招股书曝净亏420亿美元/营收46亿美元，对豆包竞争与AI一级估值锚具有间接参照，不再单独成条；豆包以'桃子'人形形象运营的人格化策略在AI产品竞争中被36氪列为行业样本。头部媒体编辑位（The Information 403、Bloomberg 403、Reuters 401、Yahoo Finance抓取失败）仍为覆盖盲区。",
+    "top": [
+      "字节AI办公整合时间线获补充确认：豆包工作8月25日发布，飞书团队、TRAE、扣子团队一个月内并入豆包"
+    ],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "组织变化 / 字节AI办公",
+        "title": "36氪报道确认字节AI办公整合节奏：豆包工作8月25日发布，飞书团队、TRAE、扣子团队并入豆包",
+        "conclusion": "36氪今日文章（新商纪，09-29 12:58）在分析腾讯WorkBuddy时顺带披露：字节在8月25日发布豆包工作，此前一个月内先后将飞书团队、TRAE和扣子团队并入豆包，再推出豆包工作；豆包工作接入飞书资料，配合云端执行和多Agent协作。该信息与昨日日报收录的'梁汝波称豆包、飞书与火山引擎整合后加大企业市场投入'线索互相印证，将整合范围具体化为飞书团队、TRAE、扣子并入豆包。",
+        "metrics": [
+          "36氪文章时间：2026-09-29 12:58",
+          "豆包工作发布：2026-08-25",
+          "整合动作：一个月内将飞书团队、TRAE、扣子团队并入豆包",
+          "竞品对照：腾讯WorkBuddy 2026-03-09上线；阿里千问办公08-03公测"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "36氪特邀作者'新商纪'文章，主题为腾讯WorkBuddy宣传比对，字节信息为背景陈述，非字节官方口径，具体整合细节未获第二信源验证。",
+        "impact": "飞书团队并入豆包意味着企业服务业务重心从独立协同办公产品转向'豆包工作'Agent平台，飞书/Lark原有独立汇报线、ARR口径和客户留存方式可能发生迁移；股东需重新评估字节To B板块的价值锚，从飞书订阅ARR转向豆包工作的Agent调用与云端执行变现。",
+        "caveat": "单一自媒体信源，文章含明显腾讯产品推广立场；整合时间线可能与前期已报道信息部分重合，具体组织归属与人员调整未披露。",
+        "sources": [
+          {
+            "label": "36氪 · 阿里字节还在整合产品，腾讯已经率先整合工作流",
+            "href": "https://www.36kr.com/p/4003936890508928"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "AI算力 / CapEx",
+        "title": "市场流传中国考虑允许字节、阿里购买部分英伟达AI芯片，未获官方确认",
+        "conclusion": "Stocktwits、Yahoo Finance等渠道9月27-28日转载市场消息称，中国据报正权衡允许字节跳动、阿里巴巴等企业购买部分英伟达AI芯片（提及RTX PRO 5500），消息以'Market Chatter'定性，无政策或公司确认；同期英伟达宣布增加1500亿美元回购额度、剩余额度增至2350亿美元。若放开落地，字节AI算力获取路径将增加英伟达选项，降低对国产芯片单一依赖。",
+        "metrics": [
+          "传闻时间：2026-09-27至09-28",
+          "涉及产品：Nvidia RTX PRO 5500",
+          "英伟达回购：9月28日宣布新增1500亿美元，剩余额度2350亿美元",
+          "相关渠道：Stocktwits、Yahoo Finance、Yahoo Finance Singapore"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "多个二级渠道转载同一'市场消息'，均标注Market Chatter为传闻性质，无中国监管或公司官方确认，具体政策形态不明。",
+        "impact": "若英伟达芯片对华销售获准，字节可缓解训练/推理算力瓶颈并降低对华为昇腾等国产芯片的依赖度，但也会改变AI CapEx采购结构与中美地缘敏感性；当前仅作为上行期权看待，不改变字节'国产算力+自研'为主线的现状判断。",
+        "caveat": "纯市场传闻，无信源等级；RTX PRO 5500属工作站级别显卡，与高端训练卡（H100/B200级）算力增益有限，对字节大规模训练基建的实际影响需谨慎评估。",
+        "sources": [
+          {
+            "label": "Stocktwits · NVDA Stock In Focus: China Reportedly Weighs Letting ByteDance, Alibaba Buy Some Nvidia AI Chips",
+            "href": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVi04UnZHSDZja0xFZGc1RzhEdmFReXRvRy1NbnVNeWZWZUVlUy1CQm5PcXBJZVdCZVlPT1dEd0JWRmRiQkVIczNEY0ZHT29IQlBqamUteEk3R1NrOFNuVU1sQ3BKb29BcTBGR1dEbTNZVDZLb050dExyNWRXd3g2MVhUNFFoZ2NjTWFQcl9QdVpDUmxSRV9GVnRfQllrbXlvMG9XeGdORk83WjZvRkU1VkpSWFpiR3Zfa1hVQ2NTWG56UTl5RXkwMFRrVEZFVkw0MEtlTU81TDhzdy16NTlkMUZTQWpXeS1TZHVNQUxaUWQ?oc=5"
+          },
+          {
+            "label": "Yahoo Finance Singapore · Nvidia Chips for Alibaba, ByteDance? China Reportedly Green Lights RTX PRO 5500 Amid US Curbs",
+            "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1FVYmZZbTRXWS15S3VPWUg5X3QwV2k4RVc5T3c4LV9lTlVKRjhPem9ETFBKU1dadDJWanhyY3dVZTJ0Vlk2aG1TTWl2RW9ua3RxT3BFMHFqZEVTNzliTVJuRlAtN0psVlV6dDB4eVBzeTUyMmxLZTVsYWM2eTY0RENjN1FGeDdYQ0JVTERR?oc=5"
+          },
+          {
+            "label": "Yahoo Finance · Update: Market Chatter: Nvidia's New AI Chips Could Enter Chinese Market",
+            "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVTlsMWJBYU9pQUdBTHdPVFl3UjJrQ1djbHZDMWM2TnUycWI3NDluRWhqQ2dRaDlFRWQyMHNzaVJrb1lQWXZnRVp3eTVkeWo1LW00THdwTjlWSGI0UW5fZEsydzVrZXplM01ROFM5N1dFRlNqajEtMW5tVVJQeEhfY1RYYmlBRDNRSVZGa1lJWDlfSG5xUklGVA?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "监管诉讼 / TikTok",
+        "title": "Reuters：阿拉巴马TikTok和解案律师将获约1400万美元费用",
+        "conclusion": "Reuters 9月28日报道，阿拉巴马州TikTok和解案中律师将获约1400万美元费用。此为已收录的阿拉巴马和解事件的财务细节延伸，不改变和解整体框架，但进一步量化TikTok美区诉讼的合规现金流出规模。",
+        "metrics": [
+          "Reuters报道：2026-09-28 18:27 GMT",
+          "律师费规模：约1400万美元",
+          "背景：阿拉巴马州儿童安全诉讼和解（09-28日报已收录）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Reuters直接报道，涉及具体金额；但本次扫描仅获得Google News RSS标题与摘要级内容，原文正文未完全展开。",
+        "impact": "阿拉巴马和解的律师费细节显示TikTok美区诉讼产生实际财务成本，且和解可能形成其他州诉讼的参照尺度；持续累积的诉讼和解、律师费及合规投入构成TikTok海外利润率侵蚀因素。",
+        "caveat": "已收录事件的细节延伸，非新事件；金额为律师费口径，不代表TikTok整体和解支出，其他州诉讼是否跟进仍不确定。",
+        "sources": [
+          {
+            "label": "Reuters · Lawyers in Alabama's TikTok settlement set to earn $14 million",
+            "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQemJYS2haNXhqY3BPMm9qWXpOR3JhRG1mREdZaGM5My0tZC1mMGhDR204OThWQTg5VlV0eHBjNG9VNk9rZld3NmZSOVhlRjdpcTRuX2ozLWhjZ2w1WjBURDFLaUhBY05wYjdVU0VfWW1naGVMOTJLbVAydUc2S2dmSjJPcF9OZjJxWG5pblg0UjNIMVY0OVZLbll1NWZCMWkzYWprTzAyRzdkaTg?oc=5"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "豆包工作发布后的企业客户数、ARR与Agent调用量进展，及飞书团队并入豆包后的汇报线与飞书/Lark独立业务线走向",
+      "英伟达AI芯片对华销售政策传闻是否有官方落地，及对字节AI CapEx采购结构（英伟达 vs 华为昇腾）的影响",
+      "Manus 2.0/Cue与Meta Muse对豆包C端个人Agent入口的分流压力，以及豆包'桃子'人格化形象运营的实际留存效果",
+      "阿拉巴马和解后其余州儿童安全诉讼是否跟进，TikTok美区和解与律师费规模对利润的累计侵蚀",
+      "9月30日《金融产品网络营销管理办法》正式施行后抖音月付收银台入口整改与分期免息GMV传导",
+      "中秋国庆双节期间抖音电商、本地生活与TikTok Shop的大促GMV表现及补贴ROI",
+      "Anthropic招股书（净亏420亿美元）对AI一级估值的锚定效应是否传导至字节一级定价"
+    ]
+  },
+  {
     "date": "2026-09-28",
     "displayDate": "09 / 28",
     "verifiedAt": "北京时间 2026-09-28 13:37",
