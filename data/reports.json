@@ -1,5 +1,119 @@
 [
   {
+    "date": "2026-09-30",
+    "displayDate": "09 / 30",
+    "verifiedAt": "北京时间 2026-09-30 13:45",
+    "status": "今日无头条级重大事件；实质新增两条：抖音系终止收购联动优势支付牌照（海联金汇今日公告，牌照8月底已被中止续展）；SemiAnalysis估算字节租用数据中心容量占中国已交付超20%（9月29日发布，昨日遗漏今日补录）。背景三条：多款智能体手机密集入网、TikTok代理商认证分级、Anthropic招股书细节续报。",
+    "verdict": "priorityCandidates共40条逐项核查：P01-P11全员会/全员信均为旧闻（2025年2月'务实浪漫'或2026年6-7月梁汝波全员信），无新增事实主张；P12-P20抖音电商GMV数据为8月旧闻，增速近20%、货架占比抬升均已被此前日报收录；P22/P28为Yahoo Tech裁员追踪（TikTok裁250人、关闭纳什维尔办公室已收录）；P29 TikTok代理商分级作为本日新增背景条目收录；P21及当天The Next Web对应报道为SemiAnalysis数据中心容量数据，属昨日发布、今日扫描首次捕获，作为增量补录；P23/P38涉及Anthropic招股书（营收46亿美元/亏损420亿美元/估值或超2万亿）与英伟达1500亿美元回购，均为昨日已收录或竞品参照；P30虎嗅页面内'字节小报'帖带来联动优势终止收购这一今日唯一直接涉及字节的官方公告事件；P31番茄社、P34耳机评测、P35拌川、P36中小银行加息与字节无关；P32界面早报字节上半年净利润下滑但海外收入占比创新高为9月16日旧闻；P33智能体手机入网与豆包相关，作为新增背景收录。覆盖盲区：The Information与Bloomberg均403、Reuters 401、Yahoo Finance抓取失败、中央网信办fetch failed，头部媒体编辑位依旧不可见。整体判断：今日信息面偏弱但有一条硬事实——抖音支付牌照收购终止，叠加9月30日《金融产品网络营销管理办法》正式施行，抖音金融/支付合规进入收紧窗口；SemiAnalysis数据再次确认字节是国内最大数据中心容量租用方之一，AI投入继续压制利润率（上半年净利率约16.7%）。",
+    "top": [
+      "抖音终止收购联动优势支付牌照：海联金汇今日公告收到天津同融终止函，标的牌照8月底已被央行中止续展",
+      "SemiAnalysis：字节跳动租用数据中心容量占中国已交付容量超20%，为AI CapEx规模提供量化锚"
+    ],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "监管金融 / 抖音支付",
+        "title": "抖音终止收购联动优势：海联金汇公告收到天津同融终止函，支付牌照此前已被中止续展",
+        "conclusion": "9月30日海联金汇公告称收到天津同融《关于终止股权转让协议的函》，终止对旗下支付牌照公司联动优势的收购；天津同融为抖音体系内公司。直接背景是8月底联动优势因《中国人民银行行政许可实施办法》第二十四条规定情形，支付牌照被中止续展。交易终止后，抖音支付牌照布局出现缺口，现有自持牌照合众易宝需承载抖音月付与电商支付合规需求。",
+        "metrics": [
+          "2026-09-30 海联金汇公告收到终止函",
+          "2026年8月底 联动优势支付牌照被中止续展",
+          "交易买方：天津同融（抖音体系内公司）"
+        ],
+        "sourceGrade": "B−",
+        "sourceNote": "事实基于上市公司海联金汇公告，经由虎嗅24小时资讯流'字节小报'用户帖转述；本次扫描未直接抓到公告原文，属单一渠道转述官方公告。",
+        "impact": "短期看：抖音月付、电商收单的支付基础设施继续依赖合众易宝及外部合作机构，支付费率与take rate优化空间受限；叠加9月30日《金融产品网络营销管理办法》正式施行，抖音金融与信贷导流业务进入合规收紧窗口。中长期看：若牌照并购路径受阻，抖音金融业务扩张需转向自营资质积累或另寻标的，属战略卡点而非致命缺口。",
+        "caveat": "公告未披露终止协议细节与替代方案；联动优势牌照能否恢复续展、抖音是否另寻标的均不确定；对GMV和费率的量化影响暂无法估算。",
+        "sources": [
+          {
+            "label": "虎嗅 · 24小时资讯（字节小报：抖音终止收购联动优势）",
+            "href": "https://www.huxiu.com/moment/"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "AI算力 / CapEx",
+        "title": "SemiAnalysis：中国已交付数据中心容量全球第二，字节跳动占比超20%",
+        "conclusion": "芯智讯与The Next Web于9月29日分别转述SemiAnalysis研究：中国已交付数据中心容量位居全球第二，其中字节跳动租用容量占比超过20%（The Next Web标题口径为'ByteDance rents a fifth of China's data centre capacity'）。属第三方估算，非字节官方数据；为字节AI CapEx与算力租赁规模提供新的量化参照，与上半年净利润下滑主因'AI投入加大'相互印证。",
+        "metrics": [
+          "SemiAnalysis数据经两家媒体转述：2026-09-29",
+          "字节占比：中国已交付数据中心容量超20%（约五分之一）",
+          "中国已交付数据中心容量全球排名：第二"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "两家媒体（芯智讯、The Next Web）均转述SemiAnalysis同一结论；SemiAnalysis为独立算力/芯片分析机构，属第三方估算；发布于9月29日，昨日日报未收录，今日补录。",
+        "impact": "确认字节为国内数据中心租用容量最大的需求方之一：以租用为主意味着租金/折旧持续计入成本，在营收同比增长30%但净利率降至约16.7%的情况下，AI CapEx是利润的主要侵蚀项；同时该算力储备支撑豆包/Seed模型迭代与火山引擎对外供给，构成AI竞争壁垒。",
+        "caveat": "'已交付容量'口径、自建与租用比例均未披露；单一机构估算可能高估或低估字节实际占用；无对应CapEx金额。",
+        "sources": [
+          {
+            "label": "芯智讯 · 中国已交付数据中心容量全球第二，字节跳动占比超20%",
+            "href": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1lNTItczJyV2pJakZFRE5UUEJmSlBVQ1hBcVhwVVJ3dUZoZ3M3MDBYZDgzSzcxbkZXa1lfY1R6SzRsNURQ?oc=5"
+          },
+          {
+            "label": "The Next Web · ByteDance rents a fifth of China's data centre capacity, SemiAnalysis says",
+            "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZGItUHc1TVRMblFiREM1b1dnSGpqYk4xT1kyNHNoMm1XU0wzcWRrN2lrMm1EQkR6MjF5Z0tCRV9xc2JlRVhtSmxxczJCT29xUTdXLXdKU1lnT3l6MW45YndobDhBelBpMGhIc0JxRWZ6TXprbExqa0dteF9JSS1ScFJlNlp3ejZ2cTZB?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "AI竞争 / 豆包入口",
+        "title": "多款智能体手机密集入网：荣耀Magic9、阶跃STEPX Neo获入网许可，豆包手机助手进入同台竞争期",
+        "conclusion": "第一财经9月30日（10:48）报道，工信部政务服务平台显示荣耀Magic9系列与阶跃终端首款大模型原生智能体手机STEPX Neo已获电信设备进网许可；此前搭载豆包手机助手的努比亚NaviX Ultra于9月1日入网、9月16日发售。媒体报道将豆包手机助手（让AI直接操作第三方应用）列为与荣耀系统级Agent Harness、阶跃原生智能体并列的三条技术路线之一。",
+        "metrics": [
+          "报道：2026-09-30 10:48",
+          "努比亚NaviX Ultra（豆包手机助手）：09-01入网、09-16发售",
+          "IDC：2026H1中国智能手机出货量约1.34亿台，同比-4.2%"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "第一财经原创（作者李娜），基于工信部进网许可公开信息；虎嗅24小时资讯流同步转载。豆包为文中技术路线之一，无字节业务数据披露。",
+        "impact": "豆包抢占个人Agent入口的关键窗口：若手机助手能成为高频入口，豆包获得调用量与场景数据，巩固C端Agent心智；若系统级Agent（荣耀/阶跃）主导交互，豆包可能沦为被调用的工具型应用，入口控制权与后续变现（订阅/广告/电商导流）都会弱化。",
+        "caveat": "行业动态而非豆包数据；Agent手机实际销量、豆包助手激活与留存均未披露，'能演示'到'能长期使用'的差距仍在。",
+        "sources": [
+          {
+            "label": "第一财经 · 豆包手机之后，多款智能体手机密集入网",
+            "href": "https://www.yicai.com/news/103382399.html"
+          },
+          {
+            "label": "虎嗅 · 24小时资讯（多款智能体手机密集入网）",
+            "href": "https://www.huxiu.com/moment/"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "TikTok广告生态",
+        "title": "TikTok更新代理商认证分级：新增Agency Partner与Premier Agency Partner两级标识",
+        "conclusion": "TikTok宣布对代理商伙伴计划进行分级认证：合格代理商获'Agency Partner'标识，全球顶级合作伙伴获'Premier Agency Partner'独家荣誉标识；该计划2020年推出，目前拥有600+认证合作伙伴。这是TikTok广告生态的基础设施级更新，不涉及费率与收入数字。",
+        "metrics": [
+          "报道：2026-09-29 22:29 UTC（北京时间09-30 06:29）",
+          "认证层级：Agency Partner / Premier Agency Partner",
+          "代理商伙伴规模：600+"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Social Media Today（Industry Dive旗下）原创，经Yahoo Tech转载；内容为TikTok官方项目公告的转述，属程序化产品更新。",
+        "impact": "对TikTok广告与TikTok Shop的代理商生态有正向治理作用：分级提高品牌方选择代理的确定性，可能提升广告预算投放效率与头部代理集中度；间接有利于TikTok广告变现效率，但无直接财务影响。",
+        "caveat": "不涉及take rate、广告收入或GMV；分级对收入的拉动无法量化，属低优先级事件。",
+        "sources": [
+          {
+            "label": "Yahoo Tech · TikTok adds certification tiers for agency partners",
+            "href": "https://tech.yahoo.com/social-media/articles/tiktok-adds-certification-tiers-agency-222928490.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "抖音支付牌照后续路径：联动优势续展能否恢复、抖音是否另选标的、合众易宝对抖音月付/电商收单的承载上限",
+      "《金融产品网络营销管理办法》9月30日施行后，抖音月付收银台入口整改与分期免息GMV传导",
+      "双节（中秋+国庆）抖音电商、本地生活、TikTok Shop大促GMV、订单与补贴ROI",
+      "SemiAnalysis数据中心容量占比对应的字节年化AI CapEx规模、自建与租用比例变化",
+      "智能体手机（荣耀Magic9、阶跃STEPX Neo、努比亚NaviX Ultra豆包版）上市销量与豆包助手激活留存数据",
+      "TikTok代理商认证分级对广告生态集中度与平台广告变现效率的实质影响",
+      "Anthropic IPO估值超2万亿对AI一级估值锚定的传导；Meta Muse与OpenAI dots对豆包C端Agent入口的分流"
+    ]
+  },
+  {
     "date": "2026-09-29",
     "displayDate": "09 / 29",
     "verifiedAt": "北京时间 2026-09-29 13:55",
