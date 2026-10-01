@@ -1,5 +1,86 @@
 [
   {
+    "date": "2026-10-01",
+    "displayDate": "10 / 01",
+    "verifiedAt": "北京时间 2026-10-01 14:12",
+    "status": "今日无头条级重大事件；头部媒体编辑位依旧不可见。实质新增仅两条低优先级线索：digitimes分析称中国AI数据中心建设跃至全球第二、大厂CapEx奔向1000亿美元（今日04:15发布），引述SemiAnalysis数据，字节为国内最大租用方之一的结论与昨日收录一致；36氪转述称字节本月将发智能网盘ADrive（火山引擎打造）。其余候选均为旧闻或与字节无关。",
+    "verdict": "priorityCandidates共40条逐项核查：P01-P11全员会/全员信均为旧闻（2026年8月年中全员会与6月30日梁汝波内部信，已收录或已排除），无新增事实主张；P12-P22抖音电商GMV为8月旧闻，P22'5.2万亿GMV、20%增速目标'为调研纪要、单一信源且为3月旧闻，不采纳为新增；P23-P30抖音本地生活旧闻（8500亿GMV、2026增速目标50%为2月报道），其中P23/P24/P25为雪球/搜狐/知乎二手讨论、无新数据，不构成增量；P31为今日最新版digitimes分析，与P21 SemiAnalysis同源，作为对昨日字节占中国数据中心容量超20%一事的补充证据收录并说明无新增结论；P32/P37为Yahoo Tech首页与裁员追踪页，TikTok裁250人、关纳什维尔办公室已收录于前日报，今日无新展开；P33 36氪最新页出现今日唯一新线索——字节将发布智能网盘ADrive（火山引擎打造），作为watch级产品动态收录；P34虎嗅/P35界面/P36第一财经/P40番茄社均无字节相关内容；P38 ADrive正文完整展开，属产品发布传闻、无经营数字；P39 TikTok桑拿标签流量为第三方公司故事，与字节收入无直接关系。覆盖盲区与昨日相同：The Information与Bloomberg均403、Reuters 401、Yahoo Finance抓取失败、中央网信办fetch failed，头部媒体编辑位不可见。整体判断：今日处于国庆假期首日信息真空，无经营数据、无组织人事、无监管新增。唯一可确认的增量是字节AI与企业服务产品线的新动作（ADrive），但其尚未正式发布、无定价与收入数据；digitimes对SemiAnalysis的中国数据中心分析提供了对中国AI CapEx总量（近1000亿美元级）的参照，强化字节在其中的体量权重，但不改变对字节个体财务的既有判断。",
+    "top": [],
+    "items": [
+      {
+        "severity": "context",
+        "eyebrow": "AI企业服务 / 火山引擎",
+        "title": "字节被曝本月将发布智能网盘ADrive：火山引擎打造，面向AI智能体与企业协同办公",
+        "conclusion": "36氪9月30日21:02转载三易生活报道：字节跳动将在本月发布智能网盘产品ADrive，Slogan为“连接你的AI应用，让文件与产物持续可用”；产品由火山引擎打造，面向AI智能体与用户协同办公，主打统一文件存储、团队协作、AI生成文件自动留存与语义检索，并可挂载AI智能体工作目录形成人机协同闭环。",
+        "metrics": [
+          "报道：2026-09-30 21:02",
+          "产品发布窗口：本月（2026年10月）",
+          "所属：火山引擎；定位：企业级智能网盘"
+        ],
+        "sourceGrade": "B−",
+        "sourceNote": "36氪经三易生活（自媒体公众号）授权转载；原文称‘日前有消息称’，产品细节为爆料而非官方发布或官方确认。",
+        "impact": "对股东是火山引擎企业级AI协同产品矩阵的补位信号：ADrive若落地，可与豆包/扣子智能体输出形成数据留存闭环，提升火山引擎在‘AI办公数据资产’场景的议价能力与客户粘性；结合梁汝波此前‘企业市场投入更多资源’的表态，属AI to B布局中的小步产品推进，近期无直接财务影响。",
+        "caveat": "未获字节官方确认；发布日期、定价、客户与收入目标均未披露；网盘赛道竞争激烈（百度网盘、阿里云盘等），ADrive能否形成付费闭环未知。",
+        "sources": [
+          {
+            "label": "36氪 · 网盘成为AI圈新宠，字节跳动也做了ADrive",
+            "href": "https://www.36kr.com/p/4005775428898944"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "AI算力 / CapEx",
+        "title": "digitimes分析：中国AI数据中心建设跃至全球第二，头部大厂CapEx奔向1000亿美元",
+        "conclusion": "digitimes于10月1日04:15 GMT发布分析：中国AI数据中心建设规模已跃居全球第二，头部科技大厂CapEx正奔向1000亿美元量级。该分析与SemiAnalysis的结论一致——字节跳动租用容量占中国已交付数据中心容量超20%；本次为同一数据的行业视角复述，未提供超过昨日收录的新字节数字。",
+        "metrics": [
+          "发布：2026-10-01 04:15:44 GMT",
+          "中国AI数据中心已交付容量：全球第二",
+          "头部大厂CapEx：向1000亿美元级冲刺"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "digitimes（台湾电子时报）分析文章，经Google News RSS捕获；数据基础为SemiAnalysis研究，与昨日芯智讯/The Next Web同源，无新增字节经营性数字。",
+        "impact": "为字节AI CapEx体量提供行业总量锚：若中国头部大厂合计CapEx接近1000亿美元，字节作为其中最大算力租用方之一，其年化AI投入规模可倒推至百亿美元量级，进一步确认AI投入对净利率（上半年约16.7%）的压制是结构性而非短期扰动；同时显示字节在算力储备上的竞争卡位领先国内同行。",
+        "caveat": "涉及个体公司的数字仍是第三方估算：’字节占比超20%’未获字节官方确认，CapEx口径（自建/租赁、资本化比例）未披露。",
+        "sources": [
+          {
+            "label": "digitimes · Analysis: China's AI data center buildout vaults to No. 2 as Big Tech capex races toward US$100 billion",
+            "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV09aWnVyRFNNTkZJbi14eHlyWUVhZTdpNEloRXpQdVFDTEE3bHNGTzVFX3ZRWm83eWh0ZTc4bWRiNjY1YU9ESEc2YmxiZy1FeGhUWEhIMUxVaUdLRjdNYWdYSTNhMjZDQlNFR1ptdUhTVHBZM182LXVUWE9WRnJGTDFUQnlMMDRoVzBKdV9wQlRFUW51dWhNemNiUnFrV3FjMG5z?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "TikTok监管 / 诉讼",
+        "title": "Yahoo Finance：TikTok阿拉巴马和解可能要求对所有用户进行年龄检查",
+        "conclusion": "Yahoo Finance于9月30日14:49 GMT报道：TikTok的阿拉巴马州和解方案可能包含对所有用户进行年龄检查的要求。该报道通过Google News RSS捕获，正文未完整展开；若落地，将影响TikTok全量用户的年龄验证流程与合规成本，属美国州级监管进展。",
+        "metrics": [
+          "报道：2026-09-30 14:49:53 GMT",
+          "标的：阿拉巴马州和解（Alabama Settlement）",
+          "潜在要求：面向所有用户的年龄检查"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "仅Google News RSS标题与摘要，正文未抓取成功，无法核实和解条款、时间表与管辖范围；为单一信源的未展开线索，需后续补全。",
+        "impact": "TikTok美国用户基数大，全量年龄检查会抬高注册漏斗摩擦与合规工程成本，并可能影响未成年用户相关广告与电商（TikTok Shop）的转化；但目前缺乏条款细节，对收入与成本的量化影响无法判断。",
+        "caveat": "和解协议通常针对特定州的具体指控，’所有用户年龄检查’可能是报道标题的简化表述；正文缺失，待验证。",
+        "sources": [
+          {
+            "label": "Yahoo Finance · TikTok’s Alabama Settlement May Require Age Checks for All Users",
+            "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUGV5aFZnQ1BBVTNyRFl1MTFiOUVTNGhQb25mR3dGREJxX3hQcDNLTl82Q3V3Q2pQa0xKLUFwMnJTU2c3c0JqaFhnRjRSOGJLdEp6RF9lZ2hwUUNpanpGLWk2c0M5MTVETmZtUF9nSG1PRE1UREJWMnBfVHZZZ1hNZU5jWTVNMjRUQ3JPN3B2Tm9rMC1DYXVtbXpjYmp2anRYQXJFenJmWXU?oc=5"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "ADrive智能网盘10月发布后的正式定价、客户结构与火山引擎企业AI收入口径，判断其在AI to B变现中的实际位置",
+      "TikTok阿拉巴马和解条款全文：年龄检查范围、执行时间与成本，是否波及其他州监管",
+      "双节（中秋+国庆）抖音电商、本地生活、TikTok Shop大促GMV、订单与补贴ROI，以及后续三季度业绩口径",
+      "SemiAnalysis/digitimes中国AI CapEx总量对应的字节年化投入规模与自建/租用比例变化",
+      "抖音支付牌照终止收购后的替代路径：合众易宝承载上限、是否另寻并购标的、金融合规窗口",
+      "The Information/Bloomberg/Reuters编辑位恢复可见性后的头条级信号（当前仍403/401不可见）"
+    ]
+  },
+  {
     "date": "2026-09-30",
     "displayDate": "09 / 30",
     "verifiedAt": "北京时间 2026-09-30 13:45",
