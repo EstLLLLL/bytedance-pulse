@@ -1,5 +1,124 @@
 [
   {
+    "date": "2026-10-02",
+    "displayDate": "10 / 02",
+    "verifiedAt": "北京时间 2026-10-02 13:55",
+    "status": "今日无头条级财务或组织事件；唯一官方级增量为TikTok借UNGA发布美国生态经济影响数据（850万家美国企业、810亿美元GDP），另有行业参照两条（WARC预测TikTok 2030年超YouTube成最大视频广告平台；腾讯被曝向甲骨文租10万芯片）与网信办AI/直播监管动态；头部媒体编辑位仍403/401不可见。",
+    "verdict": "priorityCandidates共40条逐项核查：P01-P11全员会/全员信均为旧闻（2026年8月年中全员会与6月30日梁汝波内部信，已收录或已排除），无新增事实主张；P12-P22抖音电商GMV为8月旧闻，P16'5.2万亿GMV、20%增速目标'为调研纪要单一信源且为3月旧闻，不采纳；P23-P27本地生活均为2月8500亿GMV旧闻的二手讨论；P28 digitimes中国AI CapEx分析昨日已收录，不重复；P29 Yahoo Tech首页与P36裁员跟踪页无TikTok新动作（裁250人、关纳什维尔已收录于前日报）；P30 36氪最新页今日新增'变现门槛翻一番'文章，引WARC Media预测TikTok 2030年超越YouTube成全球最大视频广告平台，列入context；P32/P40界面早报中'字节上半年营收增30%、净利率16.7%、海外收入占比超30%'为9月16日The Information旧闻，不构成今日增量；P33第一财经/P34 TikTok Newsroom/P35中央网信办中，中央网信办今日首次成功抓取（昨日失败），可见'清朗·整治AI应用乱象'第二阶段、网络直播规范发展工作会议与短视频虚假人设整治，列入context；TikTok Newsroom 10月1日UNGA文章为今日主要官方增量——发布PF Global《TikTok U.S. 2026 Economic Impact Report》，美国850万+企业、810亿美元GDP、40万+就业，Yahoo Finance两条配套报道（加州120亿美元、76%企业口径）同日推送；P37 ADrive昨日已收录，不重复；P38桑拿为第三方公司故事排除；P39番茄社无字节内容。Reuters site搜索结果为加州网络追踪诉讼改革，与字节无关。覆盖盲区：The Information/Bloomberg均403、Reuters 401、Yahoo Finance抓取失败，头部媒体编辑位不可见。整体判断：国庆假期信息低密度，今日无经营数据、无组织人事、无资本事件。实质增量集中在TikTok美国'生态价值'官方叙事——该报告是禁令威胁下的游说筹码，强化TikTok对美经济嵌入度（850万商家、40万就业），对估值底部有支撑意义但不构成收入确认；配合WARC对TikTok广告登顶的预测，海外商业化叙事边际偏正面；反面信号是国内监管对AI应用乱象与直播的加码（未点名字节）。字节基本面判断维持：AI投入压制净利率（H1约16.7%）、海外收入占比超30%的结构不变。",
+    "top": [
+      "TikTok借UNGA发布美国生态经济影响报告：850万+美国企业贡献810亿美元GDP与40万个就业，强化禁令博弈下的公共价值声明"
+    ],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "TikTok监管 / 公共政策",
+        "title": "TikTok官方发布美国生态经济影响报告：850万+企业、810亿美元GDP与40万就业，UNGA配套游说叙事",
+        "conclusion": "TikTok Newsroom于10月1日发布UNGA 2026配套文章，援引当日公布的PF Global《TikTok U.S. 2026 Economic Impact Report》：超过850万家美国企业由TikTok驱动，贡献810亿美元GDP并支持超过40万个美国就业岗位；Yahoo Finance同日报道TikTok带来约120亿美元加州企业提振。官方口径强调平台对中小企业与就业的经济引擎作用，明显服务于美国禁令威胁下的公共价值陈述；文章未披露TikTok自身收入或GMV。",
+        "metrics": [
+          "发布：2026-10-01（UNGA配套）",
+          "美国：850万+企业、810亿美元GDP、40万+就业",
+          "加州：约120亿美元企业提振（Yahoo Finance标题口径）",
+          "巴西：27亿美元+GDP；欧洲2025：310亿欧元经济价值；英国：100亿英镑",
+          "案例：Bask & Lather 2026年1-8月TikTok Shop GMV超2000万美元"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "TikTok官方新闻稿为A级官方来源，但经济影响报告为TikTok委托PF Global编制的第三方估算，非审计财务口径；Yahoo Finance两条报道正文未完整展开，加州数据与76%口径来自新闻标题。作为游说材料需打折看待。",
+        "impact": "对股东是TikTok美国风险的双刃信号：850万商家与40万就业的生态嵌入度提升美国封禁的政治成本，利好'剥离/和解'叙事下的估值底部支撑；但这是公关数据而非经营确认，不改变对TikTok美国收入与TikTok Shop GMV的直接判断。关注该报告是否伴随监管谈判中的结构性让步。",
+        "caveat": "报告为委托研究估算，口径偏乐观；'76%美国企业依赖TikTok'等标题数据未获正文核实；未披露TikTok美国收入、take rate等硬指标。",
+        "sources": [
+          {
+            "label": "TikTok · Newsroom · UNGA 2026: Building a Trusted and People-Centered Digital World",
+            "href": "https://newsroom.tiktok.com/?lang=en"
+          },
+          {
+            "label": "Yahoo Finance · After ban threats, TikTok touts a $12-billion boost to California businesses",
+            "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjBYQkdaRE9oQzBwRXJqa2dYTUVFendYUnVCX2tLLVQyMXdqcG1kREU3aEt1ekg0UlE5Tm5YT3lFaWlyaEdBZWN5RWZERXNVLS1kZEpyZElpUGFDektvdTFNdGJ5R0drc016ZThHVWtJMWJzbXYzaV82QzlqS0J6d3U1bHJuS19yX0lNYTc5TVBrUG1HV21n?oc=5"
+          },
+          {
+            "label": "Yahoo Finance · 76% Of U.S. Businesses Depend On TikTok’s $81 Billion Economic Boost",
+            "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWkdLRkZWb1ItbExPQkd0SF9xRDM5UUpfX1dlZTktRUdRQnNsbURGNk5qd0NJUUY0QUQ5TkZESkx0UU9QWndUZDFfaHdsWEpIRURiTVI5bWo3dDF5d0J1RFozdnJHeDBVbFNzeXpTNW5IVUc0czNiWEQ2RXR5RkdFV1NIM3JOWTgxOHlQVXphMTFFdlJGTGN3Qw?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "TikTok广告 / 竞争格局",
+        "title": "WARC Media预测：TikTok有望2030年超越YouTube成为全球最大视频广告平台；用户日均95分钟超YouTube",
+        "conclusion": "36氪10月2日09:16转载三易生活文章，分析YouTube上调创作者变现门槛的背景，引述WARC Media预测TikTok有望在2030年超越YouTube成为全球广告收入规模最高的视频平台；Sensor Tower数据显示2025年TikTok用户日均使用95分钟、超过YouTube的85分钟。文章认为TikTok效果转化广告与短视频购物链路更受广告主青睐。",
+        "metrics": [
+          "报道：2026-10-02 09:16（北京时间）",
+          "WARC Media预测：TikTok 2030年超越YouTube成全球最大视频广告平台",
+          "Sensor Tower：TikTok用户日均95分钟 vs YouTube 85分钟（2025）"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "36氪授权转载三易生活（自媒体）文章；WARC Media与Sensor Tower为第三方机构估算，原文为YouTube视角分析，TikTok数据系引述，非字节官方披露。",
+        "impact": "为TikTok全球广告变现上限提供第三方增长锚：若2030年前TikTok广告收入登顶，对应字节海外广告盘子的中期空间仍大；但预测依赖广告预算从YouTube迁移的假设，且TikTok广告加载率与电商分流存在上限，不构成短期盈利修正。",
+        "caveat": "预测类信息，时间跨度至2030年；YouTube广告收入当前基数仍远高于TikTok，且Google正以Shorts与AI功能反击。",
+        "sources": [
+          {
+            "label": "36氪 · 变现门槛翻一番，YouTube的目标或是短视频",
+            "href": "https://www.36kr.com/p/4007122846748807"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "AI算力 / 行业参照",
+        "title": "行业信源称腾讯向甲骨文租赁10万颗芯片加速AI，中国大厂海外算力通道再获佐证",
+        "conclusion": "The Dark Side Of The Boom（Substack）10月1日发布：腾讯从甲骨文租赁10万颗芯片以加速AI。该报道通过Google News RSS捕获、正文未展开；若属实，显示中国头部大厂正通过海外云厂商获取合规算力，与字节作为国内最大数据中心租用方之一的格局互为参照。",
+        "metrics": [
+          "发布：2026-10-01 20:45:35 GMT",
+          "数量：10万颗芯片（报道标题口径）"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "Substack自媒体单一信源，正文未抓取成功，交易结构、芯片型号与租赁期限均未确认；Google News RSS仅呈现标题与摘要。",
+        "impact": "对字节的间接含义：中国大厂AI CapEx军备竞赛下海外算力租赁是普遍选项，字节作为国内已交付数据中心容量超20%的最大租用方之一（SemiAnalysis口径）的格局未变；若腾讯能大规模通过Oracle获算力，说明海外通道仍开放，对字节算力供给约束是边际缓解信号。",
+        "caveat": "单一信源、未确认；与字节无直接交易关系。",
+        "sources": [
+          {
+            "label": "Google News RSS · The Dark Side Of The Boom · China’s Tencent leases 100,000 chips from Oracle to accelerate AI push",
+            "href": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjFITm9fLXp6RkIwR2h3ekVNOFpSR1VyTlZoYU1TLU1YMWxkeXc1TWxKaUVHT1YyUjV6RjJSMnBJTGU3bV8zZWJuWkwxUTdaenI5U2kxMTlpMUo3QlVTTFVnNVBkV0xjSldTX3VqTGNtdVB4cE9yNDZvTXdWSGVIT3d2U3A?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "监管环境 / 直播与AI",
+        "title": "中央网信办推进'清朗·整治AI应用乱象'第二阶段与网络直播规范发展工作会议；人民日报评'AI假医生'批量带货",
+        "conclusion": "中央网信办官网今日可见多项监管动态：召开网络直播规范发展工作会议、部署'清朗·整治短视频虚假人设乱象'专项行动、深入开展'清朗·整治AI应用乱象'专项行动第二阶段工作；人民日报（澎湃10月2日转载）刊评指AI生成虚拟医生带货乱象，要求生成工具设置限制、平台前置拦截并全链条追溯责任。上述均为行业性监管加码，未点名字节。",
+        "metrics": [
+          "中央网信办页面更新：2026-10-02",
+          "相关行动：整治AI应用乱象（第二阶段）、整治短视频虚假人设、网络直播规范发展工作会议",
+          "人民日报评论转载：2026-10-02 11:56"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "中央网信办官网为官方信源，但页面未给出各专项行动的具体时间与执法对象；人民日报评论为官媒立场文章。均不涉及字节点名的处罚或整改。",
+        "impact": "对抖音直播、剪映/即梦等AI生成工具与豆包AI应用的合规成本构成边际上升压力，AI生成内容标识与'虚假人设'审核要求可能抬高内容安全投入；但无字节特定量化影响，属于监管环境边际谨慎信号。",
+        "caveat": "未点名字节；专项行动第二阶段的具体规则与执法范围未披露；历史看'清朗'系列对平台收入冲击有限但有持续性合规成本。",
+        "sources": [
+          {
+            "label": "中央网信办",
+            "href": "https://www.cac.gov.cn/"
+          },
+          {
+            "label": "澎湃 · 人民日报评“AI假医生”批量带货：这病得治",
+            "href": "https://www.thepaper.cn/newsDetail_forward_34190846"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok官方经济影响报告（810亿美元GDP/850万美国商家）的数据口径，及其在美国政策谈判中的后续运用；是否伴随TikTok美国收入、TikTok Shop GMV的官方确认",
+      "ADrive（10月）正式发布后的定价、客户结构与火山引擎AI to B收入口径",
+      "TikTok阿拉巴马和解条款全文：年龄检查范围、执行时间与成本，是否波及其他州监管",
+      "双节（中秋+国庆）抖音电商、本地生活、TikTok Shop大促GMV、订单与补贴ROI，以及后续三季度业绩口径",
+      "中央网信办'清朗·整治AI应用乱象'第二阶段与网络直播规范发展，对抖音直播、剪映/即梦AI工具的具体合规要求",
+      "腾讯-Oracle 10万芯片租赁若获证实，观察字节是否同步扩大海外算力租用通道",
+      "SemiAnalysis/digitimes中国AI CapEx总量下字节年化投入规模与自建/租用比例变化",
+      "The Information/Bloomberg/Reuters编辑位恢复可见性后的头条级信号（当前仍403/401不可见）"
+    ]
+  },
+  {
     "date": "2026-10-01",
     "displayDate": "10 / 01",
     "verifiedAt": "北京时间 2026-10-01 14:12",
