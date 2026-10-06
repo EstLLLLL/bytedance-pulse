@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-10-06",
+    "displayDate": "10 / 06",
+    "verifiedAt": "北京时间 2026-10-06 14:36",
+    "status": "今日无头条级财务、组织或资本事件；海外头部媒体编辑位（The Information/Bloomberg/Reuters）仍不可见。今日实质新增三项：TikTok 公布美国中期选举准备措施（10月5日报道）、TikTok 官方发布 AI 广告与电商商业化更新（10月5日）、DeepSeek 超 120 亿美元融资传闻（10月6日，单一信源待验证）。",
+    "verdict": "priorityCandidates（P01-P40）逐项核查：P01-P10 全员会/全员信均为旧闻（2026年8月年中会、2026年6月30日梁汝波全员信、2025年2月“务实浪漫”、绩效与活水政策调整，均已收录或排除），无新增事实主张；P11-P18 抖音电商 GMV 为8月旧闻（上半年支付 GMV 约2.4万亿元、增速近20%），P19“5.2万亿 GMV、20%增速目标”仍为雪球3月调研纪要单一信源，不采纳；P21-P28 本地生活为2月8500亿 GMV 旧闻与商家政策文章，无新经营数据；P29 为2024年旧闻；P30 Yahoo Tech 编辑位今日可见内容中，Tech layoffs tracker 为10月2日旧闻（TikTok 250人裁员已收录），TikTok 中期选举准备为10月5日新增（见 item）；P31 36氪最新页中仅“90后站上C位”“雷军重仓一位31岁女将”两文间接提及字节 Top Seed 校招年薪最高600万元、郭达雅加入 Seed、周畅负责 Seedream/Seedance/世界模型，均为既有事实汇总，无实质新进展，仅列入 watch 背景；P32 虎嗅今日“DeepSeek 融资超120亿美元”为单一信源竞争格局信号（见 item），其余为无关时政；P33/P35/P38/P40 为9月中下旬旧闻、无关内容或界面自有视频栏目；P34 智谱/AWS Bedrock 合作等第一财经新闻与字节无直接关系；P36 TikTok Newsroom 广告产品更新为10月5日官方发布（见 item）；P37 中央网信办“清朗·整治短视频虚假人设乱象”专项行动（publishdate 10/02）已在10月5日日报列入 watch，今日无新进展。基本面判断维持：AI 投入压制净利率（H1 约16.7%）、海外收入占比超30%（9月16日 The Information 旧闻）结构不变；TikTok 新一轮广告与电商商业化更新指向 Q4 美区广告/电商环比催化，DeepSeek 融资传闻若落地将加剧国内大模型竞争。今日无 major 级事件，top 留空。",
+    "top": [],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "TikTok / 美国监管",
+        "title": "TikTok 公布美国中期选举准备措施：设立专属选举指挥中心，与 Oracle 合作保护用户数据（10月5日报道）",
+        "conclusion": "10月5日，TikTok 公布 2026 年 11 月美国中期选举周期准备方案：投入专属 U.S. Election Mission Control Center，加强协调式影响行动、AI 生成误导内容与虚假信息监测，为民选官员账号增加额外防护，并新设 U.S. Election Center 提供权威选举信息；与安全合作方 Oracle 联合对应用、产品功能及代码上线前进行安全审查。这是 TikTok 出售为美方所有权（USDS 合资企业）后经历的首次重大选举周期，其算法已由 USDS 管理，将成为平台中立性、透明度与美国监管关系的压力测试。",
+        "metrics": [
+          "公开报道日：2026-10-05（Yahoo Tech 转载 Social Media Today）",
+          "事件背景：2026年11月美国中期选举，首次美方所有权下大选周期",
+          "措施：U.S. Election Mission Control Center、U.S. Election Center、Oracle 安全审查、政治账号额外防护"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Yahoo Tech 转载 Social Media Today（Industry Dive 旗下）文章；内容基于 TikTok 官方披露但非 TikTok Newsroom 直接发布，属可靠媒体的官方口径转述，无独立执行的验证。",
+        "impact": "对股东：中期选举是 TikTok 在美持续运营与广告收入的关键压力测试——若内容安全或数据保护处置失当，可能触发两党新一轮限制立法风险；短期增加审核与合规投入，属可控成本；长期影响 TikTok 美区广告变现与 TikTok Shop 增长的监管环境确定性。",
+        "caveat": "措施为官方口径自述，实际执行与效果无法预验证；该篇文章为行业媒体转载，非一线大媒体独家。",
+        "sources": [
+          {
+            "label": "Yahoo Tech · TikTok outlines US election preparations",
+            "href": "https://tech.yahoo.com/social-media/articles/tiktok-outlines-us-election-preparations-212231234.html"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "TikTok / 广告变现与电商",
+        "title": "TikTok 发布 AI 广告产品矩阵更新：Agentic Commerce（Buy Direct、Shopping Assistant）、TikTok Ad Network 开放美国广告主、GMV Max 扩展（10月5日官方发布）",
+        "conclusion": "10月5日（Advertising Week New York 2026 期间），TikTok 官方宣布新一轮广告与电商商业化更新：推出应用内一键结账 Buy Direct 与对话式导购 Shopping Assistant（Agentic Commerce），合作方包括 Salesforce、Shopify、Stripe 等；TikTok Ad Network 向美国广告主开放，可触达全球近 40 万款应用；TikTok for Business MCP 接入 Claude、Kimi、Perplexity、Replit 等平台；GMV Max 纳入联盟佣金、优惠券、推荐费以优化真实 ROI。官方援引第三方数据称，TikTok 经济活动为美国企业贡献约 810 亿美元 GDP，5400 万美国人因观看 TikTok 视频发生购买，Kantar 将 TikTok 列为 2027 年广告主增投首选平台。",
+        "metrics": [
+          "发布日：2026-10-05（TikTok Newsroom）",
+          "PF Global：TikTok 为美国企业带来约 810 亿美元 GDP；5400 万美国人因 TikTok 视频购物",
+          "TTAN：覆盖全球近 400,000 款应用",
+          "TikTok 广告 MCP：广告主使用量增长 200%+（TikTok 自报，7-9月）"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "TikTok Newsroom 官方新闻稿；其中宏观经济影响为 PF Global 第三方报告，Kantar 为第三方调研，MCP 增长为 TikTok 内部数据（7-9月），均未独立审计。",
+        "impact": "对股东：显示 TikTok 在美商业化重心转向“站内闭环电商 + 广告网络扩展 + AI 自动化投放”，Buy Direct 与 Shopping Assistant 有望提升美区 TikTok Shop 转化率和广告库存变现效率；TTAN 可对冲单一平台广告位增长天花板；对 Q4 美区大促期 GMV 与广告收入构成正面预期，但量化影响需等待季度经营数据验证。",
+        "caveat": "官方产品发布属宣传与路线图性质，实际 uptake、收入贡献与 ROI 改善均未披露；引用数据为第三方估算或公司自报口径。",
+        "sources": [
+          {
+            "label": "TikTok Newsroom · TikTok Unveils AI-Powered Updates for Advertisers",
+            "href": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "竞争格局 / AI 融资",
+        "title": "传闻 DeepSeek 拟完成超 120 亿美元融资（最高约 149 亿美元），腾讯与宁德时代为主要出资方，预计 2027 年初 IPO（10月6日单一信源）",
+        "conclusion": "10月6日虎嗅 24 小时资讯援引“消息来源”称，DeepSeek 即将完成一轮金额超过 120 亿美元、可能达约 149 亿美元的融资，腾讯和宁德时代为最大出资者，并预计 2027 年初进行 IPO。若属实，DeepSeek 将在算力、人才与市场推广上获得大规模弹药，直接加剧其对豆包/Seed 在国内大模型市场的竞争，并通过腾讯生态形成更强的分发与投资绑定。该信息为单一信源、未经公司确认。",
+        "metrics": [
+          "公开报道日：2026-10-06（虎嗅 24 小时资讯）",
+          "传闻融资额：超 120 亿美元，可能达约 149 亿美元",
+          "传闻最大出资方：腾讯、宁德时代",
+          "传闻 IPO 时间：2027 年初"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "虎嗅 24 小时资讯栏目“硅谷动态”的“消息来源”转述，无公司确认、无第二信源；融资金额、投资方与 IPO 时间均为未验证传闻。",
+        "impact": "对股东：若属实，将实质性抬高字节 AI 竞争成本——DeepSeek 获得大规模融资会加剧国内大模型训练与人才竞争，并增强开源模型对豆包/火山引擎的替代压力；腾讯作为出资方意味着 DeepSeek 能力可能深度接入腾讯生态，加大字节在 C 端 Agent 与 To B 市场的竞争烈度。当前仅作竞争观察，不改变字节自身基本面判断。",
+        "caveat": "单一信源且为社区转述；融资规模、投资方、IPO 时间均待验证；即使属实，对字节的影响是间接竞争压力而非直接财务数字。",
+        "sources": [
+          {
+            "label": "虎嗅 · 24小时资讯",
+            "href": "https://www.huxiu.com/moment/"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "TikTok U.S. Election Mission Control Center 在 11 月中期选举期间的实际执行、政治账号安全与两党反应（首次美方所有权下大选压力测试）",
+      "TikTok Buy Direct / Agentic Commerce / TTAN / GMV Max 对 Q4 美区 TikTok Shop GMV 与广告收入的拉动验证",
+      "DeepSeek 融资（超120亿至约149亿美元）与 2027 年初 IPO 传闻核实，以及对豆包/Seed、火山引擎竞争格局的打法影响",
+      "美国纽约州/得州/宾州数据中心审批收紧对字节海外算力获取成本、租用与自建 CapEx 配置的传导（36氪10月6日宏观背景）",
+      "中央网信办“清朗·整治短视频虚假人设乱象”专项行动落地节奏及对抖音/红果账号审核与合规成本影响",
+      "红果对任嘉伦虚假蓝V认证事件的处置结果与账号审核机制补漏（10月5日事件后续）",
+      "抖音电商 Q3 口径、双节大促 GMV/订单/补贴 ROI，以及全年 5.2 万亿 GMV 目标的可信度验证",
+      "字节 AI 人才军备与组织布局：Top Seed 核心岗年薪最高600万传闻、周畅多模态/世界模型/具身智能的管理边界扩展",
+      "谷歌 Gemini 商用化（含长上下文与价格）对豆包/Seed 竞争传导；字节是否推出对等更新",
+      "The Information/Bloomberg/Reuters 编辑位恢复可见性后的头条级信号（当前仍403/401不可见）"
+    ]
+  },
+  {
     "date": "2026-10-05",
     "displayDate": "10 / 05",
     "verifiedAt": "北京时间 2026-10-05 13:58",
