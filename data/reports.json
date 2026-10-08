@@ -1,5 +1,136 @@
 [
   {
+    "date": "2026-10-08",
+    "displayDate": "10 / 08",
+    "verifiedAt": "北京时间 2026-10-08 14:22",
+    "status": "今日无字节头条级经营或组织数据；实质新增四项：Bloomberg 报道春华资本 Continuation Fund 引入 ADIA/Coller 参与字节老股交易（10/06）、OpenAI/Anthropic 同日上新将 AI 竞争推向入口与价格、梁汝波称整合后加大企业市场投入（单信源待验证）、腾讯 WorkBuddy 月访问量超过字节 TRAE。",
+    "verdict": "priorityCandidates（P01-P40）逐项核查：P01-P07 年中全员会/全员信均为旧闻（2026年8月年中会、6月30日梁汝波全员信、2025年2月务实浪漫、绩效与活水调整），无新增事实；P08-P14 抖音电商 GMV 增速34%为上年度战略旧闻，P10-P16 上半年支付 GMV 约2.4万亿、增速近20%为8月旧闻；P15“5.2万亿 GMV 目标”仍为雪球3月调研纪要单一信源，不采纳；P17-P24 本地生活为2月8500亿 GMV 旧闻和商家政策文章，无新经营数据；P25 Yahoo Tech 编辑位今日仍无字节头条，Tech layoffs tracker 为10/2-10/6旧闻（TikTok 250人裁员已收录），Prime Day 等内容与字节无关；P26 36氪今日新增 WorkBuddy 竞争分析（见 item）；P27 界面科技页出现“梁汝波：豆包、飞书与火山引擎整合后，将加大企业市场投入”相关阅读标题，时间约10/07，正文未捕获，列为待验证 signal（见 item），其余为宏观新闻；P28 第一财经今日报道 OpenAI GPT-6/Intelligent UI 与 Anthropic Claude Haiku 5.5 同日发布（见 item），对豆包/Seed/火山引擎构成竞争；P29 中央网信办“清朗·整治短视频虚假人设乱象”专项行动页面仍为既有信息，无新进展；P30-P40 为旧闻、无关消费/宏观内容或界面早报汇总，不影响判断。另在 Google News RSS 中发现 Bloomberg 10/06 报道 ByteDance 吸引 ADIA、Coller 参与春华资本 Continuation Fund（10/06 GMT，晚于上一份日报收录时点，见 item）；TikTok Newsroom 10/06 发布万圣节旅行指南并外引 2026 Economic Impact Report 数据，显示 TikTok Go 正将旅行预订做成闭环（见 item）。基本面维持：AI 投入压制净利率（2026H1 约16.7%）、海外收入占比超30%结构不变；今日没有头条级经营数据事件，重点关注一级半流动性信号与 AI 竞争价格/入口升级。",
+    "top": [
+      "Bloomberg：春华资本 Continuation Fund 引入 ADIA、Coller 参与字节老股交易",
+      "OpenAI GPT-6 + Intelligent UI 与 Anthropic Claude Haiku 5.5 同日发布，AI 竞争转向入口与价格",
+      "梁汝波：豆包、飞书与火山引擎整合后，将加大企业市场投入（单信源待验证）"
+    ],
+    "items": [
+      {
+        "severity": "watch",
+        "eyebrow": "资本 / 一级半估值与流动性",
+        "title": "Bloomberg：ByteDance 吸引 ADIA、Coller 参与春华资本（Primavera）Continuation Fund（10月6日报道）",
+        "conclusion": "10月6日（GMT 12:30），Bloomberg 报道春华资本设立 Continuation Fund，并引入阿布扎比投资局（ADIA）与 Coller Capital 参与，交易标的涉及 ByteDance 股权。这属于 GP-led 二级交易，为字节老股东提供退出/流动性，同时显示主权基金与二级机构对字节股权的接盘需求。规模、估值与交割细节未披露。",
+        "metrics": [
+          "公开报道日：2026-10-06 12:30 GMT（北京时间 10/06 20:30，晚于上份日报收录时点）",
+          "参与者：ADIA（阿布扎比投资局）、Coller Capital",
+          "结构：春华资本（Primavera）Continuation Fund"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Bloomberg 原文标题经 Google News RSS 抓取，仅有标题/时间/来源，无正文细节；单一但高可信信源。",
+        "impact": "对股东：春华资本是字节早期投资方之一，其通过 continuation fund 引入主权基金与二级基金，说明字节老股存在真实买家，可能支撑一级半估值中枢；同时这类交易会增加老股供给，对员工 ESOP 定价与未来回购/IPO 估值预期有参考意义。",
+        "caveat": "无交易规模、估值倍数、交割时间等信息；属股东层面资产交易，不直接改变字节公司资本结构；需后续验证。",
+        "sources": [
+          {
+            "label": "Bloomberg via Google News · ByteDance Draws ADIA, Coller to Primavera’s Continuation Fund",
+            "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa1ctcEUyMG9uNEZQLVRIeU9QX19OM2RyeTN3TTF0VkU4bFVxQkpneFQzOTB6LThyRzFFMlpRVnRVRWliaHpiRG1xd3BiZkVfMHZKMlYta1g0cHNvWWMwMFZkOUpTaVBhLXp6Wm84S1pRS0xYY2ZoVWRLNjhfd0dFeGloempueXNQTFhvNmFEcjVfaTFYSkNtZGN4Vm5pMktpU3d5aTN0aGFZRFQ4aGwtMg?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "AI 竞争 / 模型商业化",
+        "title": "OpenAI 推出 GPT-6 与 Intelligent UI，Anthropic 发布低价 Claude Haiku 5.5，同日上新指向入口与价格两端（10月7日发布，10月8日第一财经报道）",
+        "conclusion": "10月7日，OpenAI 为 GPT-6 引入 Intelligent UI，使 ChatGPT 可动态生成图表、按钮、表单、地图与可操作工具，从问答转向任务环境，抢 AI 用户入口；Anthropic 发布 Claude Haiku 5.5，10万 token 内输入降至每百万 0.10 美元、输出 0.50 美元，较上一代降约90%，主攻高频低成本 Agent 任务。两者共同显示头部模型竞争正从模型参数转向产品、Agent 与商业化体系，对字节豆包/Seed、火山引擎的入口争夺与 token 定价形成直接压力。",
+        "metrics": [
+          "发布日：2026-10-07",
+          "OpenAI：GPT-6 + Intelligent UI",
+          "Claude Haiku 5.5：10万 token 内输入 $0.10/百万 token、输出 $0.50/百万 token，较 Haiku 4.5 价格下降约90%，运行成本降约75%",
+          "第一财经报道日：2026-10-08"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "第一财经原创报道，基于 OpenAI/Anthropic 官方发布信息并含记者分析；价格与成本为官方口径。",
+        "impact": "对股东：OpenAI 以界面/工具抢占入口、Anthropic 以低价打高频调用，将挤压豆包/火山引擎在 C 端 Agent 与 B 端 API 的市场空间，可能迫使字节在入口交互、定价与 Agent 生态上加快跟进，短期增加竞争性投入、压制变现毛利。",
+        "caveat": "产品刚发布，实际采纳与收入影响未知；文章未涉及字节直接数据。",
+        "sources": [
+          {
+            "label": "第一财经 · 一个抢入口一个拼低价，两大模型厂商同日上新",
+            "href": "https://www.yicai.com/news/103385653.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "组织 / 企业市场（B端）",
+        "title": "界面新闻相关阅读标题：字节跳动CEO梁汝波称豆包、飞书与火山引擎整合后，将加大企业市场投入（约10月7日）",
+        "conclusion": "界面科技页出现“字节跳动CEO梁汝波：豆包、飞书与火山引擎整合后，将加大企业市场投入”相关阅读（标注1天前，即约10/07）。若属实，表明字节在完成豆包（工作）、飞书与火山引擎整合后，将把企业市场（To B）作为下一阶段投入重点，与 6/30 全员信及年中会对 AI/B 端主干业务定位一致。目前仅有标题、无正文细节。",
+        "metrics": [
+          "出现时间：约2026-10-07（界面相关阅读标注“1天前”）",
+          "涉及范围：豆包 + 飞书 + 火山引擎整合",
+          "方向：加大企业市场投入"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "仅界面新闻科技页“相关阅读”标题，正文未在本次扫描中捕获；属单一信源、待验证。",
+        "impact": "对股东：若确认，字节 B 端（火山引擎/飞书/豆包企业版）将获得更高资源优先级，可能提升 AI 云与协作软件 ARR，但也会增加短期投入、摊薄利润率；与腾讯 WorkBuddy、阿里千问办公的 Agent 办公竞争将更激烈。",
+        "caveat": "标题可能为旧闻推荐或编辑摘要，需验证原文章发表时间与完整表述；C级信源。",
+        "sources": [
+          {
+            "label": "界面新闻 · 科技（相关阅读出现页）",
+            "href": "https://www.jiemian.com/article/15099386.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "竞争格局 / AI Agent 办公",
+        "title": "36氪今日分析：腾讯 WorkBuddy 6月月访问量 2097 万居行业第一，超过字节 TRAE IDE（1279万）与阿里 Qoder Work（788万）之和",
+        "conclusion": "易观2026Q2数据显示，6月腾讯 WorkBuddy 月访问量2097万，行业第一；字节 TRAE IDE 1279万第二，阿里 Qoder Work 788万第三。文章称 WorkBuddy 已与微信/QQ/企业微信/Telegram 直连，B端付费席位超14万、企业客户超3000家、SaaS ARR 约3亿元，并定位“Agent时代操作系统”。字节飞书/豆包工作/TRAE 在 Agent 办公竞争中缺少微信级超级APP入口，追赶压力加大。",
+        "metrics": [
+          "易观2026Q2：WorkBuddy 月访问量 2097万；TRAE IDE 1279万；Qoder Work 788万",
+          "WorkBuddy B端付费席位超14万、企业客户超3000家、SaaS ARR约3亿元（腾讯口径/媒体转述）",
+          "36氪发布：2026-10-08 13:33"
+        ],
+        "sourceGrade": "B−",
+        "sourceNote": "36氪授权转载“巨潮WAVE”分析，引用易观报告及腾讯公开数据；访问量统计口径为月访问量，ARR等为文中转述的腾讯披露/券商调研，非字节官方数据。",
+        "impact": "对股东：字节在 AI Agent 办公赛道存在被腾讯 WorkBuddy 生态甩开的迹象，TRAE 虽居第二但绝对量差距明显；可能推动字节加速飞书/豆包工作/TRAE 的 Agent 底座与生态开放投入，影响 B 端商业化节奏与资源分配。",
+        "caveat": "月访问量不等于收入或用户质量；TRAE 为 IDE 场景、WorkBuddy 为通用 Agent 工作台，可比性有限；腾讯数据未经独立审计。",
+        "sources": [
+          {
+            "label": "36氪 · WorkBuddy阳谋无解",
+            "href": "https://www.36kr.com/p/4016677962748039"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "TikTok / 本地生活与旅行预订",
+        "title": "TikTok Newsroom 发布万圣节旅行指南：2026 Economic Impact Report 显示 1/3 用户因 TikTok 视频做出旅行计划，TikTok Go 支持应用内预订酒店与活动（10月6日）",
+        "conclusion": "TikTok 官方发布内容型旅行指南，引用 2026 Economic Impact Report：1/3 用户因观看 TikTok 视频做出旅行计划，近 2/3 用户过去一年用 TikTok 规划旅行或本地活动；并推广 TikTok Go（合作方含 GetYourGuide）在应用内直接预订酒店/体验的活动闭环。这是 TikTok 在美国/海外市场向本地生活与旅行预订进一步延伸的官方信号，延续 TikTok Shop 之外的交易闭环扩张。",
+        "metrics": [
+          "发布日：2026-10-06",
+          "经济影响报告数据：1/3 用户因 TikTok 视频做出旅行计划；近 2/3 用 TikTok 规划旅行/本地活动",
+          "TikTok Go 合作方：GetYourGuide"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "TikTok Newsroom 官方发布；经济影响报告为第三方报告，具体出处与样本未在文中展开；内容为宣传/社区运营性质。",
+        "impact": "对股东：TikTok 在美国/欧洲逐步建立旅行与本地生活交易闭环，可增加广告库存与交易佣金收入，拓宽 TikTok 变现模型；但目前以内容合作与季节性推广为主，无交易规模数据，尚不构成收入拐点证据。",
+        "caveat": "官方内容营销，未披露 GMV、佣金率或合作收入；旅行预订功能渗透率未知。",
+        "sources": [
+          {
+            "label": "TikTok Newsroom · TikTok's Halloween Travel Guide",
+            "href": "https://newsroom.tiktok.com/tiktoks-halloween-travel-guide-haunting-destinations-inspired-by-filmtok-booktok-and-more?lang=en"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "春华资本 Continuation Fund 规模、估值倍数与字节老股供给信号；ADIA/Coller 后续公开披露",
+      "OpenAI Intelligent UI 与 Claude Haiku 5.5 低价对豆包/Seed、火山引擎 token 价格与 Agent 入口份额的实际冲击",
+      "梁汝波“整合后加大企业市场投入”原文章核实，以及飞书+豆包+火山引擎一体化后 B 端 ARR/客户数/定价变化",
+      "腾讯 WorkBuddy 商业化与微信生态接入继续对字节 TRAE/豆包工作/飞书的份额挤压",
+      "TikTok Go 与旅行/本地生活预订在美欧的扩展节奏，以及 Q4 大促期 TikTok Shop GMV/广告收入验证",
+      "TikTok USDS 中期选举执行压力与两党监管反应（延续）",
+      "DeepSeek 超120亿美元融资传闻核实，及对豆包/Seed、火山引擎竞争打法影响（延续）",
+      "中央网信办“清朗·整治短视频虚假人设乱象”专项行动落地节奏与抖音/红果合规成本（延续）",
+      "The Information/Bloomberg/Reuters 编辑位恢复可见性后的头条级信号（当前 Bloomberg 仅 Google News RSS 可见，正文页仍403）"
+    ]
+  },
+  {
     "date": "2026-10-06",
     "displayDate": "10 / 06",
     "verifiedAt": "北京时间 2026-10-06 14:36",
