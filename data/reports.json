@@ -1,5 +1,145 @@
 [
   {
+    "date": "2026-10-09",
+    "displayDate": "10 / 09",
+    "verifiedAt": "北京时间 2026-10-09 14:23",
+    "status": "今日无字节头条级经营数据或组织事件；实质新增四项：Meta 10/08 起在美国及六国市场全面禁止 TikTok 及 ByteDance 广告投放（Bloomberg/Reuters/Yahoo Finance 多源）、路透中文引述界面旧闻称字节2026H1净利率降至约16.7%（历史重要补漏）、谷歌 Gemini Agent 进入企业办公加剧对豆包办公/飞书竞争、快手与广电总局 AI 魔改治理延伸至抖音/红果等平台合规成本。",
+    "verdict": "priorityCandidates（P01-P28）逐项核查：P01/P07/P10 等 Yahoo Tech 编辑位今日头条仍为 Prime Day、耳机测评与 Tech layoffs 追踪（TikTok 250人裁员为10/2-10/6旧闻，已收录），无字节新头条；P02 36氪最新页今日为 Gemini 4 Argon、GPT-6.1 Sol、Opus 5.5 等竞品新闻与机器人/双11行业分析，无字节经营数据；其中双11分析提及抖音今年改为“官方立减15%+一件直降”、去满减拉长周期，属规则描述而非 GMV 数据，不进入 items（见 watch）；P03 虎嗅为比亚迪机器人、箭启融资、尊界刹车等与字节无关内容；P04 界面科技页早报为主，相关阅读重现“梁汝波：豆包、飞书与火山引擎整合后加大企业市场投入”（1天前，仍为 C 级待验证，延续10/08 watch）；P05 第一财经今日重磅为谷歌 Gemini Agent（10/08发布）进入企业办公，明确点名豆包办公/千问办公为国内直接对手（见 item），另有 OpenAI 年化收入不及预期发酵导致算力硬件股回调，对字节 AI CapEx 周期构成间接信号；P06 中央网信办页面无新进展，“清朗”专项行动仍为既有信息；P08 番茄社为手机测评视频，无关；P09 界面文章为9/16旧闻（2026H1净利率16.7%）今日被路透中文转载，标“历史重要补漏”（见 item）；P11-P13 人形机器人/双11/AI出行行业分析，与字节无直接数据关联；P14-P23 界面早报为宏观/政策/美股内容，其中美股半导体与 OpenAI 利空联动可作为行业背景；P24 为谷歌 Gemini Agent 正文（见 item）；P25-P28 澎湃为铁路/楼市/法治/鼠疫等无关内容。核心新增为 Meta 对 TikTok/ByteDance 的广告禁令：Bloomberg、Reuters、Yahoo Finance 三源一致，10/08（美东周四）生效，覆盖美国、加拿大、埃及、印尼、日本、泰国、越南七国，涉及所有 ByteDance 直投与第三方广告，这是 Meta 系与字节系平台级封禁的首次公开化，对 TikTok 美国获客/品牌预算与 Meta 收入均有双刃效应；谷歌 Gemini Agent 标志企业办公进入平台级竞争，字节飞书/豆包办公需在 Agent 治理与生态上快速补位。基本面维持：2026H1 净利率约16.7%、海外收入占比超30%，AI 投入压制利润的结构不变。",
+    "top": [
+      "Meta 宣布在美国及六国全面禁止 TikTok/ByteDance 广告投放，平台级封禁首次公开化",
+      "谷歌 Gemini Agent 进入企业办公，点名豆包办公/千问办公为直接对手",
+      "OpeAI 年化收入不及预期引发算力硬件回调，字节 AI CapEx 周期承压信号"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "TikTok / 广告与竞争",
+        "title": "Meta 全面禁止 TikTok 及 ByteDance 广告投放：覆盖美国及加拿大、埃及、印尼、日本、泰国、越南七国（10月8日）",
+        "conclusion": "10月8日（美东周四），Meta 开始在旗下所有应用阻止 ByteDance/TikTok 的直接广告与付费消息，并封杀第三方引流至 TikTok 的广告，覆盖美国、加拿大、埃及、印尼、日本、泰国、越南。Bloomberg、Reuters、Yahoo Finance 三源一致，称为双方不断升级的公开冲突中的平台级封禁。对 TikTok 意味着美国获客与品牌投放渠道收窄，对 Meta 则放弃 TikTok 带来的广告收入，且中期选举前政治广告/竞选投放的争夺更加敏感。",
+        "metrics": [
+          "生效日：2026-10-08（美东周四）",
+          "覆盖范围：美国、加拿大、埃及、印尼、日本、泰国、越南",
+          "禁令范围：ByteDance 直投广告+付费消息+第三方链接 TikTok 的广告",
+          "公开报道时间：Bloomberg 10/08 23:00 GMT；Reuters 10/08 23:28 GMT；Yahoo Finance Canada 10/09 00:48 GMT"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "Bloomberg、Reuters、Yahoo Finance 三源并列，均为标题/摘要级（正文未提供细节）；三源一致但缺少官方声明全文与广告收入影响数字。",
+        "impact": "对股东：TikTok 在美国市场的广告库存与获客链路被 Meta 生态切断，将提高 TikTok 在中期选举季的拉新与品牌预算成本；同时 ByteDance 也失去向 Meta 用户投放的通道，双方广告收入与竞争性支出均受影响。长期看加深 Meta vs ByteDance 的生态对立，可能推动 TikTok 更依赖自有广告平台/创作者生态与电商闭环。",
+        "caveat": "缺少 Meta 官方声明细节与 TikTok 回应；禁令的实际广告金额、是否涉及政治广告豁免、执行口径尚未披露；仍需后续验证。",
+        "sources": [
+          {
+            "label": "Bloomberg · Meta Bans TikTok From Advertising on Its Apps in Escalating Feud",
+            "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeXFCVEt4TVBVRnF2ejEzTDZINVhULU1CTzVkZXJZNXY4SFpHWWZyMWhsYVVJOS1icVd4NUlPSUFIVnpjdFgyZlJNVl9Qcl9MTm5kNnMzZkNzVElpblpmX1FDVm50NHNZbm1YOVpwWHk1cXlUZVVUV2thNjZsWGVFTFhZU3JSaEg2R09ETENONGdsSnExMnlTVVNiUjQzUDdObFNKbVpsckpRcy00V211RFBodnZFMWltSGRDVlQyYXhkTU04WHZZ?oc=5"
+          },
+          {
+            "label": "Reuters · Meta bans TikTok ads on its platforms in US",
+            "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcFlfTjhMRWZPWEhDVF9mcGQ1VEY2aWVLMThVLUJaVmNWUzdwV09KTWlDN0E4Rm5IRHFyME1QN01fczZFSGdDbVBsYnh3dDJTdFlfTkczM1NreS11VjJ2QWVFbnV2eU1EMDNWZHl5X2h4WV9SN3FFRUJBaHpzUng2VlhKemtnUnJEblBpajF5U0FCWmdFLWR6azJ0aDB5bEhUdVJHc0g1dVNYY0NZYVdyaU9UOE12SUFDQmpB?oc=5"
+          },
+          {
+            "label": "Yahoo Finance Canada · Meta is done taking TikTok’s ad money",
+            "href": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OdTV3cGJfZjZDc2tMNWdzTGpkZV91cWlLakhheU91MlJpV1ZmdWZzYTk2Q0h4cUE5UFhxcEVET2lZc3RYcW1DQnAwblNmLVU2WjBpVDQyRnhrVk9WMEJneGdRMDl3cmdTMnVpRHB1Wll3Qy1uQ053VUx5RmJvZw?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "AI 竞争 / 企业办公（B端）",
+        "title": "谷歌云发布 Gemini Agent：整合模型、办公软件、企业数据与 Agent 治理，直接对标微软 Copilot、豆包办公与千问办公（10月8日发布，10月9日第一财经报道）",
+        "conclusion": "谷歌云将 Gemini Agent 定位为面向企业工作的通用智能代理，统一提示框下达目标后即可规划任务、调用工具、连接企业系统并交付到文档/邮箱/开发环境，强调权限管理与审计。第一财经分析明确其直接对手为微软 Microsoft 365 Copilot 及国内豆包办公、千问办公——竞争从模型能力转向软件入口、企业数据连接与 Agent 治理。文中另确认字节持续强化豆包复杂推理与多步任务能力，豆包工作今日宣布推出创作画布功能。",
+        "metrics": [
+          "谷歌云发布日：2026-10-08（当地时间）",
+          "第一财经报道日：2026-10-09 12:09",
+          "对标产品：Microsoft 365 Copilot、字节豆包办公、阿里千问办公",
+          "字节动态：豆包工作今日推出“创作画布”功能（媒体转述）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "第一财经原创报道，基于谷歌云发布信息；豆包“创作画布”为文中转述字节产品动态，未经字节官方确认。",
+        "impact": "对股东：企业办公成为 AI 平台级竞争的主战场，谷歌以 Workspace 生态+Agent 治理切入，与微软、字节、阿里同台争夺企业工作入口。字节的飞书/豆包办公/TRAE 需要更快补齐企业数据连接、权限与审计能力，否则在 B 端 ARR 与客户粘性上被进一步挤压，同时被迫增加竞争性研发投入，短期拖累利润率。",
+        "caveat": "Gemini Agent 尚处预览阶段，企业集成深度与商业化收入未披露；豆包“创作画布”为竞争报道中的单句信息，需字节官方层面验证。",
+        "sources": [
+          {
+            "label": "第一财经 · 谷歌Gemini Agent入场，AI办公赛道多了一个抢工位的",
+            "href": "https://www.yicai.com/news/103387376.html"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "AI 资本开支 / 算力周期",
+        "title": "OpenAI 年化收入不及预期引发美股算力硬件股全线回调，字节 AI CapEx 周期面临外部融资成本与供应链信号压力",
+        "conclusion": "第一财经 10/09 报道，OpenAI 营收预期差引发恐慌，A股/美股算力硬件概念全线回调，费城半导体指数 10/08 收跌 3.39%，甲骨文股价单日下跌 5.6%、创 7 月以来最大跌幅。AI 基础设施投入的高估值叙事出现修正信号，对仍在加大 AI 采购与数据中心投入的字节构成间接但实质的行业信号：CapEx 的资本化回报与融资环境可能同步收紧。",
+        "metrics": [
+          "费城半导体指数 10/08：收跌 3.39%",
+          "甲骨文 10/08：收盘下跌 5.6%，创 7月16日以来最大单日跌幅",
+          "第一财经报道：2026-10-09"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "第一财经汇编美股行情并做行业解读；涉及字节的部分为推断，无字节直接数据。",
+        "impact": "对股东：若 AI 硬件/算力叙事降温，字节的芯片采购议价空间和中长期 CapEx 预期可能改善，但数据中心长期电力/折旧成本与融资环境仍承压；也强化市场对字节“AI 投入压制净利率”主线的敏感度。",
+        "caveat": "美股波动为宏观/市场事件，不直接改变字节经营事实；字节自建数据中心与多渠道采购策略可部分对冲外部波动。",
+        "sources": [
+          {
+            "label": "第一财经 · OpenAI营收预期差引发恐慌，算力硬件概念股全线回调",
+            "href": "https://www.yicai.com/news/"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "财务 / 历史重要补漏",
+        "title": "路透中文转载界面旧闻：字节跳动2026H1净利润率降至约16.7%，海外收入占比再创新高（原报道9月15日）",
+        "conclusion": "Google News RSS 出现路透中文对界面 9/15 报道的转载/聚合，内容为：2026上半年营收同比增长约30%，以 TikTok 为主的海外收入占比超过30%，净利润因 AI 投入同比下滑，净利润率降至约16.7%（2023年26%、2024年21%）。原报道为知情人士口径，字节未置评。今日为旧闻转载但仍是对最新半年经营结构的事实性补充，标历史重要补漏。",
+        "metrics": [
+          "2026H1 营收同比：约+30%",
+          "海外收入占比：>30%（2024年25%、2025年30%）",
+          "2026H1 净利润率：约16.7%（2023年26%、2024年21%）",
+          "原报道日：2026-09-15；今日聚合出现：2026-10-09"
+        ],
+        "sourceGrade": "B−",
+        "sourceNote": "路透中文转载/引述界面新闻，原始信源为匿名知情人士、字节未置评；数字为第三方估算口径，单一信源链。",
+        "impact": "对股东：确认最新半年度核心经营结构——AI 投入压制利润、海外收入成为增量主力；16.7%净利率为评估字节当前盈利质量和 AI 投入回报的锚点，后续跟踪重点应落在下半年利润率能否企稳及海外广告+电商变现强度。",
+        "caveat": "非字节官方披露，知情人士口径可能与真实数据存在偏差；转载未带新事实或修正。",
+        "sources": [
+          {
+            "label": "Google News RSS · 路透中文（聚合标题）· 字节跳动上半年净利润出现下滑，但海外收入占比再创新高",
+            "href": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5EYXhnbEtURHJuMTJNX1B0X05uQ1RYZ1R0YmRaem04Qnd1eXVhOWtnYllER1NxT2dFdWVHYVZwemNvQV9QVW13eXRNYk1hQQ?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "major",
+        "eyebrow": "监管 / 内容合规",
+        "title": "快手 10/08 发布“AI魔改”专项治理，广电总局此前已对四大名著魔改划红线，抖音/红果等字节内容平台合规成本上升",
+        "conclusion": "快手安全中心 10/08 公告 9 月处置“AI 魔改”违规内容 2544 条，涉及对《西游记》《红楼梦》等经典人物进行不当婚恋关联等；澎湃评论指出广电总局 2025 年 12 月已部署“AI魔改”专项治理，明确基于四大名著等的魔改涉及文化挪用、篡改与版权、肖像权问题。虽然本次治理以快手为对象，但监管口径指向全行业，字节系抖音、番茄/红果短剧与剪映/CapCut 的 AI 生成内容将面临更高的审核与合规投入。",
+        "metrics": [
+          "快手9月处置 AI 魔改违规内容：2544条（10/08公告）",
+          "广电总局专项治理部署：2025年12月",
+          "主题：四大名著 AI 魔改、影视素材篡改、演员肖像/声音权益"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "澎湃新闻评论引用快手官方公告与广电总局治理文件；涉及字节的部分为行业性推断，非字节官方公告。",
+        "impact": "对股东：AI 内容生成进入强监管周期，字节作为国内最大短视频与短剧平台（抖音、红果），将承担更高的审核人力/算法成本与下架风险；同时有利于抬升行业内容门槛，对字节技术化治理能力具有一定正向壁垒作用。",
+        "caveat": "快手公告不直接等于字节被监管点名；监管执行强度和审核标准尚在细化中，对字节合规成本的影响暂无量化数据。",
+        "sources": [
+          {
+            "label": "澎湃新闻 · 马上评｜“圣黛CP”被下线？开脑洞也要守边界",
+            "href": "https://www.thepaper.cn/newsDetail_forward_34217885"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "Meta 禁投 TikTok/ByteDance 广告的实际执行口径、涉广告金额、TikTok 回应及是否引发反垄断/政治反弹；对 TikTok 美国 Q4 广告与电商获客的量化影响",
+      "谷歌 Gemini Agent 进入企业办公后，豆包办公/飞书/火山引擎的 Agent 治理、企业数据连接与 B 端 ARR 应对动作",
+      "OpenAI 年化收入不及预期对 AI 基础设施估值与融资环境的传导，以及字节 CapEx/数据中心供应商订单是否出现松动",
+      "梁汝波“豆包、飞书与火山引擎整合后加大企业市场投入”原标题核实（C级，延续）",
+      "双11周期抖音“官方立减15%+一件直降、去跨店满减”对 GMV、take rate、商家补贴 ROI 的实际影响（Q4 业绩验证点）",
+      "快手/广电“AI魔改”专项整治对抖音、红果、剪映/CapCut 的合规执行与审核成本传导",
+      "路透中文转引的2026H1净利率16.7%口径与下半年利润率、海外收入占比走向",
+      "The Information/Bloomberg/Reuters 编辑位恢复可见性后的头条级信号（当前仍仅 Google News RSS 可见）"
+    ]
+  },
+  {
     "date": "2026-10-08",
     "displayDate": "10 / 08",
     "verifiedAt": "北京时间 2026-10-08 14:22",
