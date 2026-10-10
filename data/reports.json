@@ -1,5 +1,151 @@
 [
   {
+    "date": "2026-10-10",
+    "displayDate": "10 / 10",
+    "verifiedAt": "北京时间 2026-10-10 14:05",
+    "status": "今日无字节头条级经营数据或组织事件；实质新增五项：中央网信办召开网络直播规范发展工作会议、Meta禁投TikTok广告的后续表述与市场反应、Dealroom称中国AI数据中心竞赛转向内蒙古且字节参与、中共中央国务院《关于发展新质生产力的意见》叠加研发加计扣除上调预期、Anthropic拟11月启动IPO推介传闻下的AI竞争格局。",
+    "verdict": "priorityCandidates（P01-P40）逐项核查：P01-P07 全员会类候选经URL与主题比对均为历史旧闻（2025年7月绩效调整/活水改革、2025年6月\"务实浪漫\"年度词、2026年年中AI战略总结等），DuckDuckGo HTML无发布时间重出，不构成今日增量，排除；P08-P16 抖音电商GMV类候选均为既有旧闻——36氪\"过去一年GMV增速34%、商家减负增收\"与腾讯/搜狐\"2026上半年支付GMV约2.4万亿、增速近20%\"均为2026年8月5日前后发布，已构成基础面口径，今日无新数据；其中雪球\"抖音电商纪要：M1M2M3全域三池合一、算法权重转移至结算GMV\"为C级单一社区信源、无发布时间，列入watch待验证；P17/P19/P20\"飞书并入豆包、AI业务ARR 40亿美元\"为2026年8月1日旧闻，延续watch；P21 为Meta禁投事件，昨日已以major收录，今日仅新增标题级细节（Meta\"把人拉出我们App\"的目标表述、META股价在特朗普购入报道后反应平淡、更多Yahoo Finance聚合），降级为context增量条目；P22/P28 Yahoo Tech编辑位今日头条为AI政治广告、AI agents进入企业与政府、ChatGPT广告增多、Tech layoffs追踪（TikTok 250人裁员与纳什维尔办公室关闭为10月初旧闻），无字节新头条；P23 36氪最新页为Gemini 4 Carbon曝光、OpenAI/Anthropic宫斗复盘、Manus融资5亿美元、储能/充电桩等，无字节经营数据，其中OpenAI vs Anthropic收入/估值/IPO竞争数据作为context条目收录；P24 虎嗅为北京消费规划、蜜雪冰城、尊界刹车、Cloudflare收购Deno、美国参议院调查云厂商AI数据中心成本收益等，与字节无直接数据关联，参议院调查列入watch；P25/P30/P34-P40 界面早报今日重磅为中共中央、国务院《关于发展新质生产力的意见》（19项举措，强调算力/算法/数据供给）与美股芯片股高开低走；9/16早报页侧栏延续\"梁汝波：豆包、飞书与火山引擎整合后加大企业市场投入（1天前）\"标题，仍C级无正文，维持watch；P26 第一财经今日含\"研发费用加计扣除比例提至120%及以上（专家预计）\"与UNCTAD警告AI繁荣带来金融稳定风险，前者与《意见》合并为政策context，后者计入watch；P27 中央网信办今日页面新增\"中央网信办召开网络直播规范发展工作会议\"（昨日扫描无此条），判定为今日实质新增监管信号，纳入items；P29/P31 番茄社/耳机测评无关；P32 墨现科技融资无关字节；P33 即OpenAI/Anthropic复盘。另有新增documents：Dealroom 10/9报道中国AI数据中心竞赛转向内蒙古、华为/阿里/字节算力参与（标题级，C）→context条目；欧盟8/31将ChatGPT/Reddit/Roblox指定为DSA重要平台、9/17 EU KIDS Act限制未成年人访问社交媒体，均属欧盟监管背景，列入watch。基本面锚点不变：2026H1净利率约16.7%、海外收入占比超30%，AI投入压制利润的结构未变；今日无新经营数字。",
+    "top": [],
+    "items": [
+      {
+        "severity": "context",
+        "eyebrow": "TikTok / Meta 广告禁令·后续增量",
+        "title": "Meta 禁投 TikTok/ByteDance 广告后续：Meta 称目标是把用户“拉出我们的App”，META 股价在特朗普购入 Meta 报道后反应平淡",
+        "conclusion": "10/9 多篇 Yahoo Finance 标题级更新补充：Meta 对本次禁令的目标表述是阻止 TikTok/ByteDance 把用户“从我们的App带走”；禁令包括 ByteDance 直投广告与第三方导向 TikTok 的广告，覆盖美国、加拿大、埃及、印尼、日本、泰国、越南；另有标题称在“特朗普购入 Meta 股份”报道后 META 股价反应平淡（Muted）。核心事件（10/8 生效的平台级封禁）已于 10/09 日报以 major 收录，本条仅为后续表述与市场反应增量。",
+        "metrics": [
+          "后续标题时间跨度：2026-10-08 23:00 GMT 至 10-09 13:46 GMT",
+          "Meta 目标表述：阻止用户被 TikTok/ByteDance “拉出我们的App”（Pull People off Our Apps）",
+          "META 股价：在特朗普购入 Meta 报道后呈“Muted”（标题级，未确认）",
+          "禁令范围复述：美国、加拿大、埃及、印尼、日本、泰国、越南"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "全部为 Yahoo Finance 系 Google News RSS 标题/摘要级内容，无正文；Meta 官方声明全文与涉广告金额未披露；“特朗普购入 Meta 股份”仅见于标题，未获独立确认。",
+        "impact": "对股东：Meta 的自我定位是主动切断 TikTok 获客与品牌投放链路而非单纯收入取舍；若特朗普-Meta 股权关联成立，禁令将被赋予更浓的政治信号，TikTok 在中期选举季的美国广告、政治投放与电商获客环境进一步复杂化。",
+        "caveat": "标题级信息；特朗普购入 Meta 传闻待验证；禁令对 TikTok 美国广告收入的量化影响仍未披露。",
+        "sources": [
+          {
+            "label": "Yahoo Finance · Meta is banning TikTok ads from its apps",
+            "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUUdJOF9MU1psbEYtSnk2MU42bzExdVlDLVVmZTh5WGRpamZtUzBWeFBrYzRIaS02UnQtUWtQTUZfd0ZEWnJSWVo3YnlUZ2dObXJEWVZBTFhIZlFyS19jakZ1Qkw3NFBRRVU0d25BbC05OUFiTUcwcTkwc0FLdFo5OGUwQVFRX1FPTWpVeFdtVzg?oc=5"
+          },
+          {
+            "label": "Yahoo Finance · Meta Draws a Line With TikTok, Bans ByteDance Ads Across Facebook and Instagram: Their Goal Is to ‘Pull People off Our Apps’",
+            "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSW5nT0NfWFAtWnNSREktcTJxTVpWbDJDa0FCTW9xaWd5WGR4SDcyU083VzBwczBUaVdfMERZT3owaUNQRGY2TmgwOWpPakY5X2RaU1ZZNzhTT3FPa3RUdnl6ZExnUy1hczA1OXVKUjVEdUNsbzhDZ1hpa3Zud3dTS0ZyOUExbENTNzgxUmVDMHZNLXBZaUszMHdybw?oc=5"
+          },
+          {
+            "label": "Yahoo Finance · META Stock Muted After Report Of Trump’s Purchase: Meta Bans TikTok Ads in US, Six Other Regions",
+            "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORUprRWVDVG1Cc19DMG14UnFtVHQ2WWpwc1NzZnU4TWE3SDZNVEtMeXZtVDQ3VC1iUm53a3Z4cFRuOW42N25uWUp4ZmxHcnEwNXU5b2dMM1NNNTRHLTJoMXRUbnhOS0pERmFOSVFhMFMtUTZ2eGlsSVQ4cS10dFVuSHl0dEdNbjJ0eVpIWl9OVklwenk5SlUzN3p3?oc=5"
+          },
+          {
+            "label": "Yahoo Finance · Market Chatter: Meta Platforms Bans TikTok Ads Across Its Apps",
+            "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWlFEWTFQVFBrU2g1dGZkMUtzaXZFb3hEZnNKd1VocTBKdThQUUQ1aUtrb2FsTVk5THR4dk54cGx0eERjOUc0clBJYkRVYWxUOE1QR3EwdHNHMS1nMlFfajRSRGtVZmZ0Y2gteVFfVG9vWEoyM2g3Tml5YzNUZlI1RFhRc1J2UUNZYURLWTktU3NIaUVHcVdsT2g3dGg3ZEw0bXhkOQ?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "watch",
+        "eyebrow": "监管 / 直播",
+        "title": "中央网信办召开“网络直播规范发展工作会议”，抖音直播打赏/团播/电商直播面临新一轮监管信号",
+        "conclusion": "今日快照的中央网信办官网首页将“中央网信办召开网络直播规范发展工作会议”列入网信要闻，与既有“清朗·整治短视频虚假人设乱象”专项行动、“网络娱乐团播乱象整治”并列。会议时间与具体内容未披露。网络直播是抖音打赏、娱乐团播与电商直播的共同底座，若会议催生打赏限额、团播模式或直播间营销新规，将直接影响抖音直播收入结构与合规成本。",
+        "metrics": [
+          "官网快照：2026-10-10 08:49:38（中央网信办页面）",
+          "新增要闻：中央网信办召开网络直播规范发展工作会议（10/09 扫描无此条）",
+          "同页既有专项：“清朗·整治短视频虚假人设乱象”；“网络娱乐团播乱象整治”"
+        ],
+        "sourceGrade": "A",
+        "sourceNote": "中央网信办官网公开页面，会议存在性为官方事实；但无会议时间、讲话与决议细则。",
+        "impact": "对股东：抖音直播是字节国内广告+打赏+电商的核心流量变现场景，直播监管加码将提高审核/合规投入并可能压制打赏与团播流水；具备技术化治理能力的头部平台中长期反而受益于行业门槛抬升。",
+        "caveat": "无会议细则，无法确认是否出台新规；会议也可能仅为例行工作部署。",
+        "sources": [
+          {
+            "label": "中央网信办 · 网信要闻（网络直播规范发展工作会议）",
+            "href": "https://www.cac.gov.cn/"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "AI 资本开支 / 数据中心",
+        "title": "Dealroom：中国AI数据中心竞赛转向内蒙古，廉价电力与芯片补贴吸引华为、阿里及字节的算力投入",
+        "conclusion": "10/9 Dealroom 报道（标题级）称中国 AI 数据中心建设重心向内蒙古转移，低成本电力与芯片友好补贴吸引华为、阿里巴巴与 ByteDance 的算力布局。字节在国内 AI CapEx 的落地形态出现“西部能源区+补贴”驱动的集群信号，有助于降低长期单位算力成本并缓解东部能耗约束。",
+        "metrics": [
+          "报道发布：2026-10-09 08:00 GMT",
+          "涉及主体：Huawei、Alibaba、ByteDance",
+          "地区：内蒙古（Inner Mongolia）"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "Google News RSS 聚合的 Dealroom 文章标题，无正文与具体规模/金额；属第三方研究平台观察，非字节官方口径。",
+        "impact": "对股东：内蒙古选址直接改善字节数据中心电力成本曲线与地方补贴获取，同时带来长距离传输时延与运维挑战；该线索提示字节 CapEx 正从东部枢纽向低成本能源区扩散，需结合后续项目规模验证对折旧与利润的影响。",
+        "caveat": "标题级信息，无法确认字节在内蒙古的具体项目、投资额与形式（自建/租赁/合作）。",
+        "sources": [
+          {
+            "label": "Dealroom via Google News · China's AI data-centre race moves to Inner Mongolia, where cheap power and chip-friendly subsidies draw Huawei, Alibaba and ByteDance's compute",
+            "href": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZkVRTlJqTzU1bXlnNTZMXzJrUy1KRy1heUFiLUtuLW9QZHVaOGl5NGk0ZlcwNjB0a1JGQ0lqNVp4azhmbTIzeXg2N1ZXeEhzZFhJRDJVemVfalczVDZ2SzNlY25zT2doc0RZWWZjbmEyZHBhQU9yaG1RQ0lSTUE0MTczRUdCSzJ0dWlqeTZoUHZYSDJTTlM2MlFvVnhoV3Q4WVNHNVBWRXFvbGJqdjJWNTRtYXpnOFVXT3k5Q1I4ZGV3anpLVjhKT1NWZ3pOZGpIN3huZXlIeXlQSWdjbGh0Vnp1dDZ0LUQxTlNfUzhLNW5wOTgzVnVNeE8tZU5odzNRZ0R0MEpn?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "政策 / AI 与新质生产力",
+        "title": "中共中央、国务院印发《关于发展新质生产力的意见》：强化算力、算法、数据供给；研发费用加计扣除比例有望提至120%",
+        "conclusion": "10/9-10/10 官方渠道呈现《关于发展新质生产力的意见》，部署19项重点举措，明确“加快人工智能等数智技术创新，突破基础理论和核心技术，强化算力、算法、数据等高效供给”；第一财经援引专家预计相关企业研发费用加计扣除比例将提至120%及以上。字节作为高强度研发与算力投入主体，若适用该比例，将直接改善税后利润并对冲部分 AI 投入压力。",
+        "metrics": [
+          "《意见》部署19项重点举措、5个方面",
+          "关键政策方向：强化算力、算法、数据高效供给",
+          "专家预计研发费用加计扣除比例：120%及以上（第一财经 10/10）"
+        ],
+        "sourceGrade": "B",
+        "sourceNote": "《意见》为官方文件（新华社发布，界面早报转述，A级事实）；但本条核心推论依赖第一财经“专家预计”口径（B−），合并标 B。",
+        "impact": "对股东：若研发加计扣除率提升至120%以上，字节各研发主体（豆包/Seed、火山引擎、剪映等）可获得实质税负节约，在净利率承压期构成政策对冲；算力/算法/数据被定为国家级供给要素，也有利于火山引擎与自建智算的政策环境。",
+        "caveat": "适用企业范围未明示；专家预计值不等于最终政策文本；对字节的具体税额影响需按各经营主体单独测算。",
+        "sources": [
+          {
+            "label": "界面早报 · 中共中央、国务院印发《关于发展新质生产力的意见》",
+            "href": "https://www.jiemian.com/article/15174011.html"
+          },
+          {
+            "label": "第一财经 · 中央明确！提高这些企业研发费用加计扣除比例 专家预计提至120%及以上",
+            "href": "https://www.yicai.com/news/"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "AI 竞争 / 一级市场",
+        "title": "OpenAI vs Anthropic 竞争量化：Anthropic 估值9650亿美元反超 OpenAI，据称11月启动IPO推介",
+        "conclusion": "36氪今日转载格隆汇长文：2026年5月 Anthropic 以650亿美元融资、投后估值9650亿美元首次反超 OpenAI（8520亿美元）；7月底 Anthropic 年化营收约650亿美元对 OpenAI 400亿出头；企业级大模型支出份额40%对27%；文章称 Anthropic 拟11月启动 IPO 推介、估值目标比 OpenAI 更激进；10/7 OpenAI 推 GPT-6 全量、Anthropic 将 Claude Haiku 5.5 输入价格降至0.10美元/百万token（较上代-75%）。这些数据为字节 Seed/豆包与大模型商业化定价提供竞争锚点。",
+        "metrics": [
+          "Anthropic 融资（2026-05）：650亿美元，投后估值9650亿美元",
+          "OpenAI 估值（同口径）：8520亿美元",
+          "年化营收（2026-07底）：Anthropic 约650亿美元；OpenAI 400亿美元出头",
+          "Claude Haiku 5.5：输入价格0.10美元/百万token（较上代-75%）",
+          "Anthropic IPO 推介：据称2026年11月启动（单一信源）"
+        ],
+        "sourceGrade": "C",
+        "sourceNote": "单一叙事性长文（格隆汇→36氪），IPO 时点与部分营收/份额数字为文中口径，未经路透/Bloomberg 独立确认。",
+        "impact": "对股东：Anthropic 以近万亿美元估值推进 IPO 将抬升全球 AI 人才、算力与客户合同价格，字节豆包/火山引擎的模型定价与商业化需应对更强对手；同时可作为一级市场对标，审视字节 AI 业务（此前报道口径 ARR 约40亿美元）与头部玩家的收入/估值差距。",
+        "caveat": "竞争对手信息而非字节事实；IPO 时点与估值目标未确认；“40%对27%”为 Menlo Ventures 统计口径。",
+        "sources": [
+          {
+            "label": "36氪 · 宫斗内幕：OpenAI和Anthropic创始人如何闹掰？",
+            "href": "https://www.36kr.com/p/4019512701816709"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "中央网信办“网络直播规范发展工作会议”是否出台新规：打赏限额、团播模式或直播间电商规范，以及对抖音直播收入与合规成本的影响",
+      "Meta 禁投执行口径与 TikTok 回应、涉广告金额、政治广告豁免；\"特朗普购入 Meta 股份\"传闻核实及其对封禁政治化的影响",
+      "Dealroom 内蒙古数据中心报道正文：字节的项目规模、电力协议、投资形式与补贴安排",
+      "研发费用加计扣除120%政策的适用企业范围细则，及字节研发主体的实际税收受益测算",
+      "Anthropic 11月 IPO 推介的独立信源确认与目标估值区间，对 AI 一级市场定价和字节 AI ARR 对标的影响",
+      "雪球纪要“抖音电商 M1M2M3 全域三池合一、算法权重转移至结算GMV”核实（C级，待验证）",
+      "梁汝波“豆包、飞书与火山引擎整合后加大企业市场投入”原标题正文核实（C级，延续）",
+      "欧盟 EU KIDS Act 与 DSA 指定清单（ChatGPT/Reddit/Roblox 已入列）对 TikTok 未成年访问与 VLOP 义务的落地进度",
+      "美国参议院调查超大规模云服务商 AI 数据中心成本收益“误导”事件，对 AI 基建叙事与融资成本的影响",
+      "抖音双11“官方立减15%+一件直降”周期对 Q4 GMV、take rate 与商家补贴 ROI 的验证"
+    ]
+  },
+  {
     "date": "2026-10-09",
     "displayDate": "10 / 09",
     "verifiedAt": "北京时间 2026-10-09 14:23",
