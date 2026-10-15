@@ -1,5 +1,72 @@
 [
   {
+    "date": "2026-10-15",
+    "displayDate": "10 / 15",
+    "verifiedAt": "北京时间 2026-10-15 15:04",
+    "status": "今日主要增量：彭博独家称字节跳动正洽谈确保联发科数据中心AI芯片供应（10/15）；Yahoo Tech今日发布TikTok Shop英国商家新工具文章；其余候选多为全员会/电商/本地生活历史旧闻，无新经营数据。",
+    "verdict": "priorityCandidates逐项核查：P01-P07全员会候选仍为2025-02/2025-07/2025-08/2026-06等历史旧闻，无今日增量，排除；P08-P15抖音电商GMV候选均为上半年增速近20%、过去一年34%等既有数据，无新数字，排除；P16-P23本地生活候选为8500亿GTV/50%增速目标/返现补贴等旧闻，排除；P24彭博今日独家『ByteDance in Talks to Secure MediaTek AI Chips for Data Centers』为今日实质新增，涉及AI芯片供应链与资本配置，收录为major；P25 TrendForce预测2027年hyperscaler资本开支超1.5万亿美元，属行业背景而非字节专属事实，放watch；P31/P37 TikTok Newsroom假日季文章为10/14产品宣传，含2025年黑五历史销售数据，非经营增量，排除；P33 layoffs tracker中TikTok 250人裁员/纳什维尔关闭为10/12旧闻，无更新，排除；P34 Yahoo Tech今日（北京时间10/15 06:12）发布的TikTok Shop英国商家新工具文章为迟到的新增量，收录为context；P35番茄社、P38耳机、P39 AI喝酒、P40 Ebike均与字节无关，排除；P36界面9/16字节净利润旧闻为基本面锚点，非今日新增，排除。『罕见表态，张一鸣全面升级AI大战』36Kr标题无正文，且与2026-08-06腾讯同题旧闻高度吻合，不展开，放watch等待正文核实。基本面锚点不变：2026H1营收同比+30%、净利率约16.7%、海外收入占比超30%（9/16界面早报，已收录）。",
+    "top": [
+      "彭博独家：字节跳动正洽谈确保联发科数据中心AI芯片供应，AI芯片供应链多元化再下一城"
+    ],
+    "items": [
+      {
+        "severity": "major",
+        "eyebrow": "AI CapEx / 芯片供应链",
+        "title": "彭博独家：字节跳动洽谈确保联发科数据中心AI芯片供应",
+        "conclusion": "彭博10/15报道称，字节跳动正与联发科洽谈，以确保其数据中心AI芯片供应。这是字节在Nvidia之外继续扩大芯片来源的又一信号，与近期中国科技厂商为绕开出口管制大量采购非美系芯片的策略一致。具体金额、采购规模、供货方式均未披露。",
+        "metrics": [
+          "Bloomberg报道时间：2026-10-15 02:39 UTC（北京时间10/15 10:39）",
+          "Yahoo Finance UK同步转载：2026-10-15 02:39 UTC",
+          "行业背景：TrendForce预测2027年hyperscaler资本开支超1.5万亿美元（10/15）",
+          "关联线索：10/13 TIKR/Dealroom称中国厂商今年购入超100万颗Nvidia游戏芯片绕开出口管制"
+        ],
+        "sourceGrade": "B−",
+        "sourceNote": "Bloomberg为可靠媒体，但本次抓取仅有标题无正文，细节来自标题本身；Yahoo Finance UK转载佐证；字节与联发科均未置评。",
+        "impact": "字节AI CapEx仍在加码，芯片供应多元化可降低对Nvidia单一供应和美国出口管制的依赖，但可能需支付更高锁定成本或承担定制化芯片前期开发费用。对股东而言，这是资本配置从『单一大厂采购』转向『多源锁定』的信号，短期压制利润率，中期降低地缘断供风险，并可能利好联发科数据中心业务。",
+        "caveat": "『洽谈到确保供应』的具体形态未知，可能是采购协议、预付包产能或联合开发；无金额与时间表，存在谈判不落地风险。",
+        "sources": [
+          {
+            "label": "Bloomberg.com via Google News",
+            "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaFlzZWE3cWRERDdpeHZBaFdCbFEtYkpCOUFaamFJNURYQmNVWExxWnQ2NmNHRUIwXzR1dFgzaVhOUnZkS25yQk1Sd3VvTDFTQnFlSlN5YzI0Q210bGVuS0NhZkFFRDJvU08wSjRqNEdxZXhtVVhYZTRaTGEybmxBWjgxUGNKMjZoclhLTDFSYnFGQlluaTdabW1hQjV4a1RORTRUbkxvdjFUQ256c2JGR0pvcnk?oc=5"
+          },
+          {
+            "label": "Yahoo Finance UK via Google News",
+            "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT0JiRGNlX2M0dFcxNWxraEgyZnVFT0Y2dFVPSnVJbXZMMjdraTBKYmZLVl8ycUozMkVrWTlkZjJ4Q012Nm5mdVlyaVZnVFBHUVEtSnNQd2pvRkhrTkd2RkV1QTZhZEZpMjVrSS1uM2JZUXNPNXNkVDlaYk5VQ2I1NUdYY3pwLURpeFpF?oc=5"
+          }
+        ]
+      },
+      {
+        "severity": "context",
+        "eyebrow": "TikTok Shop / 海外电商",
+        "title": "TikTok Shop推出英国商家新互动工具：可购物轮播、直播团购、订阅复购与GMV Max广告优化",
+        "conclusion": "Yahoo Tech今日（北京时间10/15早间）刊文介绍TikTok Shop英国商家新功能：支持图片转可购物轮播帖、直播内Group deal/Price cut/Second chance等团购竞拍玩法、多频道销售与灵活库存、订阅自动复购，以及GMV Max Net Sales Boost自动投放广告。这些功能将抖音电商成熟的直播与货架玩法复制到英国，旨在提升商家活跃度与直播电商渗透率。",
+        "metrics": [
+          "文章发布：2026-10-15 06:12 北京时间（UTC 10/14 22:12）",
+          "市场：英国",
+          "新功能：可购物轮播、直播团购/降价/二拍、多频道销售、灵活库存、订阅复购、GMV Max Net Sales Boost"
+        ],
+        "sourceGrade": "B−",
+        "sourceNote": "Yahoo Tech转载Social Media Today（Industry Dive旗下），内容基于TikTok官方产品说明的转述，未见官方原文链接，也没有英国市场GMV或商家数量等经营数据。",
+        "impact": "英国TikTok Shop工具升级有助于提高直播转化、复购和广告消耗，但对集团整体收入短期贡献有限；中期看是TikTok将国内电商能力全球复制的又一验证点，有利于提升非美海外电商收入占比。",
+        "caveat": "功能可能分阶段上线，实际商家采用率和销售拉动尚未可知；TikTok官方未披露预期财务影响。",
+        "sources": [
+          {
+            "label": "Yahoo Tech · TikTok Shop offers U.K. merchants more engagement tools",
+            "href": "https://tech.yahoo.com/social-media/articles/tiktok-shop-offers-u-k-221202564.html"
+          }
+        ]
+      }
+    ],
+    "watch": [
+      "彭博后续细节：字节-联发科AI芯片谈判的具体金额、供货方式、是否定制化ASIC，以及字节数据中心芯片采购总量与CapEx影响",
+      "TikTok Shop英国新工具商家采用率与黑五网一（11/11-11/30）GMV验证，海外直播电商货币化效率",
+      "36Kr『罕见表态，张一鸣全面升级AI大战』标题文章正文核实（疑与2026-08-06张一鸣AI表态旧闻重合）；梁汝波『加大企业市场投入』界面侧栏正文仍缺",
+      "TrendForce 2027年hyperscaler capex超1.5万亿美元对字节AI军备竞赛与融资压力的隐含影响",
+      "TIKR/Dealroom报道中国厂商超100万颗Nvidia游戏芯片采购中是否点名字节及具体规模",
+      "抖音电商双11 GMV与补贴ROI、本地生活Q4 GTV增速验证；红果/短剧监管动向与豆包健康咨询2000万次/天数据独立信源验证"
+    ]
+  },
+  {
     "date": "2026-10-14",
     "displayDate": "10 / 14",
     "verifiedAt": "北京时间 2026-10-14 14:43",
